@@ -5,20 +5,27 @@ const year = document.querySelector("[data-year]");
 const backToTop = document.querySelector("[data-back-to-top]");
 const revealItems = document.querySelectorAll(".reveal");
 const navLinks = document.querySelectorAll('.site-nav a[href^="#"]');
-const sections = document.querySelectorAll("#services, #process, #work, #contact");
+const sections = document.querySelectorAll("#services, #process, #proof, #work, #contact");
+const prefersReducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false;
+const scrollBehavior = prefersReducedMotion ? "auto" : "smooth";
 
 if (year) {
   year.textContent = new Date().getFullYear();
 }
 
-const closeNav = () => {
+const closeNav = ({ restoreFocus = false } = {}) => {
   if (!nav || !navToggle) return;
 
+  const wasOpen = nav.classList.contains("is-open");
   nav.classList.remove("is-open");
   navToggle.classList.remove("is-open");
   navToggle.setAttribute("aria-expanded", "false");
   navToggle.setAttribute("aria-label", "Open navigation");
   document.body.classList.remove("nav-open");
+
+  if (restoreFocus && wasOpen) {
+    navToggle.focus();
+  }
 };
 
 const updateScrollState = () => {
@@ -43,6 +50,25 @@ if (nav && navToggle) {
       closeNav();
     }
   });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && nav.classList.contains("is-open")) {
+      closeNav({ restoreFocus: true });
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    const target = event.target;
+
+    if (
+      nav.classList.contains("is-open") &&
+      target instanceof Node &&
+      !nav.contains(target) &&
+      !navToggle.contains(target)
+    ) {
+      closeNav();
+    }
+  });
 }
 
 document.querySelectorAll('a[href^="#"]').forEach((link) => {
@@ -54,13 +80,13 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 
     event.preventDefault();
     closeNav();
-    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    target.scrollIntoView({ behavior: scrollBehavior, block: "start" });
   });
 });
 
 if (backToTop) {
   backToTop.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: scrollBehavior });
   });
 }
 
@@ -84,7 +110,9 @@ if ("IntersectionObserver" in window && sections.length) {
   sections.forEach((section) => activeObserver.observe(section));
 }
 
-if ("IntersectionObserver" in window) {
+if (prefersReducedMotion) {
+  revealItems.forEach((item) => item.classList.add("is-visible"));
+} else if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
