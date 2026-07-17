@@ -197,19 +197,19 @@ h3 {
 .header-brand-lockup {
   display: grid;
   min-width: 0;
-  gap: 3px;
+  gap: 4px;
   margin-left: 8px;
 }
 
 .header-brand-name {
   display: flex;
   min-width: 0;
-  align-items: baseline;
+  align-items: flex-start;
   color: #ffffff;
-  font-size: 1.08rem;
-  font-weight: 850;
-  letter-spacing: -0.035em;
-  line-height: 0.9;
+  font-size: 1.1rem;
+  font-weight: 820;
+  letter-spacing: -0.028em;
+  line-height: 0.88;
   white-space: nowrap;
 }
 
@@ -226,20 +226,22 @@ h3 {
 }
 
 .header-brand-suffix {
-  margin-left: 2px;
-  color: var(--cyan);
-  font-size: 0.72em;
-  font-weight: 820;
-  letter-spacing: -0.02em;
+  margin-left: 3px;
+  color: #55e7ff;
+  font-size: 0.48em;
+  font-weight: 760;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  opacity: 0.9;
+  transform: translateY(-0.18em);
 }
 
 .header-brand-tagline {
-  color: #6fe8ff;
-  font-size: 0.42rem;
-  font-weight: 760;
-  letter-spacing: 0.11em;
-  line-height: 1;
-  text-transform: uppercase;
+  color: #79ccdc;
+  font-size: 0.44rem;
+  font-weight: 650;
+  letter-spacing: 0.055em;
+  line-height: 1.08;
   white-space: nowrap;
 }
 
@@ -511,28 +513,55 @@ h3 {
   display: flex;
   min-width: 0;
   min-height: 52px;
+  overflow: hidden;
   align-items: center;
   gap: 10px;
-  border: 1px solid rgba(143, 77, 255, 0.28);
+  border: 1px solid rgba(143, 77, 255, 0.32);
   border-radius: 11px;
   padding: 10px;
   background:
-    radial-gradient(circle at 22px 50%, rgba(255, 40, 169, 0.14), transparent 32px),
-    rgba(255, 255, 255, 0.035);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    radial-gradient(circle at 24px 50%, rgba(255, 40, 169, 0.16), transparent 38px),
+    linear-gradient(135deg, rgba(22, 18, 48, 0.82), rgba(9, 15, 34, 0.7));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 8px 24px rgba(0, 0, 0, 0.14);
+}
+
+.hero-value-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 12%;
+  left: 12%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--pink), var(--cyan), transparent);
+  opacity: 0.55;
 }
 
 .hero-value-icon {
+  position: relative;
   display: grid;
-  width: 30px;
-  height: 30px;
-  flex: 0 0 30px;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  overflow: hidden;
   place-items: center;
-  border: 1px solid currentColor;
-  border-radius: 9px;
-  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid color-mix(in srgb, currentColor 62%, transparent);
+  border-radius: 10px;
+  background:
+    linear-gradient(145deg, color-mix(in srgb, currentColor 13%, transparent), rgba(255, 255, 255, 0.025));
   color: var(--pink);
-  box-shadow: 0 0 14px rgba(255, 40, 169, 0.18), inset 0 0 12px rgba(255, 40, 169, 0.08);
+  box-shadow: 0 0 17px rgba(255, 40, 169, 0.22), inset 0 0 14px rgba(255, 40, 169, 0.1);
+  isolation: isolate;
+}
+
+.hero-value-icon::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  filter: blur(9px);
+  opacity: 0.26;
 }
 
 .hero-value-card:nth-child(2) .hero-value-icon {
@@ -546,13 +575,49 @@ h3 {
 }
 
 .hero-value-icon svg {
-  width: 18px;
-  height: 18px;
+  position: relative;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 1.6;
+  stroke-width: 1.45;
+}
+
+.hero-value-icon .hero-icon-main {
+  stroke: url("#hero-icon-signal");
+}
+
+.hero-value-card:nth-child(2) .hero-icon-main {
+  stroke: url("#hero-icon-network");
+}
+
+.hero-value-card:nth-child(3) .hero-icon-main {
+  stroke: url("#hero-icon-system");
+}
+
+.hero-icon-orbit {
+  opacity: 0.55;
+  stroke-dasharray: 2.2 2.2;
+}
+
+.hero-icon-core {
+  fill: currentColor;
+  stroke: none;
+  filter: drop-shadow(0 0 3px currentColor);
+}
+
+.hero-icon-pulse {
+  fill: var(--cyan-bright);
+  stroke: none;
+  filter: drop-shadow(0 0 3px var(--cyan));
+}
+
+.hero-icon-spark {
+  fill: color-mix(in srgb, currentColor 28%, transparent);
+  stroke: currentColor;
 }
 
 .hero-value-card strong {
@@ -1669,8 +1734,8 @@ h3 {
   }
 
   .header-brand-tagline {
-    font-size: 0.36rem;
-    letter-spacing: 0.09em;
+    font-size: 0.38rem;
+    letter-spacing: 0.045em;
   }
 
   .hero h1 {
@@ -1703,5 +1768,11 @@ h3 {
   .contact-mark {
     width: 74px;
     height: 74px;
+  }
+}
+
+@media (max-width: 359px) {
+  .header-brand-tagline {
+    display: none;
   }
 }
