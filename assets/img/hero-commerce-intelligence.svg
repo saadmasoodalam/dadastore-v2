@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" role="img" aria-labelledby="title description">
+  <title id="title">Commerce intelligence growth system</title>
+  <desc id="description">Abstract dashboard modules for acquisition, creative testing, Shopify conversion optimization, and tracking clarity.</desc>
+  <defs>
+    <linearGradient id="frame" x1="70" y1="30" x2="880" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151934"/>
+      <stop offset=".48" stop-color="#0b0e23"/>
+      <stop offset="1" stop-color="#070918"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff28a9"/>
+      <stop offset=".5" stop-color="#8f4dff"/>
+      <stop offset="1" stop-color="#00cfff"/>
+    </linearGradient>
+    <linearGradient id="blueViolet" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#226cff"/>
+      <stop offset="1" stop-color="#8f4dff"/>
+    </linearGradient>
+    <linearGradient id="cyanFade" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#00cfff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#00cfff" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="pinkFade" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ff28a9" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#ff28a9" stop-opacity=".08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#226cff" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#226cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity=".42"/>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="30" y="28" width="900" height="644" rx="34"/>
+    </clipPath>
+    <style>
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .module { fill: #10142b; stroke: #ffffff; stroke-opacity: .11; }
+      .label { fill: #929bb5; font-size: 11px; font-weight: 650; letter-spacing: .08em; }
+      .title { fill: #f5f7ff; font-size: 18px; font-weight: 780; letter-spacing: -.02em; }
+      .small { fill: #aab2c8; font-size: 11px; font-weight: 600; }
+      .micro { fill: #838da8; font-size: 9px; font-weight: 700; letter-spacing: .06em; }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="30" y="28" width="900" height="644" rx="34" fill="url(#frame)" stroke="#3a4268" stroke-opacity=".7"/>
+    <g clip-path="url(#frameClip)">
+      <rect x="30" y="28" width="900" height="644" fill="url(#grid)"/>
+      <circle cx="748" cy="128" r="280" fill="url(#glow)"/>
+      <circle cx="85" cy="650" r="210" fill="#ff28a9" fill-opacity=".06"/>
+      <path d="M53 29H907" stroke="url(#accent)" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g aria-hidden="true">
+    <circle cx="68" cy="69" r="5" fill="#ff28a9"/>
+    <circle cx="86" cy="69" r="5" fill="#8f4dff"/>
+    <circle cx="104" cy="69" r="5" fill="#00cfff"/>
+  </g>
+  <text x="128" y="75" fill="#f6f7ff" font-size="16" font-weight="800">Commerce Intelligence</text>
+  <rect x="765" y="52" width="132" height="34" rx="17" fill="#00cfff" fill-opacity=".07" stroke="#00cfff" stroke-opacity=".26"/>
+  <circle cx="786" cy="69" r="4" fill="#00fff0"/>
+  <circle cx="786" cy="69" r="8" fill="#00fff0" fill-opacity=".18"/>
+  <text x="800" y="73" fill="#8ef9ed" font-size="11" font-weight="750">Growth System</text>
+  <path d="M62 105H898" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <!-- Acquisition -->
+  <g>
+    <rect class="module" x="62" y="132" width="260" height="220" rx="20"/>
+    <rect x="82" y="153" width="36" height="36" rx="11" fill="#226cff" fill-opacity=".13" stroke="#226cff" stroke-opacity=".34"/>
+    <path d="M92 177l7-9 6 5 7-11" fill="none" stroke="#00cfff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="112" cy="162" r="3" fill="#ff28a9"/>
+    <text class="label" x="132" y="164">ACQUISITION</text>
+    <text class="title" x="132" y="184">Paid traffic flow</text>
+
+    <g>
+      <rect x="82" y="210" width="56" height="24" rx="12" fill="#226cff" fill-opacity=".1" stroke="#226cff" stroke-opacity=".22"/>
+      <text class="micro" x="95" y="226">META</text>
+      <rect x="145" y="210" width="66" height="24" rx="12" fill="#8f4dff" fill-opacity=".1" stroke="#8f4dff" stroke-opacity=".22"/>
+      <text class="micro" x="158" y="226">GOOGLE</text>
+      <rect x="218" y="210" width="64" height="24" rx="12" fill="#ff28a9" fill-opacity=".08" stroke="#ff28a9" stroke-opacity=".2"/>
+      <text class="micro" x="233" y="226">TIKTOK</text>
+    </g>
+
+    <path d="M86 307C111 290 128 302 149 278s43-7 62-27 42 10 73-18" fill="none" stroke="#00cfff" stroke-opacity=".18" stroke-width="9" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M86 307C111 290 128 302 149 278s43-7 62-27 42 10 73-18" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <g fill="#0b0e23" stroke="#00cfff" stroke-width="2">
+      <circle cx="86" cy="307" r="5"/>
+      <circle cx="149" cy="278" r="5"/>
+      <circle cx="211" cy="251" r="5"/>
+      <circle cx="284" cy="233" r="5"/>
+    </g>
+    <path d="M82 326H286" stroke="#ffffff" stroke-opacity=".07"/>
+  </g>
+
+  <!-- Creative testing -->
+  <g>
+    <rect class="module" x="340" y="132" width="274" height="220" rx="20"/>
+    <text class="label" x="362" y="161">CREATIVE TESTING</text>
+    <text class="title" x="362" y="185">Hooks · Angles · Offers</text>
+
+    <g transform="translate(362 207)">
+      <rect width="66" height="108" rx="14" fill="#171b39" stroke="#ff28a9" stroke-opacity=".35"/>
+      <rect x="10" y="11" width="46" height="42" rx="9" fill="url(#pinkFade)" fill-opacity=".5"/>
+      <circle cx="33" cy="32" r="9" fill="#ff77cc" fill-opacity=".35"/>
+      <rect x="10" y="66" width="34" height="5" rx="2.5" fill="#ffffff" fill-opacity=".36"/>
+      <rect x="10" y="78" width="45" height="4" rx="2" fill="#ffffff" fill-opacity=".13"/>
+      <rect x="10" y="89" width="28" height="4" rx="2" fill="#ffffff" fill-opacity=".09"/>
+    </g>
+    <g transform="translate(439 199)">
+      <rect width="76" height="124" rx="15" fill="#181c3d" stroke="#8f4dff" stroke-opacity=".5"/>
+      <rect x="10" y="11" width="56" height="51" rx="10" fill="url(#blueViolet)" fill-opacity=".52"/>
+      <path d="M25 48l11-16 9 10 9-13" fill="none" stroke="#ffffff" stroke-opacity=".65" stroke-width="2"/>
+      <rect x="10" y="76" width="42" height="5" rx="2.5" fill="#ffffff" fill-opacity=".42"/>
+      <rect x="10" y="88" width="55" height="4" rx="2" fill="#ffffff" fill-opacity=".14"/>
+      <rect x="10" y="99" width="37" height="4" rx="2" fill="#ffffff" fill-opacity=".1"/>
+    </g>
+    <g transform="translate(526 207)">
+      <rect width="66" height="108" rx="14" fill="#171b39" stroke="#00cfff" stroke-opacity=".35"/>
+      <rect x="10" y="11" width="46" height="42" rx="9" fill="url(#cyanFade)" fill-opacity=".45"/>
+      <path d="M20 43l10-13 8 8 9-15" fill="none" stroke="#84edff" stroke-width="2"/>
+      <rect x="10" y="66" width="38" height="5" rx="2.5" fill="#ffffff" fill-opacity=".36"/>
+      <rect x="10" y="78" width="45" height="4" rx="2" fill="#ffffff" fill-opacity=".13"/>
+      <rect x="10" y="89" width="31" height="4" rx="2" fill="#ffffff" fill-opacity=".09"/>
+    </g>
+    <path d="M403 332H554" stroke="url(#accent)" stroke-width="2" stroke-dasharray="4 7"/>
+  </g>
+
+  <!-- Shopify / CRO -->
+  <g>
+    <rect class="module" x="632" y="132" width="266" height="220" rx="20"/>
+    <text class="label" x="654" y="161">SHOPIFY / CRO</text>
+    <text class="title" x="654" y="185">Store journey</text>
+
+    <rect x="654" y="204" width="222" height="124" rx="15" fill="#0b0f25" stroke="#ffffff" stroke-opacity=".1"/>
+    <rect x="654" y="204" width="222" height="25" rx="15" fill="#171b3a"/>
+    <circle cx="669" cy="216.5" r="3" fill="#ff28a9"/>
+    <circle cx="679" cy="216.5" r="3" fill="#8f4dff"/>
+    <circle cx="689" cy="216.5" r="3" fill="#00cfff"/>
+    <rect x="668" y="244" width="76" height="68" rx="11" fill="url(#blueViolet)" fill-opacity=".3" stroke="#8f4dff" stroke-opacity=".25"/>
+    <rect x="681" y="257" width="50" height="34" rx="8" fill="#d9ddff" fill-opacity=".12"/>
+    <path d="M696 278l10-13 9 9 8-11" fill="none" stroke="#c2b1ff" stroke-width="2"/>
+    <rect x="760" y="246" width="80" height="6" rx="3" fill="#ffffff" fill-opacity=".35"/>
+    <rect x="760" y="260" width="99" height="5" rx="2.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect x="760" y="274" width="71" height="5" rx="2.5" fill="#ffffff" fill-opacity=".09"/>
+    <rect x="760" y="294" width="72" height="20" rx="10" fill="url(#accent)"/>
+    <text x="778" y="308" fill="#ffffff" font-size="8" font-weight="800">CHECKOUT</text>
+
+    <g transform="translate(654 335)">
+      <circle cx="5" cy="0" r="4" fill="#00cfff"/>
+      <path d="M11 0H52" stroke="#00cfff" stroke-opacity=".45"/>
+      <circle cx="57" cy="0" r="4" fill="#8f4dff"/>
+      <path d="M63 0H104" stroke="#8f4dff" stroke-opacity=".45"/>
+      <circle cx="109" cy="0" r="4" fill="#ff28a9"/>
+      <path d="M115 0H156" stroke="#ff28a9" stroke-opacity=".45"/>
+      <circle cx="161" cy="0" r="4" fill="#00fff0"/>
+      <text class="micro" x="0" y="17">JOURNEY</text>
+      <text class="micro" x="70" y="17">OFFERS</text>
+      <text class="micro" x="138" y="17">CHECKOUT</text>
+    </g>
+  </g>
+
+  <!-- Tracking clarity -->
+  <g>
+    <rect class="module" x="62" y="372" width="552" height="172" rx="20"/>
+    <text class="label" x="84" y="403">TRACKING CLARITY</text>
+    <text class="title" x="84" y="428">Pixel · Analytics · Events</text>
+
+    <g aria-hidden="true">
+      <path d="M110 493C158 493 155 456 207 456s50 43 102 43 58-54 111-54 60 40 134 40" fill="none" stroke="#8f4dff" stroke-opacity=".18" stroke-width="10" stroke-linecap="round" filter="url(#softGlow)"/>
+      <path d="M110 493C158 493 155 456 207 456s50 43 102 43 58-54 111-54 60 40 134 40" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+      <g fill="#10142b" stroke-width="2.5">
+        <circle cx="110" cy="493" r="10" stroke="#ff28a9"/>
+        <circle cx="207" cy="456" r="10" stroke="#8f4dff"/>
+        <circle cx="309" cy="499" r="10" stroke="#226cff"/>
+        <circle cx="420" cy="445" r="10" stroke="#00cfff"/>
+        <circle cx="554" cy="485" r="10" stroke="#00fff0"/>
+      </g>
+      <g fill="#ffffff">
+        <circle cx="110" cy="493" r="3"/>
+        <circle cx="207" cy="456" r="3"/>
+        <circle cx="309" cy="499" r="3"/>
+        <circle cx="420" cy="445" r="3"/>
+        <circle cx="554" cy="485" r="3"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- System layers -->
+  <g>
+    <rect class="module" x="632" y="372" width="266" height="172" rx="20"/>
+    <text class="label" x="654" y="403">SYSTEM VIEW</text>
+    <text class="title" x="654" y="428">Connected layers</text>
+    <g transform="translate(654 450)">
+      <rect width="222" height="18" rx="9" fill="#226cff" fill-opacity=".13" stroke="#226cff" stroke-opacity=".24"/>
+      <rect y="26" width="190" height="18" rx="9" fill="#8f4dff" fill-opacity=".13" stroke="#8f4dff" stroke-opacity=".24"/>
+      <rect y="52" width="158" height="18" rx="9" fill="#ff28a9" fill-opacity=".11" stroke="#ff28a9" stroke-opacity=".22"/>
+      <circle cx="13" cy="9" r="3" fill="#00cfff"/>
+      <circle cx="13" cy="35" r="3" fill="#8f4dff"/>
+      <circle cx="13" cy="61" r="3" fill="#ff28a9"/>
+      <text class="small" x="26" y="13">Signal</text>
+      <text class="small" x="26" y="39">Strategy</text>
+      <text class="small" x="26" y="65">System</text>
+    </g>
+  </g>
+
+  <!-- Proof chips -->
+  <g>
+    <path d="M62 573H898" stroke="#ffffff" stroke-opacity=".08"/>
+    <text class="label" x="62" y="602">MARKETPLACE PROOF</text>
+    <g transform="translate(62 618)">
+      <rect width="236" height="34" rx="17" fill="#ff28a9" fill-opacity=".08" stroke="#ff28a9" stroke-opacity=".28"/>
+      <circle cx="20" cy="17" r="5" fill="#ff28a9"/>
+      <text x="34" y="21" fill="#f2f4ff" font-size="12" font-weight="750">Top Rated Plus</text>
+    </g>
+    <g transform="translate(312 618)">
+      <rect width="252" height="34" rx="17" fill="#8f4dff" fill-opacity=".09" stroke="#8f4dff" stroke-opacity=".3"/>
+      <circle cx="20" cy="17" r="5" fill="#8f4dff"/>
+      <text x="34" y="21" fill="#f2f4ff" font-size="12" font-weight="750">100% Job Success</text>
+    </g>
+    <g transform="translate(578 618)">
+      <rect width="214" height="34" rx="17" fill="#00cfff" fill-opacity=".08" stroke="#00cfff" stroke-opacity=".28"/>
+      <circle cx="20" cy="17" r="5" fill="#00cfff"/>
+      <text x="34" y="21" fill="#f2f4ff" font-size="12" font-weight="750">$100K+ Upwork</text>
+    </g>
+  </g>
+</svg>
