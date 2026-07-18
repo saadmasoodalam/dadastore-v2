@@ -185,64 +185,18 @@ h3 {
   align-items: center;
 }
 
-.header-brand-mark {
-  width: 44px;
-  height: 44px;
-  flex: 0 0 44px;
-  border-radius: 9px;
+.site-header .logo {
+  overflow: visible;
+  padding-block: 1px;
+}
+
+.header-brand-logo {
+  display: block;
+  width: 180px;
+  height: auto;
+  flex: 0 1 auto;
   object-fit: contain;
-  object-position: center;
-}
-
-.header-brand-lockup {
-  display: grid;
-  min-width: 0;
-  gap: 4px;
-  margin-left: 8px;
-}
-
-.header-brand-name {
-  display: flex;
-  min-width: 0;
-  align-items: flex-start;
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 820;
-  letter-spacing: -0.028em;
-  line-height: 0.88;
-  white-space: nowrap;
-}
-
-.header-brand-core {
-  background: linear-gradient(100deg, #ff2aa8 8%, #a852ff 55%, #00cfff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.header-brand-core > span {
-  color: #ffffff;
-  -webkit-text-fill-color: #ffffff;
-}
-
-.header-brand-suffix {
-  margin-left: 3px;
-  color: #55e7ff;
-  font-size: 0.48em;
-  font-weight: 760;
-  letter-spacing: 0.02em;
-  line-height: 1;
-  opacity: 0.9;
-  transform: translateY(-0.18em);
-}
-
-.header-brand-tagline {
-  color: #79ccdc;
-  font-size: 0.44rem;
-  font-weight: 650;
-  letter-spacing: 0.055em;
-  line-height: 1.08;
-  white-space: nowrap;
+  object-position: left center;
 }
 
 .brand-logo {
@@ -1540,22 +1494,8 @@ h3 {
     width: 162px;
   }
 
-  .header-brand-mark {
-    width: 48px;
-    height: 48px;
-    flex-basis: 48px;
-  }
-
-  .header-brand-lockup {
-    margin-left: 9px;
-  }
-
-  .header-brand-name {
-    font-size: 1.18rem;
-  }
-
-  .header-brand-tagline {
-    font-size: 0.46rem;
+  .header-brand-logo {
+    width: 204px;
   }
 
   .header-cta {
@@ -1719,23 +1659,8 @@ h3 {
     width: 100%;
   }
 
-  .header-brand-mark {
-    width: 40px;
-    height: 40px;
-    flex-basis: 40px;
-  }
-
-  .header-brand-lockup {
-    margin-left: 6px;
-  }
-
-  .header-brand-name {
-    font-size: 0.98rem;
-  }
-
-  .header-brand-tagline {
-    font-size: 0.38rem;
-    letter-spacing: 0.045em;
+  .header-brand-logo {
+    width: 156px;
   }
 
   .hero h1 {
@@ -1768,11 +1693,5 @@ h3 {
   .contact-mark {
     width: 74px;
     height: 74px;
-  }
-}
-
-@media (max-width: 359px) {
-  .header-brand-tagline {
-    display: none;
   }
 }
