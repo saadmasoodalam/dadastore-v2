@@ -640,49 +640,103 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   min-width: 0;
   overflow: hidden;
-  border: 1px solid rgba(255, 40, 169, 0.52);
-  border-radius: 18px 18px 0 0;
+  border: 1px solid rgba(255, 40, 169, 0.42);
+  border-radius: 16px;
   background:
-    radial-gradient(circle at 88% 15%, rgba(34, 108, 255, 0.15), transparent 20rem),
-    linear-gradient(110deg, rgba(20, 16, 42, 0.98), rgba(7, 11, 28, 0.98));
+    radial-gradient(circle at 86% 12%, rgba(34, 108, 255, 0.15), transparent 20rem),
+    linear-gradient(110deg, rgba(20, 16, 42, 0.96), rgba(7, 11, 28, 0.94));
   color: #ffffff;
-  box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.28), 0 0 32px rgba(0, 207, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    0 14px 38px rgba(0, 0, 0, 0.22),
+    0 0 28px rgba(0, 207, 255, 0.07);
 }
 
 .hero-proof-item {
+  display: flex;
   min-width: 0;
-  padding: 16px 18px;
+  min-height: 76px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-right: 1px solid rgba(255, 255, 255, 0.09);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero-proof-item:nth-child(even) {
+  border-right: 0;
 }
 
 .hero-proof-item:last-child {
   grid-column: 1 / -1;
+  border-right: 0;
   border-bottom: 0;
 }
 
-.hero-proof-item span {
-  display: block;
-  color: var(--pink);
-  font-size: 0.62rem;
-  font-weight: 850;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+.hero-proof-icon {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  place-items: center;
+  border: 1px solid rgba(255, 40, 169, 0.34);
+  border-radius: 9px;
+  background: linear-gradient(145deg, rgba(255, 40, 169, 0.1), rgba(0, 207, 255, 0.06));
+  color: #ff72c7;
+  box-shadow: inset 0 0 12px rgba(143, 77, 255, 0.08), 0 0 12px rgba(255, 40, 169, 0.1);
 }
 
-.hero-proof-item strong {
+.hero-proof-item:nth-child(2n) .hero-proof-icon {
+  border-color: rgba(0, 207, 255, 0.28);
+  color: #6fe8ff;
+}
+
+.hero-proof-item:nth-child(3) .hero-proof-icon {
+  border-color: rgba(143, 77, 255, 0.32);
+  color: #bd8cff;
+}
+
+.hero-proof-icon svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.55;
+}
+
+.hero-proof-copy {
   display: block;
-  margin-top: 5px;
-  font-size: clamp(0.94rem, 4vw, 1.16rem);
-  letter-spacing: -0.025em;
+  min-width: 0;
+}
+
+.hero-proof-copy strong {
+  display: block;
+  color: #ffffff;
+  font-size: clamp(0.96rem, 3.6vw, 1.14rem);
+  font-weight: 850;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+}
+
+.hero-proof-copy small {
+  display: block;
+  margin-top: 4px;
+  color: #9fa8bf;
+  font-size: 0.62rem;
+  font-weight: 720;
+  letter-spacing: 0.045em;
+  line-height: 1.25;
 }
 
 .platform-strip {
   display: grid;
   grid-column: 1 / -1;
   min-width: 0;
-  gap: 14px;
+  gap: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.09);
-  padding: 18px 0 24px;
+  padding: 16px 0 20px;
 }
 
 .platform-strip p {
@@ -693,20 +747,63 @@ h3 {
   text-transform: uppercase;
 }
 
-.platform-strip > div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+.platform-logos {
+  display: grid;
+  min-width: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 22px;
 }
 
-.platform-strip span {
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 99px;
-  padding: 7px 10px;
-  background: rgba(255, 255, 255, 0.035);
-  color: #d5d9e6;
+.platform-logo-item {
+  display: flex;
+  min-width: 0;
+  height: 58px;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.platform-logo-image {
+  display: block;
+  width: auto;
+  max-width: none;
+  height: auto;
+  flex: 0 0 auto;
+  object-fit: contain;
+  object-position: left center;
+  filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(91, 214, 255, 0.12));
+  opacity: 0.94;
+}
+
+.platform-logo-image-meta {
+  width: 155px;
+}
+
+.platform-logo-image-shopify {
+  width: 132px;
+}
+
+.platform-logo-image-google {
+  width: 132px;
+  filter: drop-shadow(0 0 10px rgba(66, 133, 244, 0.14));
+}
+
+.platform-logo-image-tiktok {
+  width: 135px;
+}
+
+.platform-service-labels {
+  display: flex;
+  grid-column: 1 / -1;
+  min-width: 0;
+  min-height: 30px;
+  align-items: center;
+  gap: 10px;
+  color: #aab3c9;
   font-size: 0.72rem;
-  font-weight: 750;
+  font-weight: 780;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 /* Services system */
@@ -1425,14 +1522,49 @@ h3 {
   }
 
   .hero-proof-item {
-    min-height: 96px;
-    border-right: 1px solid var(--line);
+    min-height: 82px;
+    border-right: 1px solid rgba(255, 255, 255, 0.09);
     border-bottom: 0;
+  }
+
+  .hero-proof-item:nth-child(even) {
+    border-right: 1px solid rgba(255, 255, 255, 0.09);
   }
 
   .hero-proof-item:last-child {
     grid-column: auto;
     border-right: 0;
+  }
+
+  .platform-logos {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px 18px;
+  }
+
+  .platform-logo-item {
+    height: 62px;
+    justify-content: center;
+  }
+
+  .platform-logo-image-meta {
+    width: 176px;
+  }
+
+  .platform-logo-image-shopify {
+    width: 148px;
+  }
+
+  .platform-logo-image-google {
+    width: 148px;
+  }
+
+  .platform-logo-image-tiktok {
+    width: 148px;
+  }
+
+  .platform-service-labels {
+    grid-column: 1 / -1;
+    justify-content: center;
   }
 
   .services-grid,
@@ -1560,6 +1692,51 @@ h3 {
 
   .hero-value-card {
     min-height: 64px;
+  }
+
+  .platform-strip {
+    grid-template-columns: minmax(150px, 0.26fr) minmax(0, 1.74fr);
+    align-items: center;
+    gap: 26px;
+  }
+
+  .platform-strip p {
+    max-width: 170px;
+  }
+
+  .platform-logos {
+    grid-template-columns: repeat(4, minmax(130px, 1fr)) auto;
+    align-items: center;
+    gap: 0 18px;
+  }
+
+  .platform-logo-item {
+    height: 62px;
+    justify-content: center;
+  }
+
+  .platform-logo-image-meta {
+    width: 186px;
+  }
+
+  .platform-logo-image-shopify {
+    width: 150px;
+  }
+
+  .platform-logo-image-google {
+    width: 154px;
+  }
+
+  .platform-logo-image-tiktok {
+    width: 150px;
+  }
+
+  .platform-service-labels {
+    grid-column: auto;
+    min-height: 44px;
+    justify-content: flex-end;
+    border-left: 1px solid rgba(255, 255, 255, 0.075);
+    padding-left: 20px;
   }
 
   .services-shell {
