@@ -5,7 +5,7 @@ const year = document.querySelector("[data-year]");
 const backToTop = document.querySelector("[data-back-to-top]");
 const revealItems = document.querySelectorAll(".reveal");
 const navLinks = document.querySelectorAll('.site-nav a[href^="#"]');
-const sections = document.querySelectorAll("#services, #process, #proof, #work, #contact");
+const sections = document.querySelectorAll("#services, #process, #proof, #work, #reviews, #contact");
 const prefersReducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false;
 const scrollBehavior = prefersReducedMotion ? "auto" : "smooth";
 
