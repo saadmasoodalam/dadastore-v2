@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" role="img" aria-labelledby="title desc">
+  <title id="title">Ecommerce growth system</title>
+  <desc id="desc">Abstract storefront journey connecting acquisition, offer, product, and checkout nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080b20"/>
+      <stop offset="1" stop-color="#12102e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#00cfff"/>
+      <stop offset=".52" stop-color="#8f4dff"/>
+      <stop offset="1" stop-color="#ff28a9"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="240" rx="18" fill="url(#bg)"/>
+  <g opacity=".12" stroke="#65dcff"><path d="M0 48h600M0 96h600M0 144h600M0 192h600"/><path d="M75 0v240M150 0v240M225 0v240M300 0v240M375 0v240M450 0v240M525 0v240"/></g>
+  <path d="M89 122H500" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <g font-family="Arial, sans-serif" font-size="12" fill="#d9e6ff">
+    <g transform="translate(35 70)">
+      <rect width="110" height="105" rx="14" fill="#111630" stroke="#00cfff" stroke-opacity=".55"/>
+      <path d="M22 32h66l-6 43H28zM36 32v-8h38v8" fill="none" stroke="#00cfff" stroke-width="3"/>
+      <text x="20" y="94">Journey</text>
+    </g>
+    <g transform="translate(190 82)">
+      <rect width="105" height="80" rx="13" fill="#151632" stroke="#8f4dff" stroke-opacity=".75"/>
+      <rect x="17" y="17" width="71" height="23" rx="6" fill="#8f4dff" fill-opacity=".2"/>
+      <path d="M18 56h44M18 65h68" stroke="#b9a1ff" stroke-linecap="round"/>
+      <text x="17" y="34">Offer</text>
+    </g>
+    <g transform="translate(340 61)">
+      <rect width="112" height="118" rx="14" fill="#16142f" stroke="#ff28a9" stroke-opacity=".65"/>
+      <rect x="18" y="17" width="76" height="54" rx="8" fill="#ff28a9" fill-opacity=".12" stroke="#ff28a9" stroke-opacity=".45"/>
+      <circle cx="56" cy="44" r="14" fill="none" stroke="#ff6bc2" stroke-width="2"/>
+      <path d="M18 86h76M18 98h52" stroke="#ff91d1" stroke-linecap="round"/>
+      <text x="18" y="112">Product</text>
+    </g>
+    <g transform="translate(500 82)">
+      <rect width="70" height="80" rx="13" fill="#10172e" stroke="#00fff0" stroke-opacity=".65"/>
+      <path d="M19 28h33l-4 25H24zM29 28v-6h14v6" fill="none" stroke="#00fff0" stroke-width="2.5"/>
+      <text x="11" y="69">Checkout</text>
+    </g>
+  </g>
+  <g fill="#fff" stroke-width="4">
+    <circle cx="89" cy="122" r="7" stroke="#00cfff"/>
+    <circle cx="242" cy="122" r="7" stroke="#8f4dff"/>
+    <circle cx="396" cy="122" r="7" stroke="#ff28a9"/>
+    <circle cx="535" cy="122" r="7" stroke="#00fff0"/>
+  </g>
+</svg>
