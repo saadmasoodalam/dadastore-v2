@@ -1588,13 +1588,26 @@ h3 {
 .contact-action .credibility-line {
   margin-top: 3px;
   overflow-wrap: anywhere;
+  color: #aab3c8;
+  font-size: 0.72rem;
+  line-height: 1.5;
   text-align: center;
+}
+
+.contact-action .credibility-line a {
+  color: var(--cyan-bright);
+  font-weight: 750;
+}
+
+.contact-action .credibility-line a:hover,
+.contact-action .credibility-line a:focus-visible {
+  color: #fff;
 }
 
 /* Footer */
 .site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 30px 0;
+  padding: 38px 0 28px;
   background: #070812;
   color: #8f96a9;
 }
@@ -1602,23 +1615,33 @@ h3 {
 .footer-inner {
   display: grid;
   min-width: 0;
-  gap: 28px;
+  gap: 32px;
   font-size: 0.82rem;
 }
 
-.footer-logo .brand-logo {
-  width: 148px;
+.footer-logo {
+  display: inline-flex;
+  max-width: 100%;
+  overflow: visible;
+}
+
+.footer-brand-logo {
+  display: block;
+  width: min(210px, 100%);
+  height: auto;
+  object-fit: contain;
 }
 
 .footer-brand-block p {
-  max-width: 360px;
-  margin-top: 16px;
+  max-width: 390px;
+  margin-top: 18px;
   color: #9aa2b7;
+  line-height: 1.65;
 }
 
 .footer-links {
   display: grid;
-  gap: 24px;
+  gap: 28px;
 }
 
 .footer-links > div {
@@ -1639,6 +1662,13 @@ h3 {
 .footer-links span {
   color: #939bae;
   overflow-wrap: anywhere;
+}
+
+.footer-links .footer-project-link {
+  width: fit-content;
+  margin-top: 4px;
+  color: var(--cyan-bright);
+  font-weight: 750;
 }
 
 .footer-links a:hover,
@@ -1880,6 +1910,10 @@ h3 {
 
   .footer-links {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-contact {
+    grid-column: 1 / -1;
   }
 }
 
@@ -2123,7 +2157,11 @@ h3 {
   }
 
   .footer-links {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .footer-contact {
+    grid-column: auto;
   }
 }
 
@@ -2178,5 +2216,18 @@ h3 {
   .contact-mark {
     width: 74px;
     height: 74px;
+  }
+
+  .contact-action .credibility-line {
+    text-align: left;
+  }
+
+  .footer-brand-logo {
+    width: 184px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
