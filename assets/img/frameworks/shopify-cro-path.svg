@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" role="img" aria-labelledby="title desc">
+  <title id="title">Shopify CRO path</title>
+  <desc id="desc">Abstract product, offer, cart, and checkout optimization journey.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080c20"/><stop offset="1" stop-color="#16102c"/></linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00cfff"/><stop offset=".55" stop-color="#8f4dff"/><stop offset="1" stop-color="#ff28a9"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="240" rx="18" fill="url(#bg)"/>
+  <g font-family="Arial, sans-serif" font-size="12" fill="#e3eaff">
+    <text x="31" y="34" fill="#75e6ff" letter-spacing="2">CHECKOUT PATH</text>
+    <path d="M91 171C167 70 240 190 316 94s137 89 203-10" fill="none" stroke="url(#path)" stroke-width="3" filter="url(#glow)"/>
+    <g transform="translate(30 62)">
+      <rect width="126" height="119" rx="14" fill="#11162f" stroke="#00cfff" stroke-opacity=".55"/>
+      <rect x="15" y="15" width="96" height="52" rx="8" fill="#00cfff" opacity=".13"/>
+      <path d="M45 52l18-23 20 23" fill="none" stroke="#62dfff" stroke-width="2"/>
+      <text x="15" y="88">Product</text><path d="M15 102h74" stroke="#62dfff" stroke-opacity=".6" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(190 75)">
+      <rect width="102" height="87" rx="14" fill="#15142f" stroke="#8f4dff" stroke-opacity=".65"/>
+      <rect x="15" y="16" width="72" height="28" rx="8" fill="#8f4dff" opacity=".23"/>
+      <text x="30" y="35">Offer</text>
+      <path d="M16 59h70M16 72h48" stroke="#baa6ff" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(339 65)">
+      <rect width="98" height="107" rx="14" fill="#16132e" stroke="#ff28a9" stroke-opacity=".62"/>
+      <path d="M22 35h56l-6 39H29zM35 35v-8h29v8" fill="none" stroke="#ff6fc4" stroke-width="2.5"/>
+      <text x="36" y="94">Cart</text>
+    </g>
+    <g transform="translate(477 75)">
+      <rect width="93" height="87" rx="14" fill="#10172e" stroke="#00fff0" stroke-opacity=".6"/>
+      <path d="M24 29h45M24 43h45M24 57h30" stroke="#72fff6" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="72" cy="67" r="8" fill="none" stroke="#00fff0" stroke-width="2"/>
+      <path d="M68 67l3 3 6-7" fill="none" stroke="#fff" stroke-width="2"/>
+      <text x="21" y="78">Checkout</text>
+    </g>
+    <g fill="#fff" stroke-width="4"><circle cx="92" cy="171" r="6" stroke="#00cfff"/><circle cx="241" cy="127" r="6" stroke="#8f4dff"/><circle cx="388" cy="119" r="6" stroke="#ff28a9"/><circle cx="522" cy="84" r="6" stroke="#00fff0"/></g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" role="img" aria-labelledby="title desc">
+  <title id="title">Tracking repair sprint</title>
+  <desc id="desc">Abstract event map showing diagnostic signal repair from disconnected to connected nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080c1f"/><stop offset="1" stop-color="#14112c"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff28a9"/><stop offset=".48" stop-color="#8f4dff"/><stop offset="1" stop-color="#00fff0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="240" rx="18" fill="url(#bg)"/>
+  <g font-family="Arial, sans-serif" font-size="12" fill="#dce8ff">
+    <text x="31" y="34" fill="#74e6ff" letter-spacing="2">EVENT MAP</text>
+    <rect x="30" y="52" width="162" height="157" rx="15" fill="#11152e" stroke="#ff28a9" stroke-opacity=".5"/>
+    <text x="49" y="78" fill="#ff7ac9">Diagnostics</text>
+    <g stroke-linecap="round"><path d="M49 101h92" stroke="#ff28a9"/><path d="M49 126h124" stroke="#8f4dff"/><path d="M49 151h75" stroke="#226cff"/><path d="M49 176h108" stroke="#00cfff"/></g>
+    <circle cx="160" cy="101" r="7" fill="none" stroke="#ff28a9" stroke-width="2"/>
+    <path d="M156 97l8 8M164 97l-8 8" stroke="#ff28a9" stroke-width="2"/>
+    <text x="49" y="198" fill="#8e98b3">Signal check</text>
+    <path d="M192 130h68" stroke="#ff28a9" stroke-width="3" stroke-dasharray="8 7"/>
+    <path d="M260 130h78" stroke="url(#line)" stroke-width="4" filter="url(#glow)"/>
+    <g transform="translate(338 58)">
+      <rect width="232" height="145" rx="15" fill="#10172e" stroke="#00fff0" stroke-opacity=".48"/>
+      <text x="20" y="29" fill="#7afff4">Connected layer</text>
+      <path d="M45 72h55l42-25 48 48" fill="none" stroke="#00cfff" stroke-width="3"/>
+      <path d="M45 72l55 43 42-68" fill="none" stroke="#8f4dff" stroke-width="2"/>
+      <g fill="#10172e" stroke-width="3"><circle cx="45" cy="72" r="9" stroke="#00cfff"/><circle cx="100" cy="72" r="9" stroke="#8f4dff"/><circle cx="100" cy="115" r="9" stroke="#226cff"/><circle cx="142" cy="47" r="9" stroke="#ff28a9"/><circle cx="190" cy="95" r="9" stroke="#00fff0"/></g>
+      <text x="20" y="130" fill="#8e98b3">Pixel</text><text x="164" y="130" fill="#8e98b3">Event</text>
+    </g>
+    <circle cx="299" cy="130" r="10" fill="#10172e" stroke="#8f4dff" stroke-width="3"/>
+    <path d="M294 130l4 4 7-9" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

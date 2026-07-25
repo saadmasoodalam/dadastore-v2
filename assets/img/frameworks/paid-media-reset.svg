@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" role="img" aria-labelledby="title desc">
+  <title id="title">Paid media reset</title>
+  <desc id="desc">Abstract campaign structure with audience groups, allocation bars, and optimization paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080c20"/><stop offset="1" stop-color="#15102e"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#226cff"/><stop offset=".5" stop-color="#8f4dff"/><stop offset="1" stop-color="#ff28a9"/></linearGradient>
+  </defs>
+  <rect width="600" height="240" rx="18" fill="url(#bg)"/>
+  <g font-family="Arial, sans-serif" font-size="12" fill="#e2eaff">
+    <text x="31" y="34" fill="#7ee7ff" letter-spacing="2">CAMPAIGN RESET</text>
+    <rect x="30" y="55" width="142" height="130" rx="14" fill="#10162f" stroke="#226cff" stroke-opacity=".55"/>
+    <text x="49" y="82">Campaign</text>
+    <path d="M53 108h96" stroke="#226cff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M53 129h68" stroke="#8f4dff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M53 150h84" stroke="#ff28a9" stroke-width="9" stroke-linecap="round"/>
+    <path d="M172 120h70M242 120V78M242 120v42" fill="none" stroke="url(#flow)" stroke-width="3"/>
+    <g transform="translate(242 48)">
+      <rect width="127" height="60" rx="13" fill="#15152f" stroke="#8f4dff" stroke-opacity=".6"/>
+      <circle cx="29" cy="30" r="12" fill="#8f4dff" opacity=".3"/><circle cx="29" cy="27" r="4" fill="#c6b4ff"/><path d="M20 39c3-7 15-7 18 0" stroke="#c6b4ff" fill="none"/>
+      <text x="52" y="27">Audience</text><text x="52" y="43" fill="#8f98b2">Layer 01</text>
+    </g>
+    <g transform="translate(242 132)">
+      <rect width="127" height="60" rx="13" fill="#11172f" stroke="#00cfff" stroke-opacity=".55"/>
+      <circle cx="29" cy="30" r="12" fill="#00cfff" opacity=".2"/><circle cx="29" cy="27" r="4" fill="#77e9ff"/><path d="M20 39c3-7 15-7 18 0" stroke="#77e9ff" fill="none"/>
+      <text x="52" y="27">Audience</text><text x="52" y="43" fill="#8f98b2">Node 02</text>
+    </g>
+    <path d="M369 78h54M369 162h54M423 78v84" fill="none" stroke="#8f4dff" stroke-width="2" stroke-dasharray="5 5"/>
+    <g transform="translate(423 67)">
+      <rect width="147" height="106" rx="14" fill="#16132e" stroke="#ff28a9" stroke-opacity=".6"/>
+      <text x="18" y="28" fill="#ff83cd">Optimization</text>
+      <path d="M20 79l29-25 25 11 29-37 24 15" fill="none" stroke="#ff28a9" stroke-width="3" stroke-linejoin="round"/>
+      <g fill="#fff"><circle cx="49" cy="54" r="4"/><circle cx="74" cy="65" r="4"/><circle cx="103" cy="28" r="4"/></g>
+    </g>
+  </g>
+</svg>
