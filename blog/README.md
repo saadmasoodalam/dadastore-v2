@@ -179,9 +179,9 @@ If any article fails, the batch does not advance to publication.
 
 ## Creative editorial presentation
 
-Every article must use the established DaDaStore V3 brand language while selecting a supporting visual structure that fits its subject. Future batches should vary purposeful structures such as process diagrams, checklists, comparison panels, decision trees, scorecards, timelines, framework grids, audit tables, and strategic callouts.
+Every article must use the established DaDaStore V3 brand language and include one topic-specific visual module that fits its subject. Approved module types are framework cards, audit tables, comparison matrices, process timelines, funnel diagrams, checklist boards, decision trees, channel maps, measurement dashboards, content calendars, testing matrices, and troubleshooting flows.
 
-Visual variation must support understanding. It must not become random decoration, obscure practical content, create unsupported claims, or repeat the same four-box placeholder across a batch. Article pacing and hierarchy should vary where the topic benefits, while typography, color, accessibility, responsive containment, and publication guardrails remain consistent.
+No module type may be used more than twice in one batch, and the same visual block must not be repeated across every article. Visual variation must support understanding. It must not become random decoration, obscure practical content, or create unsupported claims. Article pacing and hierarchy should vary where the topic benefits, while typography, color, accessibility, responsive containment, and publication guardrails remain consistent.
 
 Creative presentation is not publication approval. Every new visual must still pass 375px, 390px, and desktop browser QA without clipping or horizontal overflow.
 
