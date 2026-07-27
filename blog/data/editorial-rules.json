@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "tone": [
+    "practical",
+    "intelligent",
+    "direct"
+  ],
+  "targetArticleLength": {
+    "minimumWords": 1400,
+    "maximumWords": 2200
+  },
+  "prohibited": [
+    "guaranteed results",
+    "fake statistics",
+    "unsupported claims",
+    "AI wording or references to content generation",
+    "filler introductions",
+    "keyword stuffing",
+    "copied content",
+    "fake case studies",
+    "fake testimonials",
+    "private client data without explicit approval"
+  ],
+  "requiredWritingPractices": [
+    "use original wording",
+    "use short paragraphs",
+    "use useful descriptive headings",
+    "distinguish evidence from assumptions",
+    "state measurement and attribution limits where relevant",
+    "give practical decision guidance",
+    "include an actionable checklist",
+    "include a DaDaStore contact CTA",
+    "include relevant internal links",
+    "include complete metadata",
+    "keep every new article in draft status until approval"
+  ],
+  "requiredMetadata": [
+    "title",
+    "metaDescription",
+    "slug",
+    "category",
+    "author",
+    "readingTime",
+    "openGraphTitle",
+    "openGraphDescription",
+    "articleUrlPath",
+    "robots"
+  ],
+  "publicationWorkflow": {
+    "defaultStatus": "draft",
+    "allowedStatuses": [
+      "draft",
+      "review",
+      "approved",
+      "published"
+    ],
+    "publicationRequiresOwnerApproval": true,
+    "automaticPublishingAllowed": false,
+    "draftRobots": "noindex, nofollow",
+    "publishedRobots": "index, follow"
+  },
+  "qualityChecks": [
+    "validate metadata and relative paths",
+    "check title and slug uniqueness",
+    "check category assignment",
+    "check word count",
+    "check internal links",
+    "check prohibited wording",
+    "check claims and evidence boundaries",
+    "check desktop and mobile layout",
+    "check horizontal overflow",
+    "check console and network errors",
+    "check public draft visibility"
+  ]
+}
