@@ -1,13 +1,14 @@
 [
   {
-    "slug": "social-media-marketing-plan-that-drives-results",
+    "slug": "how-to-create-a-social-media-marketing-plan-that-drives-results",
     "title": "How to Create a Social Media Marketing Plan That Drives Results",
     "excerpt": "Connect business goals, audience signals, channel roles, creative planning, and measurement in one practical operating plan.",
-    "category": "Paid Media",
-    "date": "2026-08-01",
-    "readingTime": "8 min read",
+    "category": "Social Media Strategy",
+    "date": "2026-07-28",
+    "readingTime": "9 min read",
     "featured": true,
-    "status": "draft"
+    "status": "published",
+    "url": "./how-to-create-a-social-media-marketing-plan-that-drives-results/"
   },
   {
     "slug": "choosing-the-right-marketing-automation-software",
@@ -17,7 +18,8 @@
     "date": "2026-08-08",
     "readingTime": "7 min read",
     "featured": false,
-    "status": "draft"
+    "status": "draft",
+    "url": null
   },
   {
     "slug": "creative-testing-for-paid-advertising",
@@ -27,6 +29,7 @@
     "date": "2026-08-15",
     "readingTime": "9 min read",
     "featured": false,
-    "status": "draft"
+    "status": "draft",
+    "url": null
   }
 ]
