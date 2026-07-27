@@ -31,5 +31,115 @@
     "featured": false,
     "status": "draft",
     "url": null
+  },
+  {
+    "slug": "social-media-strategy-template-for-small-business",
+    "title": "A Practical Social Media Strategy Template for Small Businesses",
+    "excerpt": "Turn goals, audience needs, platform roles, content themes, ownership, and review dates into a usable small-business strategy.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "how-to-choose-social-media-platforms-for-your-business",
+    "title": "How to Choose the Right Social Media Platforms for Your Business",
+    "excerpt": "Evaluate audience behavior, message fit, content capacity, channel roles, and measurement before committing to a platform.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "how-to-build-social-media-content-pillars",
+    "title": "How to Build Social Media Content Pillars That Guide Better Content",
+    "excerpt": "Create repeatable content themes from customer questions, journey stages, brand expertise, and the decisions your audience needs to make.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "how-to-create-a-social-media-content-calendar",
+    "title": "How to Create a Social Media Content Calendar Your Team Can Maintain",
+    "excerpt": "Build a realistic publishing system around themes, ownership, source material, approvals, distribution, and review instead of arbitrary volume.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "organic-and-paid-social-media-strategy",
+    "title": "How Organic and Paid Social Media Should Work Together",
+    "excerpt": "Define distinct roles for organic learning, audience conversation, paid distribution, remarketing, and campaign measurement.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "social-media-audience-research-guide",
+    "title": "A Practical Guide to Social Media Audience Research",
+    "excerpt": "Research audience needs, language, platform behavior, objections, and buying context before planning social media activity.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "social-media-kpis-that-connect-to-business-goals",
+    "title": "Social Media KPIs That Connect Activity to Business Goals",
+    "excerpt": "Connect platform activity, customer actions, business goals, and practical decisions in one measurement framework.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "social-media-competitor-analysis",
+    "title": "How to Run a Useful Social Media Competitor Analysis",
+    "excerpt": "Analyze visible audience, message, content, offer, and journey patterns without copying competitor activity.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "b2b-social-media-strategy-framework",
+    "title": "A B2B Social Media Strategy Framework for Complex Buying Journeys",
+    "excerpt": "Coordinate buying-group insight, expert content, channel roles, decision support, demand capture, and measurement.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
+  },
+  {
+    "slug": "social-media-strategy-audit-checklist",
+    "title": "Social Media Strategy Audit Checklist: What to Review and Why",
+    "excerpt": "Review goals, audience evidence, channel roles, content, workflows, journeys, tracking, and decision quality.",
+    "category": "Social Media Strategy",
+    "date": null,
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
   }
 ]

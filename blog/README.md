@@ -177,6 +177,14 @@ Every generated batch requires:
 
 If any article fails, the batch does not advance to publication.
 
+## Creative editorial presentation
+
+Every article must use the established DaDaStore V3 brand language while selecting a supporting visual structure that fits its subject. Future batches should vary purposeful structures such as process diagrams, checklists, comparison panels, decision trees, scorecards, timelines, framework grids, audit tables, and strategic callouts.
+
+Visual variation must support understanding. It must not become random decoration, obscure practical content, create unsupported claims, or repeat the same four-box placeholder across a batch. Article pacing and hierarchy should vary where the topic benefits, while typography, color, accessibility, responsive containment, and publication guardrails remain consistent.
+
+Creative presentation is not publication approval. Every new visual must still pass 375px, 390px, and desktop browser QA without clipping or horizontal overflow.
+
 ## Future sitemap and RSS generation
 
 Sitemap and RSS support are planned but not implemented.

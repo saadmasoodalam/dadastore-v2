@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "tone": [
     "practical",
     "intelligent",
@@ -46,6 +46,38 @@
     "articleUrlPath",
     "robots"
   ],
+  "visualPresentation": {
+    "brandLanguage": "Use the established DaDaStore V3 dark, cyan, pink, and violet editorial system.",
+    "requiredPractices": [
+      "include one topic-specific visual module that explains the article topic",
+      "vary visual systems and section pacing across an article batch",
+      "keep visual labels concise, practical, and professionally relevant",
+      "make every visual responsive without horizontal overflow",
+      "preserve a clear hierarchy between editorial content and decorative treatment",
+      "use the same visual module no more than twice in one batch"
+    ],
+    "approvedStructures": [
+      "framework cards",
+      "audit table",
+      "comparison matrix",
+      "process timeline",
+      "funnel diagram",
+      "checklist board",
+      "decision trees",
+      "channel map",
+      "measurement dashboard",
+      "content calendar",
+      "testing matrix",
+      "troubleshooting flow"
+    ],
+    "maximumUsesPerStructurePerBatch": 2,
+    "prohibitedPractices": [
+      "reusing the same visual block for every article",
+      "using one visual module more than twice in a batch",
+      "using random decoration without editorial purpose",
+      "allowing visual novelty to weaken readability or evidence boundaries"
+    ]
+  },
   "publicationWorkflow": {
     "defaultStatus": "draft",
     "allowedStatuses": [
