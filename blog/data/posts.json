@@ -141,5 +141,65 @@
     "featured": false,
     "status": "draft",
     "url": null
+  },
+  {
+    "slug": "how-to-structure-meta-ads-campaigns",
+    "title": "How to Structure Meta Ads Campaigns Around Clear Decisions",
+    "excerpt": "Organize Meta Ads around objectives, audiences, creative questions, budget control, measurement, and a defined review process.",
+    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "google-ads-vs-meta-ads",
+    "title": "Google Ads vs Meta Ads: How to Choose the Right Channel Role",
+    "excerpt": "Compare demand capture, demand creation, audience context, creative requirements, landing journeys, and measurement before allocating budget.",
+    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "tiktok-ads-planning-guide",
+    "title": "TikTok Ads Planning Guide for a First Campaign",
+    "excerpt": "Plan a first TikTok Ads campaign around audience context, creative capacity, offer fit, landing experience, testing, and measurement.",
+    "category": "Paid Media", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "paid-social-funnel-strategy",
+    "title": "How to Build a Paid Social Funnel Without Losing the Customer Journey",
+    "excerpt": "Connect discovery, education, offer presentation, landing pages, remarketing, and conversion signals in one coherent paid social journey.",
+    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "small-budget-paid-advertising-plan",
+    "title": "How to Plan Paid Advertising With a Small Budget",
+    "excerpt": "Protect limited budget by narrowing the objective, audience, offer, channel, learning question, and review threshold.",
+    "category": "Paid Media", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "lead-generation-campaign-planning",
+    "title": "Lead Generation Campaign Planning: From Offer to Follow-Up",
+    "excerpt": "Align audience qualification, offer, form experience, tracking, sales ownership, and follow-up before launching a lead campaign.",
+    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "meta-ads-troubleshooting-checklist",
+    "title": "Meta Ads Troubleshooting Checklist for Campaign Performance Problems",
+    "excerpt": "Diagnose delivery, audience, creative, offer, landing-page, tracking, and review-process problems in a consistent order.",
+    "category": "Paid Media", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "google-search-campaign-structure",
+    "title": "Google Search Campaign Structure: A Practical Planning Framework",
+    "excerpt": "Connect search intent, keyword themes, ads, landing pages, exclusions, conversion actions, and review decisions in a maintainable structure.",
+    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "privacy-aware-retargeting-strategy",
+    "title": "A Privacy-Aware Retargeting Strategy for Paid Media",
+    "excerpt": "Plan remarketing around consent, audience relevance, message progression, frequency, exclusions, landing context, and measurement limits.",
+    "category": "Paid Media", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "paid-media-reporting-framework",
+    "title": "A Paid Media Reporting Framework Built Around Better Decisions",
+    "excerpt": "Organize outcome, journey, delivery, creative, and data-quality signals around the decisions a campaign team needs to make.",
+    "category": "Paid Media", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
   }
 ]

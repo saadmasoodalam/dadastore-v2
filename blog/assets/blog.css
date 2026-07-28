@@ -1466,6 +1466,128 @@ h3 {
   color: var(--blog-cyan-bright);
 }
 
+.blog-visual-checklist {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.blog-visual-checklist span {
+  display: grid;
+  min-height: 70px;
+  grid-template-columns: 28px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--blog-line);
+  border-radius: 12px;
+  padding: 12px 15px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.blog-visual-checklist span::before {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  border: 1px solid rgba(0, 207, 255, 0.48);
+  border-radius: 7px;
+  color: var(--blog-cyan-bright);
+  content: "✓";
+}
+
+.blog-visual-funnel {
+  width: min(72%, 620px);
+  justify-items: center;
+  gap: 8px;
+}
+
+.blog-visual-funnel span {
+  display: grid;
+  min-height: 48px;
+  place-items: center;
+  border: 1px solid rgba(0, 207, 255, 0.3);
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(0, 207, 255, 0.08), rgba(143, 77, 255, 0.1));
+}
+
+.blog-visual-funnel span:nth-child(1) {
+  width: 100%;
+}
+
+.blog-visual-funnel span:nth-child(2) {
+  width: 82%;
+}
+
+.blog-visual-funnel span:nth-child(3) {
+  width: 64%;
+}
+
+.blog-visual-funnel span:nth-child(4) {
+  width: 46%;
+  border-color: rgba(255, 40, 169, 0.42);
+}
+
+.blog-visual-troubleshoot {
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  align-items: stretch;
+}
+
+.blog-visual-troubleshoot strong {
+  display: grid;
+  min-height: 68px;
+  place-items: center;
+  grid-column: 1 / -1;
+  border: 1px solid rgba(255, 40, 169, 0.42);
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(255, 40, 169, 0.07);
+}
+
+.blog-visual-troubleshoot b,
+.blog-visual-troubleshoot span {
+  display: grid;
+  min-height: 58px;
+  align-items: center;
+  border: 1px solid var(--blog-line);
+  border-radius: 11px;
+  padding: 11px 15px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.blog-visual-troubleshoot b {
+  color: var(--blog-cyan-bright);
+}
+
+.blog-visual-channel-map {
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: center;
+}
+
+.blog-visual-channel-map strong {
+  display: grid;
+  min-height: 120px;
+  place-items: center;
+  border: 1px solid rgba(143, 77, 255, 0.44);
+  border-radius: 50%;
+  color: #fff;
+  background: radial-gradient(circle, rgba(143, 77, 255, 0.18), rgba(0, 207, 255, 0.035));
+  text-align: center;
+}
+
+.blog-visual-channel-map > div {
+  display: grid;
+  gap: 10px;
+}
+
+.blog-visual-channel-map span {
+  display: grid;
+  min-height: 48px;
+  place-items: center;
+  border: 1px solid rgba(0, 207, 255, 0.24);
+  border-radius: 10px;
+  padding: 9px;
+  background: rgba(0, 207, 255, 0.035);
+  text-align: center;
+}
+
 .blog-post-layout {
   display: grid;
   width: 100%;
@@ -1931,16 +2053,26 @@ h3 {
   }
 
   .blog-post-header {
+    width: 100%;
+    max-width: 100%;
+    contain: inline-size;
     padding-block: 48px 44px;
   }
 
   .blog-post-header-inner {
-    width: calc(100% - 32px);
+    width: 100%;
     min-width: 0;
-    max-width: calc(100% - 32px);
+    max-width: 100%;
     margin-inline: auto;
-    padding-inline: 0;
+    padding-inline: 16px;
     transform: none;
+  }
+
+  .blog-post > .blog-shell {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding-inline: 16px;
   }
 
   .blog-post-labels,
@@ -1958,9 +2090,9 @@ h3 {
   }
 
   .blog-post-header h1 {
-    width: 100%;
+    width: calc(100vw - 32px);
     min-width: 0;
-    max-width: 100%;
+    max-width: calc(100vw - 32px);
     margin-inline: 0;
     font-size: clamp(2rem, 10.2vw, 2.75rem);
     overflow-wrap: anywhere;
@@ -1968,6 +2100,8 @@ h3 {
   }
 
   .blog-post-summary {
+    width: calc(100vw - 32px);
+    max-width: calc(100vw - 32px);
     margin-top: 20px;
     font-size: clamp(0.98rem, 4.4vw, 1.08rem);
   }
@@ -2127,6 +2261,61 @@ h3 {
 
   .blog-visual-audit > *:nth-child(3n) {
     display: none;
+  }
+
+  .blog-visual-checklist {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .blog-visual-checklist span {
+    min-height: 52px;
+    padding: 9px 11px;
+  }
+
+  .blog-visual-funnel {
+    width: 100%;
+  }
+
+  .blog-visual-funnel span {
+    min-height: 42px;
+  }
+
+  .blog-visual-troubleshoot {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .blog-visual-troubleshoot strong {
+    min-height: 52px;
+    grid-column: auto;
+    border-radius: 12px;
+  }
+
+  .blog-visual-troubleshoot b,
+  .blog-visual-troubleshoot span {
+    min-height: 44px;
+  }
+
+  .blog-visual-channel-map {
+    grid-template-columns: minmax(0, 1fr) 92px minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .blog-visual-channel-map strong {
+    min-height: 92px;
+    padding: 8px;
+    font-size: 0.58rem;
+  }
+
+  .blog-visual-channel-map > div {
+    gap: 7px;
+  }
+
+  .blog-visual-channel-map span {
+    min-height: 42px;
+    padding: 6px;
+    font-size: 0.56rem;
   }
 
   .blog-card-meta span::before,
