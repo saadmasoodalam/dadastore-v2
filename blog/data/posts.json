@@ -301,5 +301,55 @@
     "slug": "lead-generation-measurement-framework", "title": "A Lead Generation Measurement Framework From Click to Sales Follow-Up",
     "excerpt": "Connect campaign, form, qualification, response time, pipeline, and outcome signals while defining ownership and data limitations.",
     "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "creative-testing-framework-for-paid-ads", "title": "A Creative Testing Framework for Paid Advertising",
+    "excerpt": "Organize hooks, angles, formats, offers, variables, hypotheses, evidence thresholds, and learning records into a repeatable test system.",
+    "category": "Creative Strategy", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "how-to-write-ad-hooks", "title": "How to Write and Test Ad Hooks Without Chasing Novelty",
+    "excerpt": "Develop hooks from audience problems, desired outcomes, objections, contrasts, demonstrations, and evidence, then test them cleanly.",
+    "category": "Creative Strategy", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "creative-brief-for-performance-marketing", "title": "How to Write a Creative Brief for Performance Marketing",
+    "excerpt": "Give creative teams useful context through audience evidence, objective, offer, message, format, constraints, hypotheses, and feedback rules.",
+    "category": "Creative Strategy", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "how-to-diagnose-creative-fatigue", "title": "How to Diagnose Creative Fatigue in Paid Campaigns",
+    "excerpt": "Separate audience saturation, delivery changes, offer weakness, journey friction, tracking problems, and genuine creative wear-out.",
+    "category": "Creative Strategy", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "content-marketing-customer-journey", "title": "How to Map Content Marketing to the Customer Journey",
+    "excerpt": "Assign content roles to discovery, problem understanding, solution evaluation, decision support, onboarding, and retention.",
+    "category": "Content Marketing", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "content-repurposing-system", "title": "A Content Repurposing System That Preserves Meaning",
+    "excerpt": "Adapt strong source material to new audiences, formats, contexts, and channels without copying mechanically or weakening the original idea.",
+    "category": "Content Marketing", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "editorial-calendar-workflow", "title": "How to Build an Editorial Calendar Around Business Priorities",
+    "excerpt": "Coordinate themes, customer questions, formats, owners, evidence, approvals, distribution, updates, and measurement in a workable calendar.",
+    "category": "Content Marketing", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "welcome-email-sequence-planning", "title": "How to Plan a Welcome Email Sequence",
+    "excerpt": "Design a welcome journey around subscriber context, expectations, value, segmentation, message order, next actions, and measurement.",
+    "category": "Email Marketing", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "abandoned-cart-email-strategy", "title": "Abandoned Cart Email Strategy: Timing, Message, and Measurement",
+    "excerpt": "Plan cart-recovery messages around customer context, useful reminders, objections, incentives, consent, frequency, and honest measurement.",
+    "category": "Email Marketing", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "email-segmentation-lifecycle-strategy", "title": "Email Segmentation for Lifecycle Marketing",
+    "excerpt": "Segment messages using relationship stage, behavior, preferences, eligibility, and customer needs while avoiding unnecessary complexity.",
+    "category": "Email Marketing", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
   }
 ]

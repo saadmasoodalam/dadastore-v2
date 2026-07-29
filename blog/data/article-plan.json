@@ -779,6 +779,7 @@
   },
   {
     "id": "B5-01",
+    "generated": true,
     "title": "A Creative Testing Framework for Paid Advertising",
     "slug": "creative-testing-framework-for-paid-ads",
     "category": "Creative Strategy",
@@ -797,6 +798,7 @@
   },
   {
     "id": "B5-02",
+    "generated": true,
     "title": "How to Write and Test Ad Hooks Without Chasing Novelty",
     "slug": "how-to-write-ad-hooks",
     "category": "Creative Strategy",
@@ -815,6 +817,7 @@
   },
   {
     "id": "B5-03",
+    "generated": true,
     "title": "How to Write a Creative Brief for Performance Marketing",
     "slug": "creative-brief-for-performance-marketing",
     "category": "Creative Strategy",
@@ -833,6 +836,7 @@
   },
   {
     "id": "B5-04",
+    "generated": true,
     "title": "How to Diagnose Creative Fatigue in Paid Campaigns",
     "slug": "how-to-diagnose-creative-fatigue",
     "category": "Creative Strategy",
@@ -851,6 +855,7 @@
   },
   {
     "id": "B5-05",
+    "generated": true,
     "title": "How to Map Content Marketing to the Customer Journey",
     "slug": "content-marketing-customer-journey",
     "category": "Content Marketing",
@@ -869,6 +874,7 @@
   },
   {
     "id": "B5-06",
+    "generated": true,
     "title": "A Content Repurposing System That Preserves Meaning",
     "slug": "content-repurposing-system",
     "category": "Content Marketing",
@@ -887,6 +893,7 @@
   },
   {
     "id": "B5-07",
+    "generated": true,
     "title": "How to Build an Editorial Calendar Around Business Priorities",
     "slug": "editorial-calendar-workflow",
     "category": "Content Marketing",
@@ -905,6 +912,7 @@
   },
   {
     "id": "B5-08",
+    "generated": true,
     "title": "How to Plan a Welcome Email Sequence",
     "slug": "welcome-email-sequence-planning",
     "category": "Email Marketing",
@@ -923,6 +931,7 @@
   },
   {
     "id": "B5-09",
+    "generated": true,
     "title": "Abandoned Cart Email Strategy: Timing, Message, and Measurement",
     "slug": "abandoned-cart-email-strategy",
     "category": "Email Marketing",
@@ -941,6 +950,7 @@
   },
   {
     "id": "B5-10",
+    "generated": true,
     "title": "Email Segmentation for Lifecycle Marketing",
     "slug": "email-segmentation-lifecycle-strategy",
     "category": "Email Marketing",
