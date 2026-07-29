@@ -351,5 +351,55 @@
     "slug": "email-segmentation-lifecycle-strategy", "title": "Email Segmentation for Lifecycle Marketing",
     "excerpt": "Segment messages using relationship stage, behavior, preferences, eligibility, and customer needs while avoiding unnecessary complexity.",
     "category": "Email Marketing", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "how-to-choose-marketing-automation-software", "title": "How to Choose Marketing Automation Software Without Starting With Features",
+    "excerpt": "Evaluate workflow fit, data quality, integrations, governance, maintenance, team adoption, and total operating burden before selecting software.",
+    "category": "Marketing Automation", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "marketing-automation-workflow-map", "title": "How to Map a Marketing Automation Workflow Before Building It",
+    "excerpt": "Define triggers, eligibility, data inputs, branches, messages, delays, ownership, exits, exceptions, and human review before implementation.",
+    "category": "Marketing Automation", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "crm-lead-nurturing-automation", "title": "CRM Lead Nurturing Automation: A Practical Planning Guide",
+    "excerpt": "Coordinate qualification, consent, lifecycle stage, content, timing, sales ownership, exceptions, exits, and measurement in a lead-nurture system.",
+    "category": "Marketing Automation", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "seo-topic-clusters-customer-questions", "title": "How to Build SEO Topic Clusters Around Real Customer Questions",
+    "excerpt": "Connect search intent, customer language, pillar topics, supporting questions, internal links, expertise, and maintenance in a useful content cluster.",
+    "category": "SEO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "ecommerce-seo-foundations", "title": "Ecommerce SEO Foundations for Product and Collection Pages",
+    "excerpt": "Plan crawlable structure, search intent, product information, collection content, internal links, duplication controls, and ongoing maintenance.",
+    "category": "SEO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "technical-seo-audit-priorities", "title": "Technical SEO Audit Priorities for a Growing Website",
+    "excerpt": "Prioritize accessibility to crawlers, indexation signals, site structure, internal links, performance, mobile behavior, duplication, and monitoring.",
+    "category": "SEO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "client-acquisition-system-for-service-businesses", "title": "How to Build a Client Acquisition System for a Service Business",
+    "excerpt": "Connect positioning, audience, content, outreach, paid acquisition, qualification, sales follow-up, delivery feedback, and measurement.",
+    "category": "Business Growth Systems", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "small-budget-marketing-plan", "title": "A Small-Budget Marketing Plan Built Around Focus",
+    "excerpt": "Prioritize one audience, problem, offer, journey, channel role, learning agenda, and review rhythm when resources are limited.",
+    "category": "Business Growth Systems", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "quarterly-marketing-review", "title": "How to Run a Quarterly Marketing Review That Produces Decisions",
+    "excerpt": "Review goals, evidence, customer signals, channel roles, experiments, constraints, resources, and next-quarter priorities without reporting theater.",
+    "category": "Business Growth Systems", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "marketing-operating-system-for-small-teams", "title": "A Marketing Operating System for Small Teams",
+    "excerpt": "Create a practical cadence for priorities, ownership, production, campaign launches, data review, experiments, documentation, and change decisions.",
+    "category": "Business Growth Systems", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
   }
 ]
