@@ -589,6 +589,7 @@
   },
   {
     "id": "B4-01",
+    "generated": true,
     "title": "How to Build a GA4 Ecommerce Measurement Plan",
     "slug": "ga4-ecommerce-measurement-plan",
     "category": "Tracking & Analytics",
@@ -607,6 +608,7 @@
   },
   {
     "id": "B4-02",
+    "generated": true,
     "title": "Meta Pixel Event Planning and Validation Guide",
     "slug": "meta-pixel-event-planning-and-validation",
     "category": "Tracking & Analytics",
@@ -625,6 +627,7 @@
   },
   {
     "id": "B4-03",
+    "generated": true,
     "title": "Meta CAPI vs Browser Tracking: Roles, Limits, and Planning",
     "slug": "meta-capi-vs-browser-tracking",
     "category": "Tracking & Analytics",
@@ -643,6 +646,7 @@
   },
   {
     "id": "B4-04",
+    "generated": true,
     "title": "Marketing Attribution Models: What They Explain and What They Miss",
     "slug": "marketing-attribution-models-explained",
     "category": "Tracking & Analytics",
@@ -661,6 +665,7 @@
   },
   {
     "id": "B4-05",
+    "generated": true,
     "title": "A Practical UTM Governance System for Marketing Teams",
     "slug": "utm-governance-system",
     "category": "Tracking & Analytics",
@@ -679,6 +684,7 @@
   },
   {
     "id": "B4-06",
+    "generated": true,
     "title": "How to Design a Cross-Channel Marketing Dashboard",
     "slug": "cross-channel-marketing-dashboard",
     "category": "Tracking & Analytics",
@@ -697,6 +703,7 @@
   },
   {
     "id": "B4-07",
+    "generated": true,
     "title": "Marketing Tracking Audit Checklist",
     "slug": "marketing-tracking-audit-checklist",
     "category": "Tracking & Analytics",
@@ -715,6 +722,7 @@
   },
   {
     "id": "B4-08",
+    "generated": true,
     "title": "How to Diagnose Ad Platform and Analytics Reporting Discrepancies",
     "slug": "diagnosing-ad-platform-reporting-discrepancies",
     "category": "Tracking & Analytics",
@@ -733,6 +741,7 @@
   },
   {
     "id": "B4-09",
+    "generated": true,
     "title": "Privacy-Conscious Marketing Measurement: A Planning Framework",
     "slug": "privacy-conscious-marketing-measurement",
     "category": "Tracking & Analytics",
@@ -751,6 +760,7 @@
   },
   {
     "id": "B4-10",
+    "generated": true,
     "title": "A Lead Generation Measurement Framework From Click to Sales Follow-Up",
     "slug": "lead-generation-measurement-framework",
     "category": "Tracking & Analytics",

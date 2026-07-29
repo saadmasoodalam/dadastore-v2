@@ -251,5 +251,55 @@
     "slug": "shopify-navigation-and-collection-page-cro", "title": "Shopify Navigation and Collection Page CRO",
     "excerpt": "Improve product discovery through clearer information architecture, menus, collections, filtering, sorting, merchandising, and mobile behavior.",
     "category": "Ecommerce & CRO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "ga4-ecommerce-measurement-plan", "title": "How to Build a GA4 Ecommerce Measurement Plan",
+    "excerpt": "Define business questions, journey events, naming, parameters, validation, reporting, ownership, and known limits before configuring GA4.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "meta-pixel-event-planning-and-validation", "title": "Meta Pixel Event Planning and Validation Guide",
+    "excerpt": "Plan meaningful events, parameters, deduplication responsibilities, test cases, consent behavior, and ongoing validation before relying on Pixel data.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "meta-capi-vs-browser-tracking", "title": "Meta CAPI vs Browser Tracking: Roles, Limits, and Planning",
+    "excerpt": "Understand how browser and server-side signals can complement each other, where duplication risks appear, and what validation still requires.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "marketing-attribution-models-explained", "title": "Marketing Attribution Models: What They Explain and What They Miss",
+    "excerpt": "Compare attribution perspectives, assumptions, blind spots, decision uses, and the evidence needed beyond a single reported model.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "utm-governance-system", "title": "A Practical UTM Governance System for Marketing Teams",
+    "excerpt": "Create consistent source, medium, campaign, content, and term conventions with ownership, documentation, validation, and change control.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "cross-channel-marketing-dashboard", "title": "How to Design a Cross-Channel Marketing Dashboard",
+    "excerpt": "Build a dashboard hierarchy around business outcomes, journey actions, channel roles, diagnostics, data quality, and review decisions.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "marketing-tracking-audit-checklist", "title": "Marketing Tracking Audit Checklist",
+    "excerpt": "Review measurement questions, tags, events, parameters, consent, destinations, platform connections, naming, data quality, and ownership.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "diagnosing-ad-platform-reporting-discrepancies", "title": "How to Diagnose Ad Platform and Analytics Reporting Discrepancies",
+    "excerpt": "Investigate attribution windows, identity, consent, time zones, event definitions, duplication, missing signals, and model differences.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "privacy-conscious-marketing-measurement", "title": "Privacy-Conscious Marketing Measurement: A Planning Framework",
+    "excerpt": "Coordinate consent, data minimization, platform signals, analytics, documentation, access, retention, and honest interpretation.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "lead-generation-measurement-framework", "title": "A Lead Generation Measurement Framework From Click to Sales Follow-Up",
+    "excerpt": "Connect campaign, form, qualification, response time, pipeline, and outcome signals while defining ownership and data limitations.",
+    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
   }
 ]
