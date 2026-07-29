@@ -185,15 +185,32 @@ No module type may be used more than twice in one batch, and the same visual blo
 
 Creative presentation is not publication approval. Every new visual must still pass 375px, 390px, and desktop browser QA without clipping or horizontal overflow.
 
-## Future sitemap and RSS generation
+## Sitemap, RSS, and public-index validation
 
-Sitemap and RSS support are planned but not implemented.
+Unit 5J adds dependency-free Node scripts:
 
-When approved, generators must:
+```text
+scripts/build-blog-index.mjs
+scripts/generate-sitemap.mjs
+scripts/generate-rss.mjs
+```
+
+Run them from the repository root in this order:
+
+```text
+node scripts/generate-sitemap.mjs
+node scripts/generate-rss.mjs
+node scripts/build-blog-index.mjs
+```
+
+`build-blog-index.mjs` derives the public article index from published `posts.json` records, checks that the current static blog and category grids do not expose drafts, validates the complete article library, and writes `blog/data/qa-report.json`. It does not change article status or rewrite the public HTML pages.
+
+The sitemap and RSS generators:
 
 - read published records only;
 - exclude draft, review, and approved-but-unpublished content;
-- use the approved canonical-domain strategy;
+- default to the verified GitHub Pages project-preview base;
+- allow an explicit `BLOG_PUBLIC_BASE` override only when a later canonical-domain unit approves it;
 - produce deterministic output;
 - avoid changing article status;
 - validate every emitted URL;
@@ -201,11 +218,21 @@ When approved, generators must:
 
 Sitemap or RSS generation is not permission to deploy or change DNS.
 
+Generated outputs:
+
+- `blog/sitemap.xml`: blog homepage, the currently valid category page, and published article URLs only;
+- `blog/feed.xml`: published articles only;
+- `blog/data/qa-report.json`: full-library static and browser-QA evidence.
+
+The repository shell used during Unit 5J did not expose a standalone `node` command on `PATH`; the scripts were executed successfully through the available Node runtime. A normal publishing workstation or CI job must provide Node before using the documented commands.
+
 ## Current state
 
 - one real article is published;
-- 60 future articles are planned as drafts;
-- no article-generation tool exists;
+- 60 planned articles have generated draft files and remain unapproved;
+- draft public URLs remain null;
+- public blog and category grids still show the one published article only;
+- sitemap and RSS outputs contain published records only;
+- the final QA report currently records publishing-readiness blockers that require a later bounded correction;
 - no automatic publishing exists;
-- no sitemap or RSS generator exists;
 - no deployment or production setting is changed by this editorial foundation.
