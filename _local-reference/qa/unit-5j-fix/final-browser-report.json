@@ -1,0 +1,1143 @@
+{
+  "testedAt": "2026-07-29T20:02:03.342Z",
+  "viewports": [
+    "390x844",
+    "1440x1000"
+  ],
+  "pages": [
+    {
+      "path": "blog/social-media-strategy-template-for-small-business/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-choose-social-media-platforms-for-your-business/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-build-social-media-content-pillars/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-create-a-social-media-content-calendar/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/organic-and-paid-social-media-strategy/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-audience-research-guide/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-kpis-that-connect-to-business-goals/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-competitor-analysis/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/b2b-social-media-strategy-framework/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-strategy-audit-checklist/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-structure-meta-ads-campaigns/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/google-ads-vs-meta-ads/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/tiktok-ads-planning-guide/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/paid-social-funnel-strategy/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/small-budget-paid-advertising-plan/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/lead-generation-campaign-planning/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/meta-ads-troubleshooting-checklist/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/google-search-campaign-structure/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/privacy-aware-retargeting-strategy/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/paid-media-reporting-framework/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/shopify-cro-audit-checklist/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/shopify-product-page-cro/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-reduce-ecommerce-cart-abandonment/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-checkout-friction/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/landing-page-cro-for-paid-traffic/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-offer-testing-framework/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/mobile-ecommerce-conversion-optimization/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-site-speed-and-conversion/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-funnel-analysis/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/shopify-navigation-and-collection-page-cro/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ga4-ecommerce-measurement-plan/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/meta-pixel-event-planning-and-validation/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/meta-capi-vs-browser-tracking/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/marketing-attribution-models-explained/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/utm-governance-system/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/cross-channel-marketing-dashboard/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/marketing-tracking-audit-checklist/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/diagnosing-ad-platform-reporting-discrepancies/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/privacy-conscious-marketing-measurement/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/lead-generation-measurement-framework/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/creative-testing-framework-for-paid-ads/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-write-ad-hooks/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/creative-brief-for-performance-marketing/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-diagnose-creative-fatigue/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/content-marketing-customer-journey/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/content-repurposing-system/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/editorial-calendar-workflow/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/welcome-email-sequence-planning/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/abandoned-cart-email-strategy/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/email-segmentation-lifecycle-strategy/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-choose-marketing-automation-software/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/marketing-automation-workflow-map/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/crm-lead-nurturing-automation/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/seo-topic-clusters-customer-questions/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-seo-foundations/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/technical-seo-audit-priorities/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/client-acquisition-system-for-service-businesses/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/small-budget-marketing-plan/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/quarterly-marketing-review/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/marketing-operating-system-for-small-teams/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-strategy-template-for-small-business/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-choose-social-media-platforms-for-your-business/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-build-social-media-content-pillars/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-create-a-social-media-content-calendar/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/organic-and-paid-social-media-strategy/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-audience-research-guide/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-kpis-that-connect-to-business-goals/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-competitor-analysis/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/b2b-social-media-strategy-framework/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/social-media-strategy-audit-checklist/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-structure-meta-ads-campaigns/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/google-ads-vs-meta-ads/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/tiktok-ads-planning-guide/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/paid-social-funnel-strategy/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/small-budget-paid-advertising-plan/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/lead-generation-campaign-planning/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/meta-ads-troubleshooting-checklist/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/google-search-campaign-structure/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/privacy-aware-retargeting-strategy/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/paid-media-reporting-framework/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/shopify-cro-audit-checklist/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/shopify-product-page-cro/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-reduce-ecommerce-cart-abandonment/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-checkout-friction/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/landing-page-cro-for-paid-traffic/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-offer-testing-framework/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/mobile-ecommerce-conversion-optimization/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-site-speed-and-conversion/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-funnel-analysis/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/shopify-navigation-and-collection-page-cro/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ga4-ecommerce-measurement-plan/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/meta-pixel-event-planning-and-validation/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/meta-capi-vs-browser-tracking/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/marketing-attribution-models-explained/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/utm-governance-system/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/cross-channel-marketing-dashboard/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/marketing-tracking-audit-checklist/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/diagnosing-ad-platform-reporting-discrepancies/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/privacy-conscious-marketing-measurement/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/lead-generation-measurement-framework/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/creative-testing-framework-for-paid-ads/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-write-ad-hooks/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/creative-brief-for-performance-marketing/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-diagnose-creative-fatigue/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/content-marketing-customer-journey/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/content-repurposing-system/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/editorial-calendar-workflow/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/welcome-email-sequence-planning/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/abandoned-cart-email-strategy/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/email-segmentation-lifecycle-strategy/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-choose-marketing-automation-software/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/marketing-automation-workflow-map/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/crm-lead-nurturing-automation/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/seo-topic-clusters-customer-questions/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/ecommerce-seo-foundations/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/technical-seo-audit-priorities/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/client-acquisition-system-for-service-businesses/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/small-budget-marketing-plan/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/quarterly-marketing-review/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/marketing-operating-system-for-small-teams/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/category/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-create-a-social-media-marketing-plan-that-drives-results/index.html",
+      "viewport": "1440x1000",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/category/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    },
+    {
+      "path": "blog/how-to-create-a-social-media-marketing-plan-that-drives-results/index.html",
+      "viewport": "390x844",
+      "overflow": false,
+      "clipping": false,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "mobileMenu": true
+    }
+  ]
+}
