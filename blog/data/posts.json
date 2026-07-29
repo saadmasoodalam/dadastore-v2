@@ -201,5 +201,55 @@
     "title": "A Paid Media Reporting Framework Built Around Better Decisions",
     "excerpt": "Organize outcome, journey, delivery, creative, and data-quality signals around the decisions a campaign team needs to make.",
     "category": "Paid Media", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "shopify-cro-audit-checklist", "title": "A Practical Shopify CRO Audit Checklist",
+    "excerpt": "Review positioning, navigation, product discovery, product pages, trust, cart, checkout, mobile usability, speed, and measurement.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "shopify-product-page-cro", "title": "Shopify Product Page CRO: What to Improve and Why",
+    "excerpt": "Improve product-page clarity through offer presentation, imagery, information hierarchy, objections, trust, variants, and mobile interaction.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "how-to-reduce-ecommerce-cart-abandonment", "title": "How to Diagnose and Reduce Ecommerce Cart Abandonment",
+    "excerpt": "Investigate intent, unexpected costs, uncertainty, usability, payment context, technical problems, and follow-up without assuming one cause.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "ecommerce-checkout-friction", "title": "Ecommerce Checkout Friction: How to Find the Real Problems",
+    "excerpt": "Review checkout clarity, required effort, shipping and payment expectations, errors, trust, device behavior, and tracking quality.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "landing-page-cro-for-paid-traffic", "title": "Landing Page CRO for Paid Traffic: Message, Offer, and Journey",
+    "excerpt": "Align ad intent, message continuity, offer clarity, proof, friction, calls to action, mobile behavior, and measurement on paid landing pages.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "ecommerce-offer-testing-framework", "title": "An Ecommerce Offer Testing Framework for Better Decisions",
+    "excerpt": "Test value framing, bundles, incentives, guarantees, urgency, and presentation with clear hypotheses and honest interpretation.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "mobile-ecommerce-conversion-optimization", "title": "Mobile Ecommerce Conversion Optimization Checklist",
+    "excerpt": "Review mobile navigation, content hierarchy, product interaction, forms, cart, checkout, speed, accessibility, and measurement.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "ecommerce-site-speed-and-conversion", "title": "Ecommerce Site Speed and Conversion: A Practical Priority Guide",
+    "excerpt": "Connect performance symptoms, customer experience, templates, apps, media, testing, and implementation priorities without simplistic promises.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "ecommerce-funnel-analysis", "title": "How to Analyze an Ecommerce Funnel Without Guessing",
+    "excerpt": "Map acquisition, landing, browsing, product, cart, checkout, purchase, and retention signals while accounting for data-quality limits.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+  },
+  {
+    "slug": "shopify-navigation-and-collection-page-cro", "title": "Shopify Navigation and Collection Page CRO",
+    "excerpt": "Improve product discovery through clearer information architecture, menus, collections, filtering, sorting, merchandising, and mobile behavior.",
+    "category": "Ecommerce & CRO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
   }
 ]
