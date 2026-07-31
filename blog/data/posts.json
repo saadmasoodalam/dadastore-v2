@@ -130,7 +130,7 @@
     "slug": "google-ads-vs-meta-ads",
     "title": "Google Ads vs Meta Ads: How to Choose the Right Channel Role",
     "excerpt": "Compare demand capture, demand creation, audience context, creative requirements, landing journeys, and measurement before allocating budget.",
-    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./google-ads-vs-meta-ads/"
   },
   {
     "slug": "tiktok-ads-planning-guide",
@@ -148,13 +148,13 @@
     "slug": "small-budget-paid-advertising-plan",
     "title": "How to Plan Paid Advertising With a Small Budget",
     "excerpt": "Protect limited budget by narrowing the objective, audience, offer, channel, learning question, and review threshold.",
-    "category": "Paid Media", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./small-budget-paid-advertising-plan/"
   },
   {
     "slug": "lead-generation-campaign-planning",
     "title": "Lead Generation Campaign Planning: From Offer to Follow-Up",
     "excerpt": "Align audience qualification, offer, form experience, tracking, sales ownership, and follow-up before launching a lead campaign.",
-    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./lead-generation-campaign-planning/"
   },
   {
     "slug": "meta-ads-troubleshooting-checklist",
@@ -183,12 +183,12 @@
   {
     "slug": "shopify-cro-audit-checklist", "title": "A Practical Shopify CRO Audit Checklist",
     "excerpt": "Review positioning, navigation, product discovery, product pages, trust, cart, checkout, mobile usability, speed, and measurement.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./shopify-cro-audit-checklist/"
   },
   {
     "slug": "shopify-product-page-cro", "title": "Shopify Product Page CRO: What to Improve and Why",
     "excerpt": "Improve product-page clarity through offer presentation, imagery, information hierarchy, objections, trust, variants, and mobile interaction.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./shopify-product-page-cro/"
   },
   {
     "slug": "how-to-reduce-ecommerce-cart-abandonment", "title": "How to Diagnose and Reduce Ecommerce Cart Abandonment",
@@ -198,7 +198,7 @@
   {
     "slug": "ecommerce-checkout-friction", "title": "Ecommerce Checkout Friction: How to Find the Real Problems",
     "excerpt": "Review checkout clarity, required effort, shipping and payment expectations, errors, trust, device behavior, and tracking quality.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./ecommerce-checkout-friction/"
   },
   {
     "slug": "landing-page-cro-for-paid-traffic", "title": "Landing Page CRO for Paid Traffic: Message, Offer, and Journey",
@@ -253,7 +253,7 @@
   {
     "slug": "utm-governance-system", "title": "A Practical UTM Governance System for Marketing Teams",
     "excerpt": "Create consistent source, medium, campaign, content, and term conventions with ownership, documentation, validation, and change control.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./utm-governance-system/"
   },
   {
     "slug": "cross-channel-marketing-dashboard", "title": "How to Design a Cross-Channel Marketing Dashboard",
@@ -268,7 +268,7 @@
   {
     "slug": "diagnosing-ad-platform-reporting-discrepancies", "title": "How to Diagnose Ad Platform and Analytics Reporting Discrepancies",
     "excerpt": "Investigate attribution windows, identity, consent, time zones, event definitions, duplication, missing signals, and model differences.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./diagnosing-ad-platform-reporting-discrepancies/"
   },
   {
     "slug": "privacy-conscious-marketing-measurement", "title": "Privacy-Conscious Marketing Measurement: A Planning Framework",
@@ -283,7 +283,7 @@
   {
     "slug": "creative-testing-framework-for-paid-ads", "title": "A Creative Testing Framework for Paid Advertising",
     "excerpt": "Organize hooks, angles, formats, offers, variables, hypotheses, evidence thresholds, and learning records into a repeatable test system.",
-    "category": "Creative Strategy", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Creative Strategy", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./creative-testing-framework-for-paid-ads/"
   },
   {
     "slug": "how-to-write-ad-hooks", "title": "How to Write and Test Ad Hooks Without Chasing Novelty",
@@ -358,7 +358,7 @@
   {
     "slug": "technical-seo-audit-priorities", "title": "Technical SEO Audit Priorities for a Growing Website",
     "excerpt": "Prioritize accessibility to crawlers, indexation signals, site structure, internal links, performance, mobile behavior, duplication, and monitoring.",
-    "category": "SEO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "SEO", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./technical-seo-audit-priorities/"
   },
   {
     "slug": "client-acquisition-system-for-service-businesses", "title": "How to Build a Client Acquisition System for a Service Business",
