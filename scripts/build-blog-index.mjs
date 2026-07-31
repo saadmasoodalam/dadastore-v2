@@ -121,6 +121,7 @@ function claimContexts(text, regex) {
 export async function validateLibrary({ browserQa = null } = {}) {
   const { plan, posts, categories, rules } = await loadBlogData();
   const plannedDrafts = plan.filter((record) => /^Batch \d+$/.test(record.batch));
+  const remainingDrafts = plannedDrafts.filter((record) => record.status === "draft");
   const publishedPlan = plan.filter((record) => record.status === "published");
   const categoryTitles = new Set(categories.map((category) => category.title));
   const duplicateTitles = duplicateGroups(plan, "title");
@@ -233,7 +234,7 @@ export async function validateLibrary({ browserQa = null } = {}) {
   const draftPosts = posts.filter((post) => post.status === "draft");
   const draftUrlFailures = draftPosts.filter((post) => post.url !== null);
   const publicHtml = `${await readFile(path.join(BLOG_DIR, "index.html"), "utf8")}\n${await readFile(path.join(BLOG_DIR, "category", "index.html"), "utf8")}`;
-  const publiclyExposedDrafts = plannedDrafts.filter((record) => publicHtml.includes(record.slug)).map((record) => record.slug);
+  const publiclyExposedDrafts = remainingDrafts.filter((record) => publicHtml.includes(record.slug)).map((record) => record.slug);
   const orphanPostRecords = posts.filter((post) => !plan.some((record) => record.slug === post.slug)).map((post) => post.slug);
   const publishedWithoutPlan = publicIndex.filter((post) => !plan.some((record) => record.slug === post.slug)).map((post) => post.slug);
 
@@ -243,15 +244,15 @@ export async function validateLibrary({ browserQa = null } = {}) {
   const rssXml = await exists(rssFile) ? await readFile(rssFile, "utf8") : "";
   const sitemapEntryCount = (sitemapXml.match(/<url>/g) ?? []).length;
   const rssEntryCount = (rssXml.match(/<item>/g) ?? []).length;
-  const sitemapDraftLeaks = plannedDrafts.filter((record) => sitemapXml.includes(record.slug)).map((record) => record.slug);
-  const rssDraftLeaks = plannedDrafts.filter((record) => rssXml.includes(record.slug)).map((record) => record.slug);
+  const sitemapDraftLeaks = remainingDrafts.filter((record) => sitemapXml.includes(record.slug)).map((record) => record.slug);
+  const rssDraftLeaks = remainingDrafts.filter((record) => rssXml.includes(record.slug)).map((record) => record.slug);
 
   const browserFailures = browserQa
     ? browserQa.pages.filter((page) => page.overflow || page.clipping || page.consoleErrors || page.failedRequests || page.mobileMenu === false)
     : [];
   const criticalCount =
     (plannedDrafts.length !== 60 ? 1 : 0) +
-    (publishedPlan.length !== 1 ? 1 : 0) +
+    (publishedPlan.length !== publicIndex.length ? 1 : 0) +
     (plannedDrafts.filter((record) => record.generated === true).length !== 60 ? 1 : 0) +
     duplicateTitles.length + duplicateSlugs.length + missingMetadata.length + invalidCategories.length +
     wordCountFailures.length + brokenLinks.length + relatedReferenceFailures.length + placeholderFlags.length +
