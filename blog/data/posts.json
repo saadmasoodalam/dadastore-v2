@@ -92,11 +92,11 @@
     "title": "How to Run a Useful Social Media Competitor Analysis",
     "excerpt": "Analyze visible audience, message, content, offer, and journey patterns without copying competitor activity.",
     "category": "Social Media Strategy",
-    "date": null,
+    "date": "2026-08-01",
     "readingTime": "8 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./social-media-competitor-analysis/"
   },
   {
     "slug": "b2b-social-media-strategy-framework",
@@ -160,19 +160,19 @@
     "slug": "meta-ads-troubleshooting-checklist",
     "title": "Meta Ads Troubleshooting Checklist for Campaign Performance Problems",
     "excerpt": "Diagnose delivery, audience, creative, offer, landing-page, tracking, and review-process problems in a consistent order.",
-    "category": "Paid Media", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./meta-ads-troubleshooting-checklist/"
   },
   {
     "slug": "google-search-campaign-structure",
     "title": "Google Search Campaign Structure: A Practical Planning Framework",
     "excerpt": "Connect search intent, keyword themes, ads, landing pages, exclusions, conversion actions, and review decisions in a maintainable structure.",
-    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./google-search-campaign-structure/"
   },
   {
     "slug": "privacy-aware-retargeting-strategy",
     "title": "A Privacy-Aware Retargeting Strategy for Paid Media",
     "excerpt": "Plan remarketing around consent, audience relevance, message progression, frequency, exclusions, landing context, and measurement limits.",
-    "category": "Paid Media", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./privacy-aware-retargeting-strategy/"
   },
   {
     "slug": "paid-media-reporting-framework",
@@ -203,7 +203,7 @@
   {
     "slug": "landing-page-cro-for-paid-traffic", "title": "Landing Page CRO for Paid Traffic: Message, Offer, and Journey",
     "excerpt": "Align ad intent, message continuity, offer clarity, proof, friction, calls to action, mobile behavior, and measurement on paid landing pages.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./landing-page-cro-for-paid-traffic/"
   },
   {
     "slug": "ecommerce-offer-testing-framework", "title": "An Ecommerce Offer Testing Framework for Better Decisions",
@@ -218,12 +218,12 @@
   {
     "slug": "ecommerce-site-speed-and-conversion", "title": "Ecommerce Site Speed and Conversion: A Practical Priority Guide",
     "excerpt": "Connect performance symptoms, customer experience, templates, apps, media, testing, and implementation priorities without simplistic promises.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./ecommerce-site-speed-and-conversion/"
   },
   {
     "slug": "ecommerce-funnel-analysis", "title": "How to Analyze an Ecommerce Funnel Without Guessing",
     "excerpt": "Map acquisition, landing, browsing, product, cart, checkout, purchase, and retention signals while accounting for data-quality limits.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./ecommerce-funnel-analysis/"
   },
   {
     "slug": "shopify-navigation-and-collection-page-cro", "title": "Shopify Navigation and Collection Page CRO",
@@ -248,7 +248,7 @@
   {
     "slug": "marketing-attribution-models-explained", "title": "Marketing Attribution Models: What They Explain and What They Miss",
     "excerpt": "Compare attribution perspectives, assumptions, blind spots, decision uses, and the evidence needed beyond a single reported model.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./marketing-attribution-models-explained/"
   },
   {
     "slug": "utm-governance-system", "title": "A Practical UTM Governance System for Marketing Teams",
@@ -263,7 +263,7 @@
   {
     "slug": "marketing-tracking-audit-checklist", "title": "Marketing Tracking Audit Checklist",
     "excerpt": "Review measurement questions, tags, events, parameters, consent, destinations, platform connections, naming, data quality, and ownership.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./marketing-tracking-audit-checklist/"
   },
   {
     "slug": "diagnosing-ad-platform-reporting-discrepancies", "title": "How to Diagnose Ad Platform and Analytics Reporting Discrepancies",
@@ -273,7 +273,7 @@
   {
     "slug": "privacy-conscious-marketing-measurement", "title": "Privacy-Conscious Marketing Measurement: A Planning Framework",
     "excerpt": "Coordinate consent, data minimization, platform signals, analytics, documentation, access, retention, and honest interpretation.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./privacy-conscious-marketing-measurement/"
   },
   {
     "slug": "lead-generation-measurement-framework", "title": "A Lead Generation Measurement Framework From Click to Sales Follow-Up",
