@@ -69,18 +69,18 @@
 <p>This guide supports prioritization, not a universal technical prescription. Rendering architecture, international targeting, migrations, large crawl-control changes, and platform-specific constraints may require qualified SEO and engineering review. Confirm the site’s intended behavior and rollback path before changing signals that affect many URLs.</p>
 <h2 id="section-1">Define scope and important page groups</h2>
 <p>
-<strong>List templates, markets, subdomains, and business priorities.</strong> Use measurement that matches the responsibility and avoid turning a platform report into a complete business conclusion. Combine quantitative signals with operational and customer context where relevant.</p>
+<strong>List templates, markets, subdomains, and business priorities.</strong> Separate product, collection, editorial, account, utility, and campaign page groups. Note which groups support acquisition or customer tasks so crawl and indexation findings can be prioritized against real site responsibilities.</p>
 <p>
-<strong>Choose representative URLs for every page type.</strong> Start with a boundary small enough to validate and maintain. Expand only after ownership, naming, handoffs, exception behavior, and rollback are understood.</p>
+<strong>Choose representative URLs for every page type.</strong> Include healthy, newly published, redirected, canonicalized, paginated, filtered, localized, and error-state examples where relevant. A sample should expose template behavior and known exceptions before a crawler count is generalized to the whole site.</p>
 <p>
-<strong>Record access, tools, and known platform constraints.</strong> Revisit the rule when the product, market, policy, platform, customer journey, or team changes. Version material changes so older evidence remains interpretable.</p>
+<strong>Record access, tools, and known platform constraints.</strong> Document crawler settings, authentication, robots restrictions, rendering mode, log availability, analytics limits, release dates, and CMS ownership. Different tools may observe different URL sets, so every export needs its configuration and timestamp.</p>
 <h2 id="section-2">Verify crawler access and indexation intent</h2>
 <p>
-<strong>Compare robots, status, canonical, and indexation signals.</strong> Record the decision in the working system rather than leaving it in a meeting transcript. Link dependencies and next actions so the design can move from discussion into accountable operation.</p>
+<strong>Compare robots, status, canonical, and indexation signals.</strong> For each representative URL, inspect the HTTP status, robots directives, canonical target, sitemap membership, rendered content, and observed search-engine state. Conflicting signals deserve higher priority than a single tool warning.</p>
 <p>
-<strong>Check sitemaps against intended indexable inventory.</strong> Protect privacy, accessibility, and accurate claims throughout the process. Technical possibility does not remove the need for consent, data minimization, clear language, and proportionate evidence.</p>
+<strong>Check sitemaps against intended indexable inventory.</strong> Include canonical, indexable URLs that return a successful status and remove redirects, errors, duplicates, and intentionally excluded pages. Compare sitemap groups with actual templates so missing inventory is not hidden inside one aggregate total.</p>
 <p>
-<strong>Separate unavailable pages from intentionally excluded pages.</strong> Write this as a shared rule with a named source, owner, and review date. The team should be able to distinguish an approved decision from an assumption that still needs evidence.</p>
+<strong>Separate unavailable pages from intentionally excluded pages.</strong> A `404` or `410` can be correct for removed content, while a blocked priority page may be a defect. Record the intended state, inbound links, replacement path, and whether a redirect would genuinely help the visitor.</p>
 <div class="blog-post-hero" role="img" aria-label="Decision tree">
 <span>Decision tree</span>
 <div class="blog-post-visual blog-visual-decision" aria-hidden="true">
@@ -93,46 +93,47 @@
 </div>
 <h2 id="section-3">Use a decision tree to classify findings</h2>
 <p>
-<strong>Classify block, conflict, degradation, or observation.</strong> Turn the idea into an observable workflow with a clear input, action, and output. Test a normal path, an edge case, and a failure path before depending on it in production.</p>
+<strong>Classify block, conflict, degradation, or observation.</strong> A block prevents intended discovery or rendering; a conflict sends contradictory signals; a degradation weakens quality or efficiency; an observation needs more evidence. This vocabulary keeps severity tied to behavior instead of tool color.</p>
 <p>
-<strong>Tie severity to affected pages and customer or search impact.</strong> Keep supporting evidence and limitations beside the recommendation. State what would change the decision so the plan can adapt without rewriting history after every result.</p>
+<strong>Tie severity to affected pages and customer or search impact.</strong> Prioritize an issue by affected template count, page importance, discovery path, customer consequence, release risk, and reversibility. A defect on a revenue-critical template can outrank a larger set of low-value utility URLs.</p>
 <p>
-<strong>Avoid calling every tool warning critical.</strong> Review this across audience, offer, channel, destination, data, and operating capacity. Movement in one layer can make another appear stronger or weaker without proving the assumed cause.</p>
+<strong>Avoid calling every tool warning critical.</strong> Reproduce the behavior in HTML, headers, rendered output, internal links, or logs before opening a high-priority ticket. Some warnings describe optional improvements, unsupported assumptions, or pages intentionally outside the indexable inventory.</p>
 <h2 id="section-4">Inspect structure and internal discovery</h2>
 <p>
-<strong>Trace navigation, breadcrumbs, pagination, and contextual links.</strong> Define a practical acceptance check and preserve an example. Specific review criteria help different owners reach consistent conclusions without removing professional judgment.</p>
+<strong>Trace navigation, breadcrumbs, pagination, and contextual links.</strong> Verify that important pages can be reached through crawlable links with descriptive anchors and stable URLs. Check whether pagination and faceted paths expose useful inventory without generating uncontrolled duplicate combinations.</p>
 <p>
-<strong>Find important pages reached only through search or scripts.</strong> Use measurement that matches the responsibility and avoid turning a platform report into a complete business conclusion. Combine quantitative signals with operational and customer context where relevant.</p>
+<strong>Find important pages reached only through search or scripts.</strong> A page submitted in a sitemap but absent from site navigation may receive weak internal support. Confirm that JavaScript interactions produce real crawlable links when discovery depends on them, and provide an HTML path for essential destinations.</p>
 <p>
-<strong>Inspect redirects, broken links, and depth patterns.</strong> Start with a boundary small enough to validate and maintain. Expand only after ownership, naming, handoffs, exception behavior, and rollback are understood.</p>
+<strong>Inspect redirects, broken links, and depth patterns.</strong> Locate loops, long chains, temporary redirects used as permanent moves, internal links to redirected URLs, and important pages buried behind unnecessary steps. Correct the source link where possible instead of adding another redirect layer.</p>
 <h2 id="section-5">Review duplication and signal consistency</h2>
 <p>
-<strong>Group parameters, variants, duplicates, and near duplicates.</strong> Revisit the rule when the product, market, policy, platform, customer journey, or team changes. Version material changes so older evidence remains interpretable.</p>
+<strong>Group parameters, variants, duplicates, and near duplicates.</strong> Identify which URL differences represent real content and which come from sorting, tracking, filters, print views, case, or session state. The recommendation may be canonicalization, redirect, parameter control, internal-link cleanup, or deliberate retention—not one blanket rule.</p>
 <p>
-<strong>Confirm canonical and redirect targets are stable and useful.</strong> Record the decision in the working system rather than leaving it in a meeting transcript. Link dependencies and next actions so the design can move from discussion into accountable operation.</p>
+<strong>Confirm canonical and redirect targets are stable and useful.</strong> Targets should return a successful status, remain indexable when intended, match the content relationship, and avoid chains. Self-referencing canonicals can clarify preferred URLs, but they cannot repair materially different or inaccessible content.</p>
 <p>
-<strong>Avoid blanket rules that hide legitimate pages.</strong> Protect privacy, accessibility, and accurate claims throughout the process. Technical possibility does not remove the need for consent, data minimization, clear language, and proportionate evidence.</p>
+<strong>Avoid blanket rules that hide legitimate pages.</strong> Before noindexing, blocking, or canonicalizing an entire pattern, sample exceptions and confirm how the template supports customers and search demand. Large rules need a reversible release plan and post-change crawl validation.</p>
+<p><strong>Validate structured data against visible content.</strong> Check that supported schema types describe information users can actually see, required properties are populated accurately, URLs and identifiers are stable, and markup updates with the page. Valid syntax does not guarantee eligibility or a search enhancement.</p>
 <h2 id="section-6">Test rendering, mobile behavior, and performance</h2>
 <p>
-<strong>Test rendered content and interaction on narrow screens.</strong> Write this as a shared rule with a named source, owner, and review date. The team should be able to distinguish an approved decision from an assumption that still needs evidence.</p>
+<strong>Test rendered content and interaction on narrow screens.</strong> Confirm that primary copy, links, product data, navigation, pagination, and structured content appear in the rendered DOM and remain usable on mobile. Inspect lazy-loaded content and client-side routing rather than assuming source HTML tells the complete story.</p>
 <p>
-<strong>Measure representative templates under realistic conditions.</strong> Turn the idea into an observable workflow with a clear input, action, and output. Test a normal path, an edge case, and a failure path before depending on it in production.</p>
+<strong>Measure representative templates under realistic conditions.</strong> Test key page groups with production-like assets, third-party scripts, connection limits, and cache states. Separate laboratory diagnostics from field evidence, and avoid presenting one fast test run as the experience of every visitor or crawler.</p>
 <p>
-<strong>Connect performance work to customer and crawl behavior.</strong> Keep supporting evidence and limitations beside the recommendation. State what would change the decision so the plan can adapt without rewriting history after every result.</p>
+<strong>Connect performance work to customer and crawl behavior.</strong> Prioritize blocking resources, oversized media, unstable layout, delayed interaction, or rendering failures where they affect important templates. Performance scores guide investigation; they do not prove ranking or conversion impact on their own.</p>
 <h2 id="section-7">Turn findings into a risk-based backlog</h2>
 <p>
-<strong>Assign evidence, owner, acceptance test, and rollback.</strong> Review this across audience, offer, channel, destination, data, and operating capacity. Movement in one layer can make another appear stronger or weaker without proving the assumed cause.</p>
+<strong>Assign evidence, owner, acceptance test, and rollback.</strong> Each backlog item should name affected templates, example URLs, observed and expected signals, likely root cause, responsible team, release dependency, validation method, and safe reversal path.</p>
 <p>
-<strong>Separate quick corrections from architectural changes.</strong> Define a practical acceptance check and preserve an example. Specific review criteria help different owners reach consistent conclusions without removing professional judgment.</p>
+<strong>Separate quick corrections from architectural changes.</strong> Updating internal links to final URLs is different from changing a routing layer, rendering framework, faceted-navigation model, or international structure. Architectural work needs wider testing, staged release, and cross-team ownership.</p>
 <p>
-<strong>Do not estimate impact with unsupported precision.</strong> Use measurement that matches the responsibility and avoid turning a platform report into a complete business conclusion. Combine quantitative signals with operational and customer context where relevant.</p>
+<strong>Do not estimate impact with unsupported precision.</strong> Use reach, page importance, severity, confidence, effort, and release risk as explicit inputs. Describe the expected technical improvement without attaching an invented traffic, ranking, or revenue number.</p>
 <h2 id="section-8">Monitor fixes and prevent regression</h2>
 <p>
-<strong>Retest from the same sample and method.</strong> Start with a boundary small enough to validate and maintain. Expand only after ownership, naming, handoffs, exception behavior, and rollback are understood.</p>
+<strong>Retest from the same sample and method.</strong> Compare the original URL set, crawler configuration, rendered checks, headers, and acceptance criteria after release. Add edge cases only after confirming the planned correction on the original evidence set.</p>
 <p>
-<strong>Watch coverage, crawl, templates, and release annotations.</strong> Revisit the rule when the product, market, policy, platform, customer journey, or team changes. Version material changes so older evidence remains interpretable.</p>
+<strong>Watch coverage, crawl, templates, and release annotations.</strong> Monitor status-code distribution, sitemap health, canonical targets, blocked resources, rendered templates, broken internal links, and structured-data errors. Annotate releases so a new pattern can be connected to an actual change window.</p>
 <p>
-<strong>Keep resolved limitations in the audit history.</strong> Record the decision in the working system rather than leaving it in a meeting transcript. Link dependencies and next actions so the design can move from discussion into accountable operation.</p>
+<strong>Keep resolved limitations in the audit history.</strong> Record what was fixed, what was accepted, what remains unverified, and which condition should reopen the issue. Historical context prevents the next audit from treating an intentional constraint as a newly discovered emergency.</p>
 <h2>Write findings that engineering can act on</h2>
 <p>Every finding should include the affected template or URL sample, observed behavior, expected behavior, evidence, scope method, likely cause if confirmed, risk, owner, and acceptance test. Separate direct observation from inference. Replace vague instructions such as “improve crawlability” with the conflicting signals and the state validation should demonstrate.</p>
 <p>Group findings that share one root cause so the backlog does not become hundreds of duplicate tickets. Validate scale before prioritizing a template issue and inspect exceptions before recommending a global rule. Include response headers, rendered output, crawl extracts, or screenshots when they help reproduce the observation, removing credentials and personal data.</p>
