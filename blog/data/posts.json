@@ -48,11 +48,11 @@
     "title": "How to Create a Social Media Content Calendar Your Team Can Maintain",
     "excerpt": "Build a realistic publishing system around themes, ownership, source material, approvals, distribution, and review instead of arbitrary volume.",
     "category": "Social Media Strategy",
-    "date": null,
+    "date": "2026-08-02",
     "readingTime": "9 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./how-to-create-a-social-media-content-calendar/"
   },
   {
     "slug": "organic-and-paid-social-media-strategy",
@@ -103,11 +103,11 @@
     "title": "A B2B Social Media Strategy Framework for Complex Buying Journeys",
     "excerpt": "Coordinate buying-group insight, expert content, channel roles, decision support, demand capture, and measurement.",
     "category": "Social Media Strategy",
-    "date": null,
+    "date": "2026-08-02",
     "readingTime": "10 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./b2b-social-media-strategy-framework/"
   },
   {
     "slug": "social-media-strategy-audit-checklist",
@@ -136,7 +136,7 @@
     "slug": "tiktok-ads-planning-guide",
     "title": "TikTok Ads Planning Guide for a First Campaign",
     "excerpt": "Plan a first TikTok Ads campaign around audience context, creative capacity, offer fit, landing experience, testing, and measurement.",
-    "category": "Paid Media", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./tiktok-ads-planning-guide/"
   },
   {
     "slug": "paid-social-funnel-strategy",
@@ -193,7 +193,7 @@
   {
     "slug": "how-to-reduce-ecommerce-cart-abandonment", "title": "How to Diagnose and Reduce Ecommerce Cart Abandonment",
     "excerpt": "Investigate intent, unexpected costs, uncertainty, usability, payment context, technical problems, and follow-up without assuming one cause.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./how-to-reduce-ecommerce-cart-abandonment/"
   },
   {
     "slug": "ecommerce-checkout-friction", "title": "Ecommerce Checkout Friction: How to Find the Real Problems",
@@ -243,7 +243,7 @@
   {
     "slug": "meta-capi-vs-browser-tracking", "title": "Meta CAPI vs Browser Tracking: Roles, Limits, and Planning",
     "excerpt": "Understand how browser and server-side signals can complement each other, where duplication risks appear, and what validation still requires.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./meta-capi-vs-browser-tracking/"
   },
   {
     "slug": "marketing-attribution-models-explained", "title": "Marketing Attribution Models: What They Explain and What They Miss",
@@ -258,7 +258,7 @@
   {
     "slug": "cross-channel-marketing-dashboard", "title": "How to Design a Cross-Channel Marketing Dashboard",
     "excerpt": "Build a dashboard hierarchy around business outcomes, journey actions, channel roles, diagnostics, data quality, and review decisions.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-02", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./cross-channel-marketing-dashboard/"
   },
   {
     "slug": "marketing-tracking-audit-checklist", "title": "Marketing Tracking Audit Checklist",
@@ -278,7 +278,7 @@
   {
     "slug": "lead-generation-measurement-framework", "title": "A Lead Generation Measurement Framework From Click to Sales Follow-Up",
     "excerpt": "Connect campaign, form, qualification, response time, pipeline, and outcome signals while defining ownership and data limitations.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./lead-generation-measurement-framework/"
   },
   {
     "slug": "creative-testing-framework-for-paid-ads", "title": "A Creative Testing Framework for Paid Advertising",
@@ -303,7 +303,7 @@
   {
     "slug": "content-marketing-customer-journey", "title": "How to Map Content Marketing to the Customer Journey",
     "excerpt": "Assign content roles to discovery, problem understanding, solution evaluation, decision support, onboarding, and retention.",
-    "category": "Content Marketing", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Content Marketing", "date": "2026-08-02", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./content-marketing-customer-journey/"
   },
   {
     "slug": "content-repurposing-system", "title": "A Content Repurposing System That Preserves Meaning",
@@ -318,7 +318,7 @@
   {
     "slug": "welcome-email-sequence-planning", "title": "How to Plan a Welcome Email Sequence",
     "excerpt": "Design a welcome journey around subscriber context, expectations, value, segmentation, message order, next actions, and measurement.",
-    "category": "Email Marketing", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Email Marketing", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./welcome-email-sequence-planning/"
   },
   {
     "slug": "abandoned-cart-email-strategy", "title": "Abandoned Cart Email Strategy: Timing, Message, and Measurement",
@@ -338,7 +338,7 @@
   {
     "slug": "marketing-automation-workflow-map", "title": "How to Map a Marketing Automation Workflow Before Building It",
     "excerpt": "Define triggers, eligibility, data inputs, branches, messages, delays, ownership, exits, exceptions, and human review before implementation.",
-    "category": "Marketing Automation", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Marketing Automation", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./marketing-automation-workflow-map/"
   },
   {
     "slug": "crm-lead-nurturing-automation", "title": "CRM Lead Nurturing Automation: A Practical Planning Guide",
