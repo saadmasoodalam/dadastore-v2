@@ -59,11 +59,11 @@
     "title": "How Organic and Paid Social Media Should Work Together",
     "excerpt": "Define distinct roles for organic learning, audience conversation, paid distribution, remarketing, and campaign measurement.",
     "category": "Social Media Strategy",
-    "date": null,
+    "date": "2026-08-01",
     "readingTime": "9 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./organic-and-paid-social-media-strategy/"
   },
   {
     "slug": "social-media-audience-research-guide",
@@ -114,17 +114,17 @@
     "title": "Social Media Strategy Audit Checklist: What to Review and Why",
     "excerpt": "Review goals, audience evidence, channel roles, content, workflows, journeys, tracking, and decision quality.",
     "category": "Social Media Strategy",
-    "date": null,
+    "date": "2026-08-01",
     "readingTime": "8 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./social-media-strategy-audit-checklist/"
   },
   {
     "slug": "how-to-structure-meta-ads-campaigns",
     "title": "How to Structure Meta Ads Campaigns Around Clear Decisions",
     "excerpt": "Organize Meta Ads around objectives, audiences, creative questions, budget control, measurement, and a defined review process.",
-    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./how-to-structure-meta-ads-campaigns/"
   },
   {
     "slug": "google-ads-vs-meta-ads",
@@ -142,7 +142,7 @@
     "slug": "paid-social-funnel-strategy",
     "title": "How to Build a Paid Social Funnel Without Losing the Customer Journey",
     "excerpt": "Connect discovery, education, offer presentation, landing pages, remarketing, and conversion signals in one coherent paid social journey.",
-    "category": "Paid Media", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./paid-social-funnel-strategy/"
   },
   {
     "slug": "small-budget-paid-advertising-plan",
@@ -178,7 +178,7 @@
     "slug": "paid-media-reporting-framework",
     "title": "A Paid Media Reporting Framework Built Around Better Decisions",
     "excerpt": "Organize outcome, journey, delivery, creative, and data-quality signals around the decisions a campaign team needs to make.",
-    "category": "Paid Media", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Paid Media", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./paid-media-reporting-framework/"
   },
   {
     "slug": "shopify-cro-audit-checklist", "title": "A Practical Shopify CRO Audit Checklist",
@@ -208,12 +208,12 @@
   {
     "slug": "ecommerce-offer-testing-framework", "title": "An Ecommerce Offer Testing Framework for Better Decisions",
     "excerpt": "Test value framing, bundles, incentives, guarantees, urgency, and presentation with clear hypotheses and honest interpretation.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./ecommerce-offer-testing-framework/"
   },
   {
     "slug": "mobile-ecommerce-conversion-optimization", "title": "Mobile Ecommerce Conversion Optimization Checklist",
     "excerpt": "Review mobile navigation, content hierarchy, product interaction, forms, cart, checkout, speed, accessibility, and measurement.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./mobile-ecommerce-conversion-optimization/"
   },
   {
     "slug": "ecommerce-site-speed-and-conversion", "title": "Ecommerce Site Speed and Conversion: A Practical Priority Guide",
@@ -228,17 +228,17 @@
   {
     "slug": "shopify-navigation-and-collection-page-cro", "title": "Shopify Navigation and Collection Page CRO",
     "excerpt": "Improve product discovery through clearer information architecture, menus, collections, filtering, sorting, merchandising, and mobile behavior.",
-    "category": "Ecommerce & CRO", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./shopify-navigation-and-collection-page-cro/"
   },
   {
     "slug": "ga4-ecommerce-measurement-plan", "title": "How to Build a GA4 Ecommerce Measurement Plan",
     "excerpt": "Define business questions, journey events, naming, parameters, validation, reporting, ownership, and known limits before configuring GA4.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./ga4-ecommerce-measurement-plan/"
   },
   {
     "slug": "meta-pixel-event-planning-and-validation", "title": "Meta Pixel Event Planning and Validation Guide",
     "excerpt": "Plan meaningful events, parameters, deduplication responsibilities, test cases, consent behavior, and ongoing validation before relying on Pixel data.",
-    "category": "Tracking & Analytics", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./meta-pixel-event-planning-and-validation/"
   },
   {
     "slug": "meta-capi-vs-browser-tracking", "title": "Meta CAPI vs Browser Tracking: Roles, Limits, and Planning",
