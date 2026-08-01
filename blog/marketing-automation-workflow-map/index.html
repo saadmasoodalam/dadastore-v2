@@ -145,12 +145,12 @@
 <p>Before activation, run a release review that names the enabled audience, deployment window, monitoring owner, alert thresholds, pause control, rollback steps, and evidence needed to close the review. Start with a bounded population or event set where the platform permits it. Expansion should depend on clean execution and understandable exceptions, not simply on the absence of complaints. This makes the workflow map an operating control rather than a diagram that becomes stale after launch.</p>
 <h2 id="mistakes">Common mistakes to avoid</h2>
 <ul>
-<li>Leaving &quot;name the observable event that begins the workflow&quot; undefined or without accountable ownership.</li>
-<li>Leaving &quot;confirm the event represents the intended business meaning&quot; undefined or without accountable ownership.</li>
-<li>Leaving &quot;avoid using page activity as a stronger lifecycle outcome&quot; undefined or without accountable ownership.</li>
-<li>Leaving &quot;list consent, market, product, and relationship requirements&quot; undefined or without accountable ownership.</li>
-<li>Leaving &quot;define suppressions before the first message is sent&quot; undefined or without accountable ownership.</li>
-<li>Leaving &quot;create a safe default when eligibility data is unavailable&quot; undefined or without accountable ownership.</li>
+<li><strong>Starting from an ambiguous trigger:</strong> name the observable event, producing system, identifier, and business meaning before connecting any action.</li>
+<li><strong>Guessing when eligibility data is missing:</strong> pause, suppress, or route the record for review instead of inferring consent, market, or relationship state.</li>
+<li><strong>Allowing retries or loops to run without limits:</strong> cap repetitions, define cooling periods, and send unresolved failures to an explicit exit or queue.</li>
+<li><strong>Branching on stale or unowned fields:</strong> verify source, freshness, allowed values, and correction ownership before a property controls customer treatment.</li>
+<li><strong>Handing work to an unstaffed human queue:</strong> define service expectations, diagnostic context, reassignment, timeout behavior, and what automation does while waiting.</li>
+<li><strong>Launching without incident and rollback evidence:</strong> test failure paths, record the enabled version, and name the pause control, monitoring owner, and recovery criteria.</li>
 </ul>
 <h2 id="checklist">Practical review checklist</h2>
 <ul>
