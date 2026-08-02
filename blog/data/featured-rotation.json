@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "timeZone": "UTC",
+  "weekStarts": "Monday",
+  "lookbackWeeks": 8,
+  "minimumStrictPool": 9,
+  "generatedAt": "2026-07-27T00:00:00.000Z",
+  "generatedThroughWeek": "2027-07-26",
+  "fallbackSlug": "how-to-create-a-social-media-marketing-plan-that-drives-results",
+  "assignments": [
+    {
+      "week": "2026-07-27",
+      "slug": "how-to-create-a-social-media-marketing-plan-that-drives-results"
+    },
+    {
+      "week": "2026-08-03",
+      "slug": "abandoned-cart-email-strategy"
+    },
+    {
+      "week": "2026-08-10",
+      "slug": "b2b-social-media-strategy-framework"
+    },
+    {
+      "week": "2026-08-17",
+      "slug": "client-acquisition-system-for-service-businesses"
+    },
+    {
+      "week": "2026-08-24",
+      "slug": "content-marketing-customer-journey"
+    },
+    {
+      "week": "2026-08-31",
+      "slug": "content-repurposing-system"
+    },
+    {
+      "week": "2026-09-07",
+      "slug": "creative-brief-for-performance-marketing"
+    },
+    {
+      "week": "2026-09-14",
+      "slug": "creative-testing-framework-for-paid-ads"
+    },
+    {
+      "week": "2026-09-21",
+      "slug": "crm-lead-nurturing-automation"
+    },
+    {
+      "week": "2026-09-28",
+      "slug": "cross-channel-marketing-dashboard"
+    },
+    {
+      "week": "2026-10-05",
+      "slug": "diagnosing-ad-platform-reporting-discrepancies"
+    },
+    {
+      "week": "2026-10-12",
+      "slug": "ecommerce-checkout-friction"
+    },
+    {
+      "week": "2026-10-19",
+      "slug": "ecommerce-funnel-analysis"
+    },
+    {
+      "week": "2026-10-26",
+      "slug": "ecommerce-offer-testing-framework"
+    },
+    {
+      "week": "2026-11-02",
+      "slug": "ecommerce-seo-foundations"
+    },
+    {
+      "week": "2026-11-09",
+      "slug": "ecommerce-site-speed-and-conversion"
+    },
+    {
+      "week": "2026-11-16",
+      "slug": "editorial-calendar-workflow"
+    },
+    {
+      "week": "2026-11-23",
+      "slug": "email-segmentation-lifecycle-strategy"
+    },
+    {
+      "week": "2026-11-30",
+      "slug": "ga4-ecommerce-measurement-plan"
+    },
+    {
+      "week": "2026-12-07",
+      "slug": "google-ads-vs-meta-ads"
+    },
+    {
+      "week": "2026-12-14",
+      "slug": "google-search-campaign-structure"
+    },
+    {
+      "week": "2026-12-21",
+      "slug": "how-to-build-social-media-content-pillars"
+    },
+    {
+      "week": "2026-12-28",
+      "slug": "how-to-choose-marketing-automation-software"
+    },
+    {
+      "week": "2027-01-04",
+      "slug": "how-to-choose-social-media-platforms-for-your-business"
+    },
+    {
+      "week": "2027-01-11",
+      "slug": "how-to-create-a-social-media-content-calendar"
+    },
+    {
+      "week": "2027-01-18",
+      "slug": "how-to-diagnose-creative-fatigue"
+    },
+    {
+      "week": "2027-01-25",
+      "slug": "how-to-reduce-ecommerce-cart-abandonment"
+    },
+    {
+      "week": "2027-02-01",
+      "slug": "how-to-structure-meta-ads-campaigns"
+    },
+    {
+      "week": "2027-02-08",
+      "slug": "how-to-write-ad-hooks"
+    },
+    {
+      "week": "2027-02-15",
+      "slug": "landing-page-cro-for-paid-traffic"
+    },
+    {
+      "week": "2027-02-22",
+      "slug": "lead-generation-campaign-planning"
+    },
+    {
+      "week": "2027-03-01",
+      "slug": "lead-generation-measurement-framework"
+    },
+    {
+      "week": "2027-03-08",
+      "slug": "marketing-attribution-models-explained"
+    },
+    {
+      "week": "2027-03-15",
+      "slug": "marketing-automation-workflow-map"
+    },
+    {
+      "week": "2027-03-22",
+      "slug": "marketing-operating-system-for-small-teams"
+    },
+    {
+      "week": "2027-03-29",
+      "slug": "marketing-tracking-audit-checklist"
+    },
+    {
+      "week": "2027-04-05",
+      "slug": "meta-ads-troubleshooting-checklist"
+    },
+    {
+      "week": "2027-04-12",
+      "slug": "meta-capi-vs-browser-tracking"
+    },
+    {
+      "week": "2027-04-19",
+      "slug": "meta-pixel-event-planning-and-validation"
+    },
+    {
+      "week": "2027-04-26",
+      "slug": "mobile-ecommerce-conversion-optimization"
+    },
+    {
+      "week": "2027-05-03",
+      "slug": "organic-and-paid-social-media-strategy"
+    },
+    {
+      "week": "2027-05-10",
+      "slug": "paid-media-reporting-framework"
+    },
+    {
+      "week": "2027-05-17",
+      "slug": "paid-social-funnel-strategy"
+    },
+    {
+      "week": "2027-05-24",
+      "slug": "privacy-aware-retargeting-strategy"
+    },
+    {
+      "week": "2027-05-31",
+      "slug": "privacy-conscious-marketing-measurement"
+    },
+    {
+      "week": "2027-06-07",
+      "slug": "quarterly-marketing-review"
+    },
+    {
+      "week": "2027-06-14",
+      "slug": "seo-topic-clusters-customer-questions"
+    },
+    {
+      "week": "2027-06-21",
+      "slug": "shopify-cro-audit-checklist"
+    },
+    {
+      "week": "2027-06-28",
+      "slug": "shopify-navigation-and-collection-page-cro"
+    },
+    {
+      "week": "2027-07-05",
+      "slug": "shopify-product-page-cro"
+    },
+    {
+      "week": "2027-07-12",
+      "slug": "small-budget-marketing-plan"
+    },
+    {
+      "week": "2027-07-19",
+      "slug": "small-budget-paid-advertising-plan"
+    },
+    {
+      "week": "2027-07-26",
+      "slug": "social-media-audience-research-guide"
+    }
+  ]
+}
