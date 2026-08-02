@@ -124,260 +124,550 @@
     "slug": "how-to-structure-meta-ads-campaigns",
     "title": "How to Structure Meta Ads Campaigns Around Clear Decisions",
     "excerpt": "Organize Meta Ads around objectives, audiences, creative questions, budget control, measurement, and a defined review process.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./how-to-structure-meta-ads-campaigns/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./how-to-structure-meta-ads-campaigns/"
   },
   {
     "slug": "google-ads-vs-meta-ads",
     "title": "Google Ads vs Meta Ads: How to Choose the Right Channel Role",
     "excerpt": "Compare demand capture, demand creation, audience context, creative requirements, landing journeys, and measurement before allocating budget.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./google-ads-vs-meta-ads/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./google-ads-vs-meta-ads/"
   },
   {
     "slug": "tiktok-ads-planning-guide",
     "title": "TikTok Ads Planning Guide for a First Campaign",
     "excerpt": "Plan a first TikTok Ads campaign around audience context, creative capacity, offer fit, landing experience, testing, and measurement.",
-    "category": "Paid Media", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./tiktok-ads-planning-guide/"
+    "category": "Paid Media",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./tiktok-ads-planning-guide/"
   },
   {
     "slug": "paid-social-funnel-strategy",
     "title": "How to Build a Paid Social Funnel Without Losing the Customer Journey",
     "excerpt": "Connect discovery, education, offer presentation, landing pages, remarketing, and conversion signals in one coherent paid social journey.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./paid-social-funnel-strategy/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./paid-social-funnel-strategy/"
   },
   {
     "slug": "small-budget-paid-advertising-plan",
     "title": "How to Plan Paid Advertising With a Small Budget",
     "excerpt": "Protect limited budget by narrowing the objective, audience, offer, channel, learning question, and review threshold.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./small-budget-paid-advertising-plan/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./small-budget-paid-advertising-plan/"
   },
   {
     "slug": "lead-generation-campaign-planning",
     "title": "Lead Generation Campaign Planning: From Offer to Follow-Up",
     "excerpt": "Align audience qualification, offer, form experience, tracking, sales ownership, and follow-up before launching a lead campaign.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./lead-generation-campaign-planning/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./lead-generation-campaign-planning/"
   },
   {
     "slug": "meta-ads-troubleshooting-checklist",
     "title": "Meta Ads Troubleshooting Checklist for Campaign Performance Problems",
     "excerpt": "Diagnose delivery, audience, creative, offer, landing-page, tracking, and review-process problems in a consistent order.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./meta-ads-troubleshooting-checklist/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./meta-ads-troubleshooting-checklist/"
   },
   {
     "slug": "google-search-campaign-structure",
     "title": "Google Search Campaign Structure: A Practical Planning Framework",
     "excerpt": "Connect search intent, keyword themes, ads, landing pages, exclusions, conversion actions, and review decisions in a maintainable structure.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./google-search-campaign-structure/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./google-search-campaign-structure/"
   },
   {
     "slug": "privacy-aware-retargeting-strategy",
     "title": "A Privacy-Aware Retargeting Strategy for Paid Media",
     "excerpt": "Plan remarketing around consent, audience relevance, message progression, frequency, exclusions, landing context, and measurement limits.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./privacy-aware-retargeting-strategy/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./privacy-aware-retargeting-strategy/"
   },
   {
     "slug": "paid-media-reporting-framework",
     "title": "A Paid Media Reporting Framework Built Around Better Decisions",
     "excerpt": "Organize outcome, journey, delivery, creative, and data-quality signals around the decisions a campaign team needs to make.",
-    "category": "Paid Media", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./paid-media-reporting-framework/"
+    "category": "Paid Media",
+    "date": "2026-08-01",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./paid-media-reporting-framework/"
   },
   {
-    "slug": "shopify-cro-audit-checklist", "title": "A Practical Shopify CRO Audit Checklist",
+    "slug": "shopify-cro-audit-checklist",
+    "title": "A Practical Shopify CRO Audit Checklist",
     "excerpt": "Review positioning, navigation, product discovery, product pages, trust, cart, checkout, mobile usability, speed, and measurement.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./shopify-cro-audit-checklist/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./shopify-cro-audit-checklist/"
   },
   {
-    "slug": "shopify-product-page-cro", "title": "Shopify Product Page CRO: What to Improve and Why",
+    "slug": "shopify-product-page-cro",
+    "title": "Shopify Product Page CRO: What to Improve and Why",
     "excerpt": "Improve product-page clarity through offer presentation, imagery, information hierarchy, objections, trust, variants, and mobile interaction.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./shopify-product-page-cro/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./shopify-product-page-cro/"
   },
   {
-    "slug": "how-to-reduce-ecommerce-cart-abandonment", "title": "How to Diagnose and Reduce Ecommerce Cart Abandonment",
+    "slug": "how-to-reduce-ecommerce-cart-abandonment",
+    "title": "How to Diagnose and Reduce Ecommerce Cart Abandonment",
     "excerpt": "Investigate intent, unexpected costs, uncertainty, usability, payment context, technical problems, and follow-up without assuming one cause.",
-    "category": "Ecommerce & CRO", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./how-to-reduce-ecommerce-cart-abandonment/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./how-to-reduce-ecommerce-cart-abandonment/"
   },
   {
-    "slug": "ecommerce-checkout-friction", "title": "Ecommerce Checkout Friction: How to Find the Real Problems",
+    "slug": "ecommerce-checkout-friction",
+    "title": "Ecommerce Checkout Friction: How to Find the Real Problems",
     "excerpt": "Review checkout clarity, required effort, shipping and payment expectations, errors, trust, device behavior, and tracking quality.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./ecommerce-checkout-friction/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./ecommerce-checkout-friction/"
   },
   {
-    "slug": "landing-page-cro-for-paid-traffic", "title": "Landing Page CRO for Paid Traffic: Message, Offer, and Journey",
+    "slug": "landing-page-cro-for-paid-traffic",
+    "title": "Landing Page CRO for Paid Traffic: Message, Offer, and Journey",
     "excerpt": "Align ad intent, message continuity, offer clarity, proof, friction, calls to action, mobile behavior, and measurement on paid landing pages.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./landing-page-cro-for-paid-traffic/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./landing-page-cro-for-paid-traffic/"
   },
   {
-    "slug": "ecommerce-offer-testing-framework", "title": "An Ecommerce Offer Testing Framework for Better Decisions",
+    "slug": "ecommerce-offer-testing-framework",
+    "title": "An Ecommerce Offer Testing Framework for Better Decisions",
     "excerpt": "Test value framing, bundles, incentives, guarantees, urgency, and presentation with clear hypotheses and honest interpretation.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./ecommerce-offer-testing-framework/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./ecommerce-offer-testing-framework/"
   },
   {
-    "slug": "mobile-ecommerce-conversion-optimization", "title": "Mobile Ecommerce Conversion Optimization Checklist",
+    "slug": "mobile-ecommerce-conversion-optimization",
+    "title": "Mobile Ecommerce Conversion Optimization Checklist",
     "excerpt": "Review mobile navigation, content hierarchy, product interaction, forms, cart, checkout, speed, accessibility, and measurement.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./mobile-ecommerce-conversion-optimization/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./mobile-ecommerce-conversion-optimization/"
   },
   {
-    "slug": "ecommerce-site-speed-and-conversion", "title": "Ecommerce Site Speed and Conversion: A Practical Priority Guide",
+    "slug": "ecommerce-site-speed-and-conversion",
+    "title": "Ecommerce Site Speed and Conversion: A Practical Priority Guide",
     "excerpt": "Connect performance symptoms, customer experience, templates, apps, media, testing, and implementation priorities without simplistic promises.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./ecommerce-site-speed-and-conversion/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./ecommerce-site-speed-and-conversion/"
   },
   {
-    "slug": "ecommerce-funnel-analysis", "title": "How to Analyze an Ecommerce Funnel Without Guessing",
+    "slug": "ecommerce-funnel-analysis",
+    "title": "How to Analyze an Ecommerce Funnel Without Guessing",
     "excerpt": "Map acquisition, landing, browsing, product, cart, checkout, purchase, and retention signals while accounting for data-quality limits.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./ecommerce-funnel-analysis/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./ecommerce-funnel-analysis/"
   },
   {
-    "slug": "shopify-navigation-and-collection-page-cro", "title": "Shopify Navigation and Collection Page CRO",
+    "slug": "shopify-navigation-and-collection-page-cro",
+    "title": "Shopify Navigation and Collection Page CRO",
     "excerpt": "Improve product discovery through clearer information architecture, menus, collections, filtering, sorting, merchandising, and mobile behavior.",
-    "category": "Ecommerce & CRO", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./shopify-navigation-and-collection-page-cro/"
+    "category": "Ecommerce & CRO",
+    "date": "2026-08-01",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./shopify-navigation-and-collection-page-cro/"
   },
   {
-    "slug": "ga4-ecommerce-measurement-plan", "title": "How to Build a GA4 Ecommerce Measurement Plan",
+    "slug": "ga4-ecommerce-measurement-plan",
+    "title": "How to Build a GA4 Ecommerce Measurement Plan",
     "excerpt": "Define business questions, journey events, naming, parameters, validation, reporting, ownership, and known limits before configuring GA4.",
-    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./ga4-ecommerce-measurement-plan/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./ga4-ecommerce-measurement-plan/"
   },
   {
-    "slug": "meta-pixel-event-planning-and-validation", "title": "Meta Pixel Event Planning and Validation Guide",
+    "slug": "meta-pixel-event-planning-and-validation",
+    "title": "Meta Pixel Event Planning and Validation Guide",
     "excerpt": "Plan meaningful events, parameters, deduplication responsibilities, test cases, consent behavior, and ongoing validation before relying on Pixel data.",
-    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./meta-pixel-event-planning-and-validation/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-01",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./meta-pixel-event-planning-and-validation/"
   },
   {
-    "slug": "meta-capi-vs-browser-tracking", "title": "Meta CAPI vs Browser Tracking: Roles, Limits, and Planning",
+    "slug": "meta-capi-vs-browser-tracking",
+    "title": "Meta CAPI vs Browser Tracking: Roles, Limits, and Planning",
     "excerpt": "Understand how browser and server-side signals can complement each other, where duplication risks appear, and what validation still requires.",
-    "category": "Tracking & Analytics", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./meta-capi-vs-browser-tracking/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./meta-capi-vs-browser-tracking/"
   },
   {
-    "slug": "marketing-attribution-models-explained", "title": "Marketing Attribution Models: What They Explain and What They Miss",
+    "slug": "marketing-attribution-models-explained",
+    "title": "Marketing Attribution Models: What They Explain and What They Miss",
     "excerpt": "Compare attribution perspectives, assumptions, blind spots, decision uses, and the evidence needed beyond a single reported model.",
-    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./marketing-attribution-models-explained/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./marketing-attribution-models-explained/"
   },
   {
-    "slug": "utm-governance-system", "title": "A Practical UTM Governance System for Marketing Teams",
+    "slug": "utm-governance-system",
+    "title": "A Practical UTM Governance System for Marketing Teams",
     "excerpt": "Create consistent source, medium, campaign, content, and term conventions with ownership, documentation, validation, and change control.",
-    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "8 min read", "featured": false, "status": "published", "url": "./utm-governance-system/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-01",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./utm-governance-system/"
   },
   {
-    "slug": "cross-channel-marketing-dashboard", "title": "How to Design a Cross-Channel Marketing Dashboard",
+    "slug": "cross-channel-marketing-dashboard",
+    "title": "How to Design a Cross-Channel Marketing Dashboard",
     "excerpt": "Build a dashboard hierarchy around business outcomes, journey actions, channel roles, diagnostics, data quality, and review decisions.",
-    "category": "Tracking & Analytics", "date": "2026-08-02", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./cross-channel-marketing-dashboard/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-02",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./cross-channel-marketing-dashboard/"
   },
   {
-    "slug": "marketing-tracking-audit-checklist", "title": "Marketing Tracking Audit Checklist",
+    "slug": "marketing-tracking-audit-checklist",
+    "title": "Marketing Tracking Audit Checklist",
     "excerpt": "Review measurement questions, tags, events, parameters, consent, destinations, platform connections, naming, data quality, and ownership.",
-    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./marketing-tracking-audit-checklist/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-01",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./marketing-tracking-audit-checklist/"
   },
   {
-    "slug": "diagnosing-ad-platform-reporting-discrepancies", "title": "How to Diagnose Ad Platform and Analytics Reporting Discrepancies",
+    "slug": "diagnosing-ad-platform-reporting-discrepancies",
+    "title": "How to Diagnose Ad Platform and Analytics Reporting Discrepancies",
     "excerpt": "Investigate attribution windows, identity, consent, time zones, event definitions, duplication, missing signals, and model differences.",
-    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./diagnosing-ad-platform-reporting-discrepancies/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./diagnosing-ad-platform-reporting-discrepancies/"
   },
   {
-    "slug": "privacy-conscious-marketing-measurement", "title": "Privacy-Conscious Marketing Measurement: A Planning Framework",
+    "slug": "privacy-conscious-marketing-measurement",
+    "title": "Privacy-Conscious Marketing Measurement: A Planning Framework",
     "excerpt": "Coordinate consent, data minimization, platform signals, analytics, documentation, access, retention, and honest interpretation.",
-    "category": "Tracking & Analytics", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./privacy-conscious-marketing-measurement/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-01",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./privacy-conscious-marketing-measurement/"
   },
   {
-    "slug": "lead-generation-measurement-framework", "title": "A Lead Generation Measurement Framework From Click to Sales Follow-Up",
+    "slug": "lead-generation-measurement-framework",
+    "title": "A Lead Generation Measurement Framework From Click to Sales Follow-Up",
     "excerpt": "Connect campaign, form, qualification, response time, pipeline, and outcome signals while defining ownership and data limitations.",
-    "category": "Tracking & Analytics", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./lead-generation-measurement-framework/"
+    "category": "Tracking & Analytics",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./lead-generation-measurement-framework/"
   },
   {
-    "slug": "creative-testing-framework-for-paid-ads", "title": "A Creative Testing Framework for Paid Advertising",
+    "slug": "creative-testing-framework-for-paid-ads",
+    "title": "A Creative Testing Framework for Paid Advertising",
     "excerpt": "Organize hooks, angles, formats, offers, variables, hypotheses, evidence thresholds, and learning records into a repeatable test system.",
-    "category": "Creative Strategy", "date": "2026-08-01", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./creative-testing-framework-for-paid-ads/"
+    "category": "Creative Strategy",
+    "date": "2026-08-01",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./creative-testing-framework-for-paid-ads/"
   },
   {
-    "slug": "how-to-write-ad-hooks", "title": "How to Write and Test Ad Hooks Without Chasing Novelty",
+    "slug": "how-to-write-ad-hooks",
+    "title": "How to Write and Test Ad Hooks Without Chasing Novelty",
     "excerpt": "Develop hooks from audience problems, desired outcomes, objections, contrasts, demonstrations, and evidence, then test them cleanly.",
-    "category": "Creative Strategy", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Creative Strategy",
+    "date": "2026-08-02",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./how-to-write-ad-hooks/"
   },
   {
-    "slug": "creative-brief-for-performance-marketing", "title": "How to Write a Creative Brief for Performance Marketing",
+    "slug": "creative-brief-for-performance-marketing",
+    "title": "How to Write a Creative Brief for Performance Marketing",
     "excerpt": "Give creative teams useful context through audience evidence, objective, offer, message, format, constraints, hypotheses, and feedback rules.",
-    "category": "Creative Strategy", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Creative Strategy",
+    "date": "2026-08-02",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./creative-brief-for-performance-marketing/"
   },
   {
-    "slug": "how-to-diagnose-creative-fatigue", "title": "How to Diagnose Creative Fatigue in Paid Campaigns",
+    "slug": "how-to-diagnose-creative-fatigue",
+    "title": "How to Diagnose Creative Fatigue in Paid Campaigns",
     "excerpt": "Separate audience saturation, delivery changes, offer weakness, journey friction, tracking problems, and genuine creative wear-out.",
-    "category": "Creative Strategy", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Creative Strategy",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./how-to-diagnose-creative-fatigue/"
   },
   {
-    "slug": "content-marketing-customer-journey", "title": "How to Map Content Marketing to the Customer Journey",
+    "slug": "content-marketing-customer-journey",
+    "title": "How to Map Content Marketing to the Customer Journey",
     "excerpt": "Assign content roles to discovery, problem understanding, solution evaluation, decision support, onboarding, and retention.",
-    "category": "Content Marketing", "date": "2026-08-02", "readingTime": "10 min read", "featured": false, "status": "published", "url": "./content-marketing-customer-journey/"
+    "category": "Content Marketing",
+    "date": "2026-08-02",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./content-marketing-customer-journey/"
   },
   {
-    "slug": "content-repurposing-system", "title": "A Content Repurposing System That Preserves Meaning",
+    "slug": "content-repurposing-system",
+    "title": "A Content Repurposing System That Preserves Meaning",
     "excerpt": "Adapt strong source material to new audiences, formats, contexts, and channels without copying mechanically or weakening the original idea.",
-    "category": "Content Marketing", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Content Marketing",
+    "date": "2026-08-02",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./content-repurposing-system/"
   },
   {
-    "slug": "editorial-calendar-workflow", "title": "How to Build an Editorial Calendar Around Business Priorities",
+    "slug": "editorial-calendar-workflow",
+    "title": "How to Build an Editorial Calendar Around Business Priorities",
     "excerpt": "Coordinate themes, customer questions, formats, owners, evidence, approvals, distribution, updates, and measurement in a workable calendar.",
-    "category": "Content Marketing", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Content Marketing",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./editorial-calendar-workflow/"
   },
   {
-    "slug": "welcome-email-sequence-planning", "title": "How to Plan a Welcome Email Sequence",
+    "slug": "welcome-email-sequence-planning",
+    "title": "How to Plan a Welcome Email Sequence",
     "excerpt": "Design a welcome journey around subscriber context, expectations, value, segmentation, message order, next actions, and measurement.",
-    "category": "Email Marketing", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./welcome-email-sequence-planning/"
+    "category": "Email Marketing",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./welcome-email-sequence-planning/"
   },
   {
-    "slug": "abandoned-cart-email-strategy", "title": "Abandoned Cart Email Strategy: Timing, Message, and Measurement",
+    "slug": "abandoned-cart-email-strategy",
+    "title": "Abandoned Cart Email Strategy: Timing, Message, and Measurement",
     "excerpt": "Plan cart-recovery messages around customer context, useful reminders, objections, incentives, consent, frequency, and honest measurement.",
-    "category": "Email Marketing", "date": null, "readingTime": "8 min read", "featured": false, "status": "draft", "url": null
+    "category": "Email Marketing",
+    "date": "2026-08-02",
+    "readingTime": "8 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./abandoned-cart-email-strategy/"
   },
   {
-    "slug": "email-segmentation-lifecycle-strategy", "title": "Email Segmentation for Lifecycle Marketing",
+    "slug": "email-segmentation-lifecycle-strategy",
+    "title": "Email Segmentation for Lifecycle Marketing",
     "excerpt": "Segment messages using relationship stage, behavior, preferences, eligibility, and customer needs while avoiding unnecessary complexity.",
-    "category": "Email Marketing", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Email Marketing",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./email-segmentation-lifecycle-strategy/"
   },
   {
-    "slug": "how-to-choose-marketing-automation-software", "title": "How to Choose Marketing Automation Software Without Starting With Features",
+    "slug": "how-to-choose-marketing-automation-software",
+    "title": "How to Choose Marketing Automation Software Without Starting With Features",
     "excerpt": "Evaluate workflow fit, data quality, integrations, governance, maintenance, team adoption, and total operating burden before selecting software.",
-    "category": "Marketing Automation", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Marketing Automation",
+    "date": "2026-08-02",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./how-to-choose-marketing-automation-software/"
   },
   {
-    "slug": "marketing-automation-workflow-map", "title": "How to Map a Marketing Automation Workflow Before Building It",
+    "slug": "marketing-automation-workflow-map",
+    "title": "How to Map a Marketing Automation Workflow Before Building It",
     "excerpt": "Define triggers, eligibility, data inputs, branches, messages, delays, ownership, exits, exceptions, and human review before implementation.",
-    "category": "Marketing Automation", "date": "2026-08-02", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./marketing-automation-workflow-map/"
+    "category": "Marketing Automation",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./marketing-automation-workflow-map/"
   },
   {
-    "slug": "crm-lead-nurturing-automation", "title": "CRM Lead Nurturing Automation: A Practical Planning Guide",
+    "slug": "crm-lead-nurturing-automation",
+    "title": "CRM Lead Nurturing Automation: A Practical Planning Guide",
     "excerpt": "Coordinate qualification, consent, lifecycle stage, content, timing, sales ownership, exceptions, exits, and measurement in a lead-nurture system.",
-    "category": "Marketing Automation", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Marketing Automation",
+    "date": null,
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
   },
   {
-    "slug": "seo-topic-clusters-customer-questions", "title": "How to Build SEO Topic Clusters Around Real Customer Questions",
+    "slug": "seo-topic-clusters-customer-questions",
+    "title": "How to Build SEO Topic Clusters Around Real Customer Questions",
     "excerpt": "Connect search intent, customer language, pillar topics, supporting questions, internal links, expertise, and maintenance in a useful content cluster.",
-    "category": "SEO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "SEO",
+    "date": "2026-08-02",
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./seo-topic-clusters-customer-questions/"
   },
   {
-    "slug": "ecommerce-seo-foundations", "title": "Ecommerce SEO Foundations for Product and Collection Pages",
+    "slug": "ecommerce-seo-foundations",
+    "title": "Ecommerce SEO Foundations for Product and Collection Pages",
     "excerpt": "Plan crawlable structure, search intent, product information, collection content, internal links, duplication controls, and ongoing maintenance.",
-    "category": "SEO", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "SEO",
+    "date": null,
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
   },
   {
-    "slug": "technical-seo-audit-priorities", "title": "Technical SEO Audit Priorities for a Growing Website",
+    "slug": "technical-seo-audit-priorities",
+    "title": "Technical SEO Audit Priorities for a Growing Website",
     "excerpt": "Prioritize accessibility to crawlers, indexation signals, site structure, internal links, performance, mobile behavior, duplication, and monitoring.",
-    "category": "SEO", "date": "2026-08-01", "readingTime": "9 min read", "featured": false, "status": "published", "url": "./technical-seo-audit-priorities/"
+    "category": "SEO",
+    "date": "2026-08-01",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./technical-seo-audit-priorities/"
   },
   {
-    "slug": "client-acquisition-system-for-service-businesses", "title": "How to Build a Client Acquisition System for a Service Business",
+    "slug": "client-acquisition-system-for-service-businesses",
+    "title": "How to Build a Client Acquisition System for a Service Business",
     "excerpt": "Connect positioning, audience, content, outreach, paid acquisition, qualification, sales follow-up, delivery feedback, and measurement.",
-    "category": "Business Growth Systems", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Business Growth Systems",
+    "date": null,
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
   },
   {
-    "slug": "small-budget-marketing-plan", "title": "A Small-Budget Marketing Plan Built Around Focus",
+    "slug": "small-budget-marketing-plan",
+    "title": "A Small-Budget Marketing Plan Built Around Focus",
     "excerpt": "Prioritize one audience, problem, offer, journey, channel role, learning agenda, and review rhythm when resources are limited.",
-    "category": "Business Growth Systems", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Business Growth Systems",
+    "date": null,
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
   },
   {
-    "slug": "quarterly-marketing-review", "title": "How to Run a Quarterly Marketing Review That Produces Decisions",
+    "slug": "quarterly-marketing-review",
+    "title": "How to Run a Quarterly Marketing Review That Produces Decisions",
     "excerpt": "Review goals, evidence, customer signals, channel roles, experiments, constraints, resources, and next-quarter priorities without reporting theater.",
-    "category": "Business Growth Systems", "date": null, "readingTime": "9 min read", "featured": false, "status": "draft", "url": null
+    "category": "Business Growth Systems",
+    "date": "2026-08-02",
+    "readingTime": "9 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./quarterly-marketing-review/"
   },
   {
-    "slug": "marketing-operating-system-for-small-teams", "title": "A Marketing Operating System for Small Teams",
+    "slug": "marketing-operating-system-for-small-teams",
+    "title": "A Marketing Operating System for Small Teams",
     "excerpt": "Create a practical cadence for priorities, ownership, production, campaign launches, data review, experiments, documentation, and change decisions.",
-    "category": "Business Growth Systems", "date": null, "readingTime": "10 min read", "featured": false, "status": "draft", "url": null
+    "category": "Business Growth Systems",
+    "date": null,
+    "readingTime": "10 min read",
+    "featured": false,
+    "status": "draft",
+    "url": null
   }
 ]

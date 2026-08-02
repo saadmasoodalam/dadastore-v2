@@ -6,6 +6,15 @@
     <link>https://saadmasoodalam.github.io/dadastore-v2/blog/</link>
     <language>en</language>
     <item>
+      <title>Abandoned Cart Email Strategy: Timing, Message, and Measurement</title>
+      <description>Plan cart-recovery messages around customer context, useful reminders, objections, incentives, consent, frequency, and honest measurement.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/abandoned-cart-email-strategy/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/abandoned-cart-email-strategy/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Email Marketing</category>
+    </item>
+    <item>
       <title>A B2B Social Media Strategy Framework for Complex Buying Journeys</title>
       <description>Coordinate buying-group insight, expert content, channel roles, decision support, demand capture, and measurement.</description>
       <link>https://saadmasoodalam.github.io/dadastore-v2/blog/b2b-social-media-strategy-framework/</link>
@@ -24,6 +33,24 @@
       <category>Content Marketing</category>
     </item>
     <item>
+      <title>A Content Repurposing System That Preserves Meaning</title>
+      <description>Adapt strong source material to new audiences, formats, contexts, and channels without copying mechanically or weakening the original idea.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/content-repurposing-system/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/content-repurposing-system/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Content Marketing</category>
+    </item>
+    <item>
+      <title>How to Write a Creative Brief for Performance Marketing</title>
+      <description>Give creative teams useful context through audience evidence, objective, offer, message, format, constraints, hypotheses, and feedback rules.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/creative-brief-for-performance-marketing/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/creative-brief-for-performance-marketing/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Creative Strategy</category>
+    </item>
+    <item>
       <title>How to Design a Cross-Channel Marketing Dashboard</title>
       <description>Build a dashboard hierarchy around business outcomes, journey actions, channel roles, diagnostics, data quality, and review decisions.</description>
       <link>https://saadmasoodalam.github.io/dadastore-v2/blog/cross-channel-marketing-dashboard/</link>
@@ -31,6 +58,33 @@
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
       <author>DaDaStore</author>
       <category>Tracking &amp; Analytics</category>
+    </item>
+    <item>
+      <title>How to Build an Editorial Calendar Around Business Priorities</title>
+      <description>Coordinate themes, customer questions, formats, owners, evidence, approvals, distribution, updates, and measurement in a workable calendar.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/editorial-calendar-workflow/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/editorial-calendar-workflow/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Content Marketing</category>
+    </item>
+    <item>
+      <title>Email Segmentation for Lifecycle Marketing</title>
+      <description>Segment messages using relationship stage, behavior, preferences, eligibility, and customer needs while avoiding unnecessary complexity.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/email-segmentation-lifecycle-strategy/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/email-segmentation-lifecycle-strategy/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Email Marketing</category>
+    </item>
+    <item>
+      <title>How to Choose Marketing Automation Software Without Starting With Features</title>
+      <description>Evaluate workflow fit, data quality, integrations, governance, maintenance, team adoption, and total operating burden before selecting software.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/how-to-choose-marketing-automation-software/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/how-to-choose-marketing-automation-software/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Marketing Automation</category>
     </item>
     <item>
       <title>How to Create a Social Media Content Calendar Your Team Can Maintain</title>
@@ -42,6 +96,15 @@
       <category>Social Media Strategy</category>
     </item>
     <item>
+      <title>How to Diagnose Creative Fatigue in Paid Campaigns</title>
+      <description>Separate audience saturation, delivery changes, offer weakness, journey friction, tracking problems, and genuine creative wear-out.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/how-to-diagnose-creative-fatigue/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/how-to-diagnose-creative-fatigue/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Creative Strategy</category>
+    </item>
+    <item>
       <title>How to Diagnose and Reduce Ecommerce Cart Abandonment</title>
       <description>Investigate intent, unexpected costs, uncertainty, usability, payment context, technical problems, and follow-up without assuming one cause.</description>
       <link>https://saadmasoodalam.github.io/dadastore-v2/blog/how-to-reduce-ecommerce-cart-abandonment/</link>
@@ -49,6 +112,15 @@
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
       <author>DaDaStore</author>
       <category>Ecommerce &amp; CRO</category>
+    </item>
+    <item>
+      <title>How to Write and Test Ad Hooks Without Chasing Novelty</title>
+      <description>Develop hooks from audience problems, desired outcomes, objections, contrasts, demonstrations, and evidence, then test them cleanly.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/how-to-write-ad-hooks/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/how-to-write-ad-hooks/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Creative Strategy</category>
     </item>
     <item>
       <title>A Lead Generation Measurement Framework From Click to Sales Follow-Up</title>
@@ -76,6 +148,24 @@
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
       <author>DaDaStore</author>
       <category>Tracking &amp; Analytics</category>
+    </item>
+    <item>
+      <title>How to Run a Quarterly Marketing Review That Produces Decisions</title>
+      <description>Review goals, evidence, customer signals, channel roles, experiments, constraints, resources, and next-quarter priorities without reporting theater.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/quarterly-marketing-review/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/quarterly-marketing-review/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>Business Growth Systems</category>
+    </item>
+    <item>
+      <title>How to Build SEO Topic Clusters Around Real Customer Questions</title>
+      <description>Connect search intent, customer language, pillar topics, supporting questions, internal links, expertise, and maintenance in a useful content cluster.</description>
+      <link>https://saadmasoodalam.github.io/dadastore-v2/blog/seo-topic-clusters-customer-questions/</link>
+      <guid isPermaLink="true">https://saadmasoodalam.github.io/dadastore-v2/blog/seo-topic-clusters-customer-questions/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <author>DaDaStore</author>
+      <category>SEO</category>
     </item>
     <item>
       <title>TikTok Ads Planning Guide for a First Campaign</title>
