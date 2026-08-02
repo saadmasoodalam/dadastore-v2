@@ -587,11 +587,11 @@
     "title": "CRM Lead Nurturing Automation: A Practical Planning Guide",
     "excerpt": "Coordinate qualification, consent, lifecycle stage, content, timing, sales ownership, exceptions, exits, and measurement in a lead-nurture system.",
     "category": "Marketing Automation",
-    "date": null,
+    "date": "2026-08-02",
     "readingTime": "10 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./crm-lead-nurturing-automation/"
   },
   {
     "slug": "seo-topic-clusters-customer-questions",
@@ -609,11 +609,11 @@
     "title": "Ecommerce SEO Foundations for Product and Collection Pages",
     "excerpt": "Plan crawlable structure, search intent, product information, collection content, internal links, duplication controls, and ongoing maintenance.",
     "category": "SEO",
-    "date": null,
+    "date": "2026-08-02",
     "readingTime": "10 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./ecommerce-seo-foundations/"
   },
   {
     "slug": "technical-seo-audit-priorities",
@@ -631,22 +631,22 @@
     "title": "How to Build a Client Acquisition System for a Service Business",
     "excerpt": "Connect positioning, audience, content, outreach, paid acquisition, qualification, sales follow-up, delivery feedback, and measurement.",
     "category": "Business Growth Systems",
-    "date": null,
+    "date": "2026-08-02",
     "readingTime": "10 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./client-acquisition-system-for-service-businesses/"
   },
   {
     "slug": "small-budget-marketing-plan",
     "title": "A Small-Budget Marketing Plan Built Around Focus",
     "excerpt": "Prioritize one audience, problem, offer, journey, channel role, learning agenda, and review rhythm when resources are limited.",
     "category": "Business Growth Systems",
-    "date": null,
+    "date": "2026-08-02",
     "readingTime": "9 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./small-budget-marketing-plan/"
   },
   {
     "slug": "quarterly-marketing-review",
@@ -664,10 +664,10 @@
     "title": "A Marketing Operating System for Small Teams",
     "excerpt": "Create a practical cadence for priorities, ownership, production, campaign launches, data review, experiments, documentation, and change decisions.",
     "category": "Business Growth Systems",
-    "date": null,
+    "date": "2026-08-02",
     "readingTime": "10 min read",
     "featured": false,
-    "status": "draft",
-    "url": null
+    "status": "published",
+    "url": "./marketing-operating-system-for-small-teams/"
   }
 ]
