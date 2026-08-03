@@ -231,7 +231,7 @@ export function renderFeaturedSection(post) {
                 <time datetime="${data.date}" data-featured-date>${escapeHtml(data.dateLabel)}</time>
                 <span data-featured-reading-time>${escapeHtml(data.readingTime)}</span>
               </div>
-              <a class="blog-read-link" href="${escapeHtml(data.url)}" data-featured-link>Read Article <span aria-hidden="true">→</span></a>
+              <a class="blog-read-link" href="${escapeHtml(data.url)}" data-featured-link>Read Article <span aria-hidden="true">&rarr;</span></a>
             </div>
           </article>
         </div>
