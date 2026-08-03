@@ -2344,6 +2344,11 @@ h3 {
     padding-block: 84px;
   }
 
+  .blog-post-layout:not(:has(> .blog-post-aside)) {
+    grid-template-columns: minmax(0, 760px);
+    gap: 0;
+  }
+
   .blog-post-aside {
     position: sticky;
     top: 112px;
