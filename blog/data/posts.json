@@ -8,7 +8,13 @@
     "readingTime": "9 min read",
     "featured": true,
     "status": "published",
-    "url": "./how-to-create-a-social-media-marketing-plan-that-drives-results/"
+    "url": "./how-to-create-a-social-media-marketing-plan-that-drives-results/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-create-a-social-media-marketing-plan-that-drives-results.jpg",
+      "alt": "Connected planning route linking audience, channel, content, measurement, and review modules",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "social-media-strategy-template-for-small-business",
@@ -19,7 +25,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./social-media-strategy-template-for-small-business/"
+    "url": "./social-media-strategy-template-for-small-business/",
+    "cover": {
+      "src": "../assets/images/blog/cover-social-media-strategy-template-for-small-business.jpg",
+      "alt": "Eight-module social media strategy board connected by a continuous review loop",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "how-to-choose-social-media-platforms-for-your-business",
@@ -30,7 +42,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./how-to-choose-social-media-platforms-for-your-business/"
+    "url": "./how-to-choose-social-media-platforms-for-your-business/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-choose-social-media-platforms-for-your-business.jpg",
+      "alt": "Branching channel pathways passing through a strategic selection gate",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "how-to-build-social-media-content-pillars",
@@ -41,7 +59,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./how-to-build-social-media-content-pillars/"
+    "url": "./how-to-build-social-media-content-pillars/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-build-social-media-content-pillars.jpg",
+      "alt": "Four connected glass content pillars rising from a shared evidence foundation",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "how-to-create-a-social-media-content-calendar",
@@ -52,7 +76,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./how-to-create-a-social-media-content-calendar/"
+    "url": "./how-to-create-a-social-media-content-calendar/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-create-a-social-media-content-calendar.jpg",
+      "alt": "Modular social media calendar system connecting a content backlog, approval checkpoints, publishing lanes, and review loop",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "organic-and-paid-social-media-strategy",
@@ -63,7 +93,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./organic-and-paid-social-media-strategy/"
+    "url": "./organic-and-paid-social-media-strategy/",
+    "cover": {
+      "src": "../assets/images/blog/cover-organic-and-paid-social-media-strategy.jpg",
+      "alt": "Connected organic conversation signals and paid distribution beams flowing through a shared learning loop",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "social-media-audience-research-guide",
@@ -74,7 +110,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./social-media-audience-research-guide/"
+    "url": "./social-media-audience-research-guide/",
+    "cover": {
+      "src": "../assets/images/blog/cover-social-media-audience-research-guide.jpg",
+      "alt": "Magnifying lens revealing layered audience signals and connected behavior patterns",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "social-media-kpis-that-connect-to-business-goals",
@@ -85,7 +127,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./social-media-kpis-that-connect-to-business-goals/"
+    "url": "./social-media-kpis-that-connect-to-business-goals/",
+    "cover": {
+      "src": "../assets/images/blog/cover-social-media-kpis-that-connect-to-business-goals.jpg",
+      "alt": "Measurement bridge connecting activity signals to a highlighted business decision node",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "social-media-competitor-analysis",
@@ -96,7 +144,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./social-media-competitor-analysis/"
+    "url": "./social-media-competitor-analysis/",
+    "cover": {
+      "src": "../assets/images/blog/cover-social-media-competitor-analysis.jpg",
+      "alt": "Competitive research ecosystems compared around an independent strategy compass",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "b2b-social-media-strategy-framework",
@@ -107,7 +161,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./b2b-social-media-strategy-framework/"
+    "url": "./b2b-social-media-strategy-framework/",
+    "cover": {
+      "src": "../assets/images/blog/cover-b2b-social-media-strategy-framework.jpg",
+      "alt": "Multiple stakeholder paths converging through evidence checkpoints into a shared B2B decision chamber",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "social-media-strategy-audit-checklist",
@@ -118,7 +178,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./social-media-strategy-audit-checklist/"
+    "url": "./social-media-strategy-audit-checklist/",
+    "cover": {
+      "src": "../assets/images/blog/cover-social-media-strategy-audit-checklist.jpg",
+      "alt": "Magnifying lens examining audience, channel, content, workflow, and measurement checkpoints",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "how-to-structure-meta-ads-campaigns",
@@ -129,7 +195,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./how-to-structure-meta-ads-campaigns/"
+    "url": "./how-to-structure-meta-ads-campaigns/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-structure-meta-ads-campaigns.jpg",
+      "alt": "Central decision core governing objective, audience, creative, placement, and budget modules",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "google-ads-vs-meta-ads",
@@ -140,7 +212,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./google-ads-vs-meta-ads/"
+    "url": "./google-ads-vs-meta-ads/",
+    "cover": {
+      "src": "../assets/images/blog/cover-google-ads-vs-meta-ads.jpg",
+      "alt": "Intent and discovery pathways routed through a shared paid-channel strategy system",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "tiktok-ads-planning-guide",
@@ -151,7 +229,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./tiktok-ads-planning-guide/"
+    "url": "./tiktok-ads-planning-guide/",
+    "cover": {
+      "src": "../assets/images/blog/cover-tiktok-ads-planning-guide.jpg",
+      "alt": "Vertical creative portal surrounded by campaign variables, audience context, offer, placement, and measurement controls",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "paid-social-funnel-strategy",
@@ -162,7 +246,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./paid-social-funnel-strategy/"
+    "url": "./paid-social-funnel-strategy/",
+    "cover": {
+      "src": "../assets/images/blog/cover-paid-social-funnel-strategy.jpg",
+      "alt": "Continuous illuminated customer journey connecting discovery, education, evaluation, and action",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "small-budget-paid-advertising-plan",
@@ -173,7 +263,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./small-budget-paid-advertising-plan/"
+    "url": "./small-budget-paid-advertising-plan/",
+    "cover": {
+      "src": "../assets/images/blog/cover-small-budget-paid-advertising-plan.jpg",
+      "alt": "Limited campaign energy focused through one objective, audience, channel, and learning target",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "lead-generation-campaign-planning",
@@ -184,7 +280,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./lead-generation-campaign-planning/"
+    "url": "./lead-generation-campaign-planning/",
+    "cover": {
+      "src": "../assets/images/blog/cover-lead-generation-campaign-planning.jpg",
+      "alt": "Lead signal moving through qualification, routing, ownership, and follow-up stages",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "meta-ads-troubleshooting-checklist",
@@ -195,7 +297,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./meta-ads-troubleshooting-checklist/"
+    "url": "./meta-ads-troubleshooting-checklist/",
+    "cover": {
+      "src": "../assets/images/blog/cover-meta-ads-troubleshooting-checklist.jpg",
+      "alt": "Paid media signal inspected across modular troubleshooting checkpoints",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "google-search-campaign-structure",
@@ -206,7 +314,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./google-search-campaign-structure/"
+    "url": "./google-search-campaign-structure/",
+    "cover": {
+      "src": "../assets/images/blog/cover-google-search-campaign-structure.jpg",
+      "alt": "Search intent organized into campaign, keyword, ad, and landing-page pathways",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "privacy-aware-retargeting-strategy",
@@ -217,7 +331,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./privacy-aware-retargeting-strategy/"
+    "url": "./privacy-aware-retargeting-strategy/",
+    "cover": {
+      "src": "../assets/images/blog/cover-privacy-aware-retargeting-strategy.jpg",
+      "alt": "Anonymous audience signals moving through consent-aware retargeting boundaries",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "paid-media-reporting-framework",
@@ -228,7 +348,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./paid-media-reporting-framework/"
+    "url": "./paid-media-reporting-framework/",
+    "cover": {
+      "src": "../assets/images/blog/cover-paid-media-reporting-framework.jpg",
+      "alt": "Five evidence lenses converging on a decision compass for paid media reporting",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "shopify-cro-audit-checklist",
@@ -239,7 +365,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./shopify-cro-audit-checklist/"
+    "url": "./shopify-cro-audit-checklist/",
+    "cover": {
+      "src": "../assets/images/blog/cover-shopify-cro-audit-checklist.jpg",
+      "alt": "Transparent ecommerce storefront inspected across conversion and usability layers",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "shopify-product-page-cro",
@@ -250,7 +382,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./shopify-product-page-cro/"
+    "url": "./shopify-product-page-cro/",
+    "cover": {
+      "src": "../assets/images/blog/cover-shopify-product-page-cro.jpg",
+      "alt": "Product decision system connecting imagery, offer, trust, variants, and mobile action",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "how-to-reduce-ecommerce-cart-abandonment",
@@ -261,7 +399,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./how-to-reduce-ecommerce-cart-abandonment/"
+    "url": "./how-to-reduce-ecommerce-cart-abandonment/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-reduce-ecommerce-cart-abandonment.jpg",
+      "alt": "Shopping cart navigating checkout friction gates for shipping, trust, forms, payment, and mobile usability",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "ecommerce-checkout-friction",
@@ -272,7 +416,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./ecommerce-checkout-friction/"
+    "url": "./ecommerce-checkout-friction/",
+    "cover": {
+      "src": "../assets/images/blog/cover-ecommerce-checkout-friction.jpg",
+      "alt": "Shopping basket moving through checkout friction gates toward a clear completion path",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "landing-page-cro-for-paid-traffic",
@@ -283,7 +433,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./landing-page-cro-for-paid-traffic/"
+    "url": "./landing-page-cro-for-paid-traffic/",
+    "cover": {
+      "src": "../assets/images/blog/cover-landing-page-cro-for-paid-traffic.jpg",
+      "alt": "Paid traffic flowing through message, offer, proof, and action layers",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "ecommerce-offer-testing-framework",
@@ -294,7 +450,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./ecommerce-offer-testing-framework/"
+    "url": "./ecommerce-offer-testing-framework/",
+    "cover": {
+      "src": "../assets/images/blog/cover-ecommerce-offer-testing-framework.jpg",
+      "alt": "Two ecommerce offers in controlled test chambers balanced around a shared hypothesis",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "mobile-ecommerce-conversion-optimization",
@@ -305,7 +467,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./mobile-ecommerce-conversion-optimization/"
+    "url": "./mobile-ecommerce-conversion-optimization/",
+    "cover": {
+      "src": "../assets/images/blog/cover-mobile-ecommerce-conversion-optimization.jpg",
+      "alt": "Mobile commerce journey passing through navigation, product, cart, checkout, performance, and accessibility checks",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "ecommerce-site-speed-and-conversion",
@@ -316,7 +484,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./ecommerce-site-speed-and-conversion/"
+    "url": "./ecommerce-site-speed-and-conversion/",
+    "cover": {
+      "src": "../assets/images/blog/cover-ecommerce-site-speed-and-conversion.jpg",
+      "alt": "Digital storefront accelerating through a lightweight performance system",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "ecommerce-funnel-analysis",
@@ -327,7 +501,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./ecommerce-funnel-analysis/"
+    "url": "./ecommerce-funnel-analysis/",
+    "cover": {
+      "src": "../assets/images/blog/cover-ecommerce-funnel-analysis.jpg",
+      "alt": "Ecommerce journey signals moving through a transparent diagnostic funnel",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "shopify-navigation-and-collection-page-cro",
@@ -338,7 +518,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./shopify-navigation-and-collection-page-cro/"
+    "url": "./shopify-navigation-and-collection-page-cro/",
+    "cover": {
+      "src": "../assets/images/blog/cover-shopify-navigation-and-collection-page-cro.jpg",
+      "alt": "Product discovery tree branching through navigation, filters, collections, and merchandising",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "ga4-ecommerce-measurement-plan",
@@ -349,7 +535,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./ga4-ecommerce-measurement-plan/"
+    "url": "./ga4-ecommerce-measurement-plan/",
+    "cover": {
+      "src": "../assets/images/blog/cover-ga4-ecommerce-measurement-plan.jpg",
+      "alt": "Ecommerce event signals flowing through a measurement contract, validation, and reporting architecture",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "meta-pixel-event-planning-and-validation",
@@ -360,7 +552,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./meta-pixel-event-planning-and-validation/"
+    "url": "./meta-pixel-event-planning-and-validation/",
+    "cover": {
+      "src": "../assets/images/blog/cover-meta-pixel-event-planning-and-validation.jpg",
+      "alt": "Pixel event signals passing through consent, deduplication, catalog matching, and validation gates",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "meta-capi-vs-browser-tracking",
@@ -371,7 +569,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./meta-capi-vs-browser-tracking/"
+    "url": "./meta-capi-vs-browser-tracking/",
+    "cover": {
+      "src": "../assets/images/blog/cover-meta-capi-vs-browser-tracking.jpg",
+      "alt": "Browser and server event pathways converging through a deduplication crystal and consent shield",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "marketing-attribution-models-explained",
@@ -382,7 +586,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./marketing-attribution-models-explained/"
+    "url": "./marketing-attribution-models-explained/",
+    "cover": {
+      "src": "../assets/images/blog/cover-marketing-attribution-models-explained.jpg",
+      "alt": "Marketing channel signals split across alternative attribution model pathways",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "utm-governance-system",
@@ -393,7 +603,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./utm-governance-system/"
+    "url": "./utm-governance-system/",
+    "cover": {
+      "src": "../assets/images/blog/cover-utm-governance-system.jpg",
+      "alt": "Campaign signals standardized through a naming and validation gateway",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "cross-channel-marketing-dashboard",
@@ -404,7 +620,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./cross-channel-marketing-dashboard/"
+    "url": "./cross-channel-marketing-dashboard/",
+    "cover": {
+      "src": "../assets/images/blog/cover-cross-channel-marketing-dashboard.jpg",
+      "alt": "Cross-channel signal beams converging into a layered decision compass inside a measurement observatory",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "marketing-tracking-audit-checklist",
@@ -415,7 +637,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./marketing-tracking-audit-checklist/"
+    "url": "./marketing-tracking-audit-checklist/",
+    "cover": {
+      "src": "../assets/images/blog/cover-marketing-tracking-audit-checklist.jpg",
+      "alt": "Marketing signal pipeline inspected across tracking and reporting checkpoints",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "diagnosing-ad-platform-reporting-discrepancies",
@@ -426,7 +654,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./diagnosing-ad-platform-reporting-discrepancies/"
+    "url": "./diagnosing-ad-platform-reporting-discrepancies/",
+    "cover": {
+      "src": "../assets/images/blog/cover-diagnosing-ad-platform-reporting-discrepancies.jpg",
+      "alt": "Two reporting signal streams compared inside a transparent reconciliation chamber",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "privacy-conscious-marketing-measurement",
@@ -437,7 +671,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./privacy-conscious-marketing-measurement/"
+    "url": "./privacy-conscious-marketing-measurement/",
+    "cover": {
+      "src": "../assets/images/blog/cover-privacy-conscious-marketing-measurement.jpg",
+      "alt": "Privacy-conscious measurement signals passing through consent and minimization controls",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "lead-generation-measurement-framework",
@@ -448,7 +688,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./lead-generation-measurement-framework/"
+    "url": "./lead-generation-measurement-framework/",
+    "cover": {
+      "src": "../assets/images/blog/cover-lead-generation-measurement-framework.jpg",
+      "alt": "Lead measurement pipeline connecting click, form, identity, qualification, handoff, and outcome stages",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "creative-testing-framework-for-paid-ads",
@@ -459,7 +705,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./creative-testing-framework-for-paid-ads/"
+    "url": "./creative-testing-framework-for-paid-ads/",
+    "cover": {
+      "src": "../assets/images/blog/cover-creative-testing-framework-for-paid-ads.jpg",
+      "alt": "Transparent testing prism separating creative variables into controlled experiment pathways",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "how-to-write-ad-hooks",
@@ -470,7 +722,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./how-to-write-ad-hooks/"
+    "url": "./how-to-write-ad-hooks/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-write-ad-hooks.jpg",
+      "alt": "Advertising hook signals entering a controlled attention aperture and continuing through a relevance testing path",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "creative-brief-for-performance-marketing",
@@ -481,7 +739,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./creative-brief-for-performance-marketing/"
+    "url": "./creative-brief-for-performance-marketing/",
+    "cover": {
+      "src": "../assets/images/blog/cover-creative-brief-for-performance-marketing.jpg",
+      "alt": "Creative brief blueprint connecting audience, message, evidence, format, constraints, and measurement inputs",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "how-to-diagnose-creative-fatigue",
@@ -492,7 +756,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./how-to-diagnose-creative-fatigue/"
+    "url": "./how-to-diagnose-creative-fatigue/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-diagnose-creative-fatigue.jpg",
+      "alt": "Creative assets passing through a diagnostic lens that separates fatigue signals from other campaign causes",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "content-marketing-customer-journey",
@@ -503,7 +773,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./content-marketing-customer-journey/"
+    "url": "./content-marketing-customer-journey/",
+    "cover": {
+      "src": "../assets/images/blog/cover-content-marketing-customer-journey.jpg",
+      "alt": "Content artifacts mapped along a continuous customer journey from discovery through decision and retention",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "content-repurposing-system",
@@ -514,7 +790,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./content-repurposing-system/"
+    "url": "./content-repurposing-system/",
+    "cover": {
+      "src": "../assets/images/blog/cover-content-repurposing-system.jpg",
+      "alt": "Source-content crystal branching through an interpretation lens into distinct article, audio, video, and email formats",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "editorial-calendar-workflow",
@@ -525,7 +807,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./editorial-calendar-workflow/"
+    "url": "./editorial-calendar-workflow/",
+    "cover": {
+      "src": "../assets/images/blog/cover-editorial-calendar-workflow.jpg",
+      "alt": "Editorial workflow moving content through priority, capacity, production, approval, publishing, and review stages",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "welcome-email-sequence-planning",
@@ -536,7 +824,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./welcome-email-sequence-planning/"
+    "url": "./welcome-email-sequence-planning/",
+    "cover": {
+      "src": "../assets/images/blog/cover-welcome-email-sequence-planning.jpg",
+      "alt": "Welcome email sequence flowing through promise, orientation, value, proof, next action, and feedback stages",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "abandoned-cart-email-strategy",
@@ -547,7 +841,13 @@
     "readingTime": "8 min read",
     "featured": false,
     "status": "published",
-    "url": "./abandoned-cart-email-strategy/"
+    "url": "./abandoned-cart-email-strategy/",
+    "cover": {
+      "src": "../assets/images/blog/cover-abandoned-cart-email-strategy.jpg",
+      "alt": "Shopping cart moving through eligibility, timing, message, and measurement gates in an abandoned-cart email journey",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "email-segmentation-lifecycle-strategy",
@@ -558,7 +858,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./email-segmentation-lifecycle-strategy/"
+    "url": "./email-segmentation-lifecycle-strategy/",
+    "cover": {
+      "src": "../assets/images/blog/cover-email-segmentation-lifecycle-strategy.jpg",
+      "alt": "Anonymous customer signals separating through consent and eligibility gates into lifecycle email paths",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "how-to-choose-marketing-automation-software",
@@ -569,7 +875,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./how-to-choose-marketing-automation-software/"
+    "url": "./how-to-choose-marketing-automation-software/",
+    "cover": {
+      "src": "../assets/images/blog/cover-how-to-choose-marketing-automation-software.jpg",
+      "alt": "Marketing workflow passing through contrasting automation architectures and a balanced fit-evaluation prism",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "marketing-automation-workflow-map",
@@ -580,7 +892,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./marketing-automation-workflow-map/"
+    "url": "./marketing-automation-workflow-map/",
+    "cover": {
+      "src": "../assets/images/blog/cover-marketing-automation-workflow-map.jpg",
+      "alt": "Marketing automation workflow connecting trigger, eligibility, actions, waits, human handoff, exceptions, and review",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "crm-lead-nurturing-automation",
@@ -591,7 +909,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./crm-lead-nurturing-automation/"
+    "url": "./crm-lead-nurturing-automation/",
+    "cover": {
+      "src": "../assets/images/blog/cover-crm-lead-nurturing-automation.jpg",
+      "alt": "Lead signals moving through consent, timing, nurture, recycle, and human handoff gates",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "seo-topic-clusters-customer-questions",
@@ -602,7 +926,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./seo-topic-clusters-customer-questions/"
+    "url": "./seo-topic-clusters-customer-questions/",
+    "cover": {
+      "src": "../assets/images/blog/cover-seo-topic-clusters-customer-questions.jpg",
+      "alt": "Customer-question nodes forming an organic SEO topic cluster around a central pillar-page prism",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "ecommerce-seo-foundations",
@@ -613,7 +943,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./ecommerce-seo-foundations/"
+    "url": "./ecommerce-seo-foundations/",
+    "cover": {
+      "src": "../assets/images/blog/cover-ecommerce-seo-foundations.jpg",
+      "alt": "Search lens inspecting product and collection architecture across a connected ecommerce catalog",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "technical-seo-audit-priorities",
@@ -624,7 +960,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./technical-seo-audit-priorities/"
+    "url": "./technical-seo-audit-priorities/",
+    "cover": {
+      "src": "../assets/images/blog/cover-technical-seo-audit-priorities.jpg",
+      "alt": "Website topology scanned across crawl, indexation, structure, and performance layers",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "client-acquisition-system-for-service-businesses",
@@ -635,7 +977,13 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./client-acquisition-system-for-service-businesses/"
+    "url": "./client-acquisition-system-for-service-businesses/",
+    "cover": {
+      "src": "../assets/images/blog/cover-client-acquisition-system-for-service-businesses.jpg",
+      "alt": "Service-business acquisition orbit connecting fit, relevant reach, qualification, handoff, delivery, and feedback",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "small-budget-marketing-plan",
@@ -646,7 +994,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./small-budget-marketing-plan/"
+    "url": "./small-budget-marketing-plan/",
+    "cover": {
+      "src": "../assets/images/blog/cover-small-budget-marketing-plan.jpg",
+      "alt": "Limited marketing resources passing through a focus prism into maintain, test, reserve, and one clear destination",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "quarterly-marketing-review",
@@ -657,7 +1011,13 @@
     "readingTime": "9 min read",
     "featured": false,
     "status": "published",
-    "url": "./quarterly-marketing-review/"
+    "url": "./quarterly-marketing-review/",
+    "cover": {
+      "src": "../assets/images/blog/cover-quarterly-marketing-review.jpg",
+      "alt": "Evidence arcs feeding a quarterly decision compass with priority, constraint, ownership, and action pathways",
+      "width": 1280,
+      "height": 720
+    }
   },
   {
     "slug": "marketing-operating-system-for-small-teams",
@@ -668,6 +1028,12 @@
     "readingTime": "10 min read",
     "featured": false,
     "status": "published",
-    "url": "./marketing-operating-system-for-small-teams/"
+    "url": "./marketing-operating-system-for-small-teams/",
+    "cover": {
+      "src": "../assets/images/blog/cover-marketing-operating-system-for-small-teams.jpg",
+      "alt": "Modular marketing operating system connecting priorities, production, launch checks, evidence, and review",
+      "width": 1280,
+      "height": 720
+    }
   }
 ]
