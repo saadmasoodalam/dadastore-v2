@@ -7,6 +7,18 @@ const BLOG_DIR = path.join(ROOT, "blog");
 const POSTS_FILE = path.join(BLOG_DIR, "data", "posts.json");
 const CATEGORIES_FILE = path.join(BLOG_DIR, "data", "categories.json");
 const OUTPUT_FILE = path.join(BLOG_DIR, "category", "index.html");
+const CATEGORY_GRAPHICS = Object.freeze({
+  "paid-media": { src: "../../assets/images/blog/categories/category-paid-media.jpg", alt: "Paid media campaign signal divided through controlled allocation paths into channel nodes" },
+  "social-media-strategy": { src: "../../assets/images/blog/categories/category-social-media-strategy.jpg", alt: "Audience signals connected through a strategy compass to content, publishing, and engagement paths" },
+  "ecommerce-cro": { src: "../../assets/images/blog/categories/category-ecommerce-cro.jpg", alt: "Product discovery, offer, cart, trust, and checkout stages connected in a commerce journey" },
+  "tracking-analytics": { src: "../../assets/images/blog/categories/category-tracking-analytics.jpg", alt: "Event streams passing through validation and attribution layers into a measurement system" },
+  "creative-strategy": { src: "../../assets/images/blog/categories/category-creative-strategy.jpg", alt: "Creative idea transformed into distinct abstract formats, compared, and refined through learning" },
+  "marketing-automation": { src: "../../assets/images/blog/categories/category-marketing-automation.jpg", alt: "Automation trigger branching through actions, delays, handoff, exceptions, and workflow exits" },
+  "content-marketing": { src: "../../assets/images/blog/categories/category-content-marketing.jpg", alt: "Source idea adapted into distinct content formats and distributed through multiple channels" },
+  seo: { src: "../../assets/images/blog/categories/category-seo.jpg", alt: "Crawl path moving through blank page architecture, topic clusters, internal links, and an index gateway" },
+  "email-marketing": { src: "../../assets/images/blog/categories/category-email-marketing.jpg", alt: "Audience signals segmented into lifecycle message sequences with suppression and response paths" },
+  "business-growth-systems": { src: "../../assets/images/blog/categories/category-business-growth-systems.jpg", alt: "Business priorities connected to channel roles, execution, measurement, and a review loop" },
+});
 
 const escapeHtml = (value) => String(value)
   .replaceAll("&", "&amp;")
@@ -26,6 +38,7 @@ export function buildCategoryDirectoryData(posts, categories) {
       description: category.description,
       count: articles.length,
       previews: articles.slice(0, 3).map((post) => post.title),
+      graphic: CATEGORY_GRAPHICS[category.slug],
     };
   }).filter((category) => category.count > 0);
 }
@@ -34,6 +47,9 @@ function renderCategoryCard(category, index) {
   const countLabel = `${category.count} ${category.count === 1 ? "article" : "articles"}`;
   const previews = category.previews.map((title) => `<li>${escapeHtml(title)}</li>`).join("\n                  ");
   return `          <a class="blog-category-directory-card" href="?category=${escapeHtml(category.slug)}#category-results" data-category-link="${escapeHtml(category.slug)}">
+            <span class="blog-category-directory-visual">
+              <img src="${escapeHtml(category.graphic.src)}" width="960" height="480" loading="lazy" decoding="async" alt="${escapeHtml(category.graphic.alt)}" />
+            </span>
             <span class="blog-category-directory-index" aria-hidden="true">${String(index + 1).padStart(2, "0")}</span>
             <div class="blog-category-directory-heading">
               <h2>${escapeHtml(category.title)}</h2>
@@ -150,6 +166,7 @@ export async function buildCategoryDirectory() {
   const directory = buildCategoryDirectoryData(posts, categories);
   const total = directory.reduce((sum, category) => sum + category.count, 0);
   if (directory.length !== 10 || total !== 61) throw new Error(`Expected 10 active categories and 61 published articles; found ${directory.length} and ${total}.`);
+  if (directory.some((category) => !category.graphic)) throw new Error("Every active category must have a mapped local graphic.");
   await writeFile(OUTPUT_FILE, renderCategoryDirectoryPage(directory), "utf8");
   return { activeCategories: directory.length, publishedArticles: total, categories: directory.map(({ slug, title, count }) => ({ slug, title, count })) };
 }
