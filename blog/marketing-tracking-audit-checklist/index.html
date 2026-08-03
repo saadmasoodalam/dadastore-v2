@@ -2,5 +2,50 @@
 <h2 id="evidence-pack">Build an audit evidence pack</h2><p>An audit should be reproducible. Record the environment, test account, device, browser, consent state, release version, and timestamp for every journey. Preserve browser requests, tag-manager previews, analytics debug output, platform diagnostics, and source-system records. Use synthetic identities and orders so evidence contains no customer information.</p><p>Create an inventory of containers, tags, pixels, server connections, data-layer versions, domains, apps, feeds, dashboards, and owners. Note who controls access and billing. Unowned infrastructure is an audit finding even when events currently fire, because nobody is accountable for renewals, credentials, or incidents.</p><h3>Grade findings by decision risk</h3><p>Classify each issue by the business decision it can distort, the journeys affected, frequency, and recovery difficulty. A duplicate purchase event has different urgency from an inconsistent optional content label. Separate confirmed defects from observations that need more evidence. Assign every remediation an owner, acceptance test, target release, and rollback note.</p><p>Retest from the original evidence steps after a fix. Do not close a finding because a code change exists; close it when the expected event order, identifiers, values, consent behavior, and destination receipt are demonstrated.</p><h3>Turn the audit into an ongoing control</h3><p>Schedule a compact smoke test after site releases and a broader review at a cadence that matches change volume. Monitor sudden changes in event volume, missing required parameters, duplicate indicators, stale dashboard sources, and unexplained channel shifts. Keep a register of known limitations so analysts do not repeatedly rediscover them.</p><p>Review access at the same time: remove departed users, reduce excessive permissions, rotate exposed secrets, and confirm recovery ownership. The final audit report should contain an executive risk summary, technical evidence, remediation backlog, and validation record. That structure helps teams fix the measurement system without turning the audit into an unprioritized list of tag observations.</p>
 <h3>Audit the handoffs, not just the endpoints</h3><p>Many failures occur between systems that each appear healthy. Trace at least one record across the browser, consent layer, tag manager, server endpoint, analytics property, advertising destination, commerce or CRM source, and final dashboard. Confirm identifier preservation, timestamps, currencies, status logic, and deletion behavior at each handoff. Check redirects, payment providers, subdomains, cross-domain navigation, embedded forms, and mobile web separately where they exist.</p><p>Interview the people who deploy changes and the people who interpret reports. Ask how they learn about releases, where definitions live, which discrepancies are accepted, and who can disable a faulty connection. Conflicting answers reveal governance risk that automated scans will miss.</p><h3>Define a closure standard</h3><p>An audit is complete when scope, evidence, findings, owners, and residual limitations are explicit—not when every issue is immediately fixed. Critical findings need a containment action and retest date. Lower-risk findings need a backlog decision. Publish a concise measurement-health summary for report users so they know which periods or metrics require caution. Preserve the detailed technical record for the next audit, then compare changes rather than starting from zero.</p>
 <p>Before distributing the report, remove test credentials, personal information, and unnecessary raw payloads. Share evidence according to role and retain it under the organization’s approved policy. A technically thorough audit should also be safe to store, review, and hand to the people responsible for remediation.</p>
-</div></div><section class="blog-section blog-related"><div class="blog-shell"><h2>Related articles</h2><a href="../utm-governance-system/">A Practical UTM Governance System</a> · <a href="../diagnosing-ad-platform-reporting-discrepancies/">Diagnosing Reporting Discrepancies</a></div></section><section class="blog-section blog-cta-section"><div class="blog-shell blog-cta"><div><h2>Need a tracking audit with clear remediation?</h2><p>DaDaStore can review definitions, implementations, consent, and reporting evidence.</p></div><a class="blog-button" href="mailto:dadastore.co@gmail.com">Scope a Tracking Audit</a></div></section></article>
+</div></div><section class="blog-section blog-related" aria-labelledby="related-articles" data-source-relations="utm-governance-system,diagnosing-ad-platform-reporting-discrepancies">
+  <div class="blog-shell">
+    <div class="blog-related-header">
+      <p class="blog-eyebrow">Continue reading</p>
+      <h2 id="related-articles">Related articles</h2>
+    </div>
+    <div class="blog-related-grid">
+        <article class="blog-related-card" data-related-slug="ga4-ecommerce-measurement-plan">
+          <a class="blog-related-card-link" href="../ga4-ecommerce-measurement-plan/">
+            <span class="blog-related-card-media">
+              <img src="../../assets/images/blog/cover-ga4-ecommerce-measurement-plan.jpg" width="1280" height="720" loading="lazy" decoding="async" alt="Ecommerce event signals flowing through a measurement contract, validation, and reporting architecture" />
+            </span>
+            <span class="blog-related-card-body">
+              <span class="blog-related-card-category">Tracking &amp; Analytics</span>
+              <h3 class="blog-related-card-title">How to Build a GA4 Ecommerce Measurement Plan</h3>
+              <span class="blog-related-card-time">10 min read</span>
+            </span>
+          </a>
+        </article>
+        <article class="blog-related-card" data-related-slug="meta-pixel-event-planning-and-validation">
+          <a class="blog-related-card-link" href="../meta-pixel-event-planning-and-validation/">
+            <span class="blog-related-card-media">
+              <img src="../../assets/images/blog/cover-meta-pixel-event-planning-and-validation.jpg" width="1280" height="720" loading="lazy" decoding="async" alt="Pixel event signals passing through consent, deduplication, catalog matching, and validation gates" />
+            </span>
+            <span class="blog-related-card-body">
+              <span class="blog-related-card-category">Tracking &amp; Analytics</span>
+              <h3 class="blog-related-card-title">Meta Pixel Event Planning and Validation Guide</h3>
+              <span class="blog-related-card-time">9 min read</span>
+            </span>
+          </a>
+        </article>
+        <article class="blog-related-card" data-related-slug="privacy-conscious-marketing-measurement">
+          <a class="blog-related-card-link" href="../privacy-conscious-marketing-measurement/">
+            <span class="blog-related-card-media">
+              <img src="../../assets/images/blog/cover-privacy-conscious-marketing-measurement.jpg" width="1280" height="720" loading="lazy" decoding="async" alt="Privacy-conscious measurement signals passing through consent and minimization controls" />
+            </span>
+            <span class="blog-related-card-body">
+              <span class="blog-related-card-category">Tracking &amp; Analytics</span>
+              <h3 class="blog-related-card-title">Privacy-Conscious Marketing Measurement: A Planning Framework</h3>
+              <span class="blog-related-card-time">9 min read</span>
+            </span>
+          </a>
+        </article>
+    </div>
+  </div>
+</section><section class="blog-section blog-cta-section"><div class="blog-shell blog-cta"><div><h2>Need a tracking audit with clear remediation?</h2><p>DaDaStore can review definitions, implementations, consent, and reporting evidence.</p></div><a class="blog-button" href="mailto:dadastore.co@gmail.com">Scope a Tracking Audit</a></div></section></article>
 </main><script src="../assets/blog.js"></script></body></html>
