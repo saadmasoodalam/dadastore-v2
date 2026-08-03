@@ -74,9 +74,9 @@
 <p>Browser tracking can observe page context and user interactions close to the interface. It can access selected product, page, campaign, cookie, and consent state according to implementation and browser conditions. It is exposed to blockers, navigation timing, network failure, script conflicts, and browser restrictions. A visible Pixel event still depends on correct data-layer and trigger logic.</p>
 <h3>What server delivery can provide</h3>
 <p>Server delivery can use confirmed backend states, controlled logs, retry logic, and data unavailable to page scripts. It introduces new responsibilities: authentication, secret management, permitted data selection, normalization, event timing, logging, retry behavior, deletion or retention, and incident response. It can also send duplicate, stale, or misclassified events at scale if the contract is wrong.</p>
-<div class="blog-post-hero" role="img" aria-label="Browser and server event taxonomy table">
+<div class="blog-post-hero blog-insight-block" role="group" aria-label="Browser and server event taxonomy table" data-insight-kind="comparison-diagram" data-insight-topic="tracking-and-analytics">
 <span>Event-source taxonomy</span>
-<div class="blog-post-visual blog-visual-matrix" aria-hidden="true">
+<div class="blog-post-visual blog-visual-matrix blog-insight-diagram">
 <span>Event</span>
 <span>Browser role</span>
 <span>Server role</span>
