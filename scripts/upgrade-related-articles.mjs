@@ -7,6 +7,7 @@ const BLOG_DIR = path.join(ROOT, "blog");
 const POSTS_FILE = path.join(BLOG_DIR, "data", "posts.json");
 const WRITE = process.argv.includes("--write");
 const RELATED_SECTION = /<section\s+class="blog-section blog-related"[^>]*>[\s\S]*?<\/section>/i;
+const CTA_SECTION = /<section\s+class="blog-section blog-cta-section"[^>]*>[\s\S]*?<\/section>/i;
 
 const STOP_WORDS = new Set([
   "about", "after", "against", "also", "among", "and", "article", "better", "build", "business", "checklist",
@@ -116,7 +117,7 @@ ${cards}
 </section>`;
 }
 
-const withoutRelatedSection = (html) => html.replace(RELATED_SECTION, "");
+const withoutRelatedSection = (html) => html.replace(RELATED_SECTION, "").replace(/>\s+</g, "><");
 
 export async function upgradeRelatedArticles({ write = WRITE } = {}) {
   const posts = JSON.parse(await readFile(POSTS_FILE, "utf8"));
@@ -136,11 +137,12 @@ export async function upgradeRelatedArticles({ write = WRITE } = {}) {
     const sourceRelations = relationSlugsFrom(html).filter((slug) => slug !== post.slug);
     const selected = selectRelatedPosts(post, eligible, sourceRelations);
     const section = renderRelatedSection(post, selected, sourceRelations);
-    const next = RELATED_SECTION.test(html)
-      ? html.replace(RELATED_SECTION, section)
-      : html.replace(/<section\s+class="blog-section blog-cta-section"/i, `${section}<section class="blog-section blog-cta-section"`);
+    const withoutRelated = html.replace(RELATED_SECTION, "").replace(/[ \t]+(?=\r?\n|$)/gm, "").replace(/\s+(?=<\/article>)/i, "");
+    const next = CTA_SECTION.test(withoutRelated)
+      ? withoutRelated.replace(CTA_SECTION, (cta) => `${cta}\n${section}`)
+      : withoutRelated;
 
-    if (next === html && !RELATED_SECTION.test(html)) throw new Error(`Unable to insert related section for ${post.slug}.`);
+    if (!CTA_SECTION.test(html)) throw new Error(`Unable to locate CTA section for ${post.slug}.`);
     if (withoutRelatedSection(next) !== withoutRelatedSection(html)) throw new Error(`Non-related article markup changed in ${post.slug}.`);
     if (write && next !== html) await writeFile(file, next, "utf8");
 
