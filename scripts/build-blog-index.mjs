@@ -6,7 +6,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 export const BLOG_DIR = path.join(ROOT, "blog");
 export const DATA_DIR = path.join(BLOG_DIR, "data");
-export const DEFAULT_PUBLIC_BASE = "https://saadmasoodalam.github.io/dadastore-v2/blog/";
+export const DEFAULT_PUBLIC_BASE = "https://dadastore.co/blog/";
 const REQUIRED_PLAN_FIELDS = [
   "id", "title", "slug", "category", "excerpt", "primaryKeyword",
   "searchIntent", "audience", "articleType", "readingTime", "status", "batch",
