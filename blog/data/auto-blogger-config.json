@@ -30,7 +30,7 @@
     "maximum_size": 10,
     "minimum_size": 1,
     "one_active_batch_at_a_time": true,
-    "batch_id_pattern": "^batch-[0-9]{8}-[a-z0-9]{4,12}$",
+    "batch_id_pattern": "^batch-(?:[0-9]{3}|[0-9]{8}-[a-z0-9]{4,12})$",
     "draft_id_pattern": "^draft-[a-z0-9][a-z0-9-]{2,80}-v[0-9]{2}$",
     "stop_after_batch": true,
     "next_batch_requires_previous_decision": true,

@@ -58,7 +58,7 @@
         "string",
         "null"
       ],
-      "pattern": "^batch-[0-9]{8}-[a-z0-9]{4,12}$"
+      "pattern": "^batch-(?:[0-9]{3}|[0-9]{8}-[a-z0-9]{4,12})$"
     },
     "draft_id": {
       "type": [
@@ -100,7 +100,12 @@
       "enum": [
         "informational",
         "commercial investigation",
-        "problem-solving"
+        "problem-solving",
+        "profitability analysis",
+        "budget allocation decision",
+        "retention planning",
+        "operational governance",
+        "channel-risk planning"
       ]
     },
     "audience_problem": {
