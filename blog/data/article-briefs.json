@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "source_queue_version": 1,
+  "total_briefs": 0,
+  "briefs": [],
+  "processing_summary": {
+    "eligible_topics": 0,
+    "briefs_generated": 0,
+    "review_required_topics": 0,
+    "rejected_topics": 0,
+    "validation_failures": 0,
+    "ignored_topics": 0
+  },
+  "rejected_topics": [],
+  "review_required_topics": []
+}

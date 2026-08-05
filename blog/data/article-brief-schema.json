@@ -8,10 +8,13 @@
   "required": [
     "brief_id",
     "topic_id",
+    "batch_id",
     "working_title",
+    "proposed_slug",
     "primary_keyword",
     "secondary_keywords",
     "search_intent",
+    "target_audience",
     "audience_problem",
     "article_promise",
     "category",
@@ -23,14 +26,18 @@
     "factual_claims_requiring_sources",
     "examples_required",
     "internal_links",
+    "proposed_internal_links",
     "external_source_requirements",
-    "cta_objective",
+    "CTA_objective",
     "insight_diagram_concept",
     "cover_image_concept",
     "related_topic_candidates",
     "tone",
     "originality_requirements",
-    "approval_state"
+    "factual_risk_level",
+    "duplicate_risk_status",
+    "approval_state",
+    "generated_at"
   ],
   "properties": {
     "schema_version": {
@@ -353,11 +360,6 @@
         }
       }
     },
-    "cta_objective": {
-      "type": "string",
-      "minLength": 10,
-      "maxLength": 300
-    },
     "insight_diagram_concept": {
       "type": "object",
       "additionalProperties": false,
@@ -553,6 +555,7 @@
       "enum": [
         "draft",
         "under_review",
+        "manual_source_review_required",
         "approved",
         "rejected",
         "archived"
@@ -593,6 +596,72 @@
           "maxLength": 2000
         }
       }
+    },
+    "target_audience": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 300
+    },
+    "proposed_internal_links": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "target_slug",
+          "target_url",
+          "anchor_intent",
+          "editorial_reason",
+          "target_must_be_published"
+        ],
+        "properties": {
+          "target_slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "target_url": {
+            "type": "string",
+            "pattern": "^\\./[a-z0-9]+(?:-[a-z0-9]+)*/$"
+          },
+          "anchor_intent": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 120
+          },
+          "editorial_reason": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 300
+          },
+          "target_must_be_published": {
+            "type": "boolean",
+            "const": true
+          }
+        }
+      }
+    },
+    "CTA_objective": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 300
+    },
+    "factual_risk_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "duplicate_risk_status": {
+      "type": "string",
+      "const": "clear"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
     }
   }
 }
