@@ -560,10 +560,11 @@
       "enum": [
         "draft",
         "under_review",
+        "approved_for_draft",
+        "approved_for_draft_with_constraints",
         "manual_source_review_required",
         "approved",
-        "rejected",
-        "archived"
+        "rejected"
       ]
     },
     "approval_record": {
@@ -667,6 +668,92 @@
     "generated_at": {
       "type": "string",
       "format": "date-time"
+    },
+    "source_review_status": {
+      "type": "string",
+      "enum": [
+        "approved_for_draft",
+        "approved_with_constraints",
+        "blocked_pending_source_review",
+        "rejected"
+      ]
+    },
+    "source_reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_reviewer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewed_sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "publisher",
+          "url",
+          "access_date",
+          "supported_claim",
+          "limitations"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "access_date": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "supported_claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "limitations": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "supported_claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "unsupported_claims": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "drafting_constraints": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "approval_notes": {
+      "type": "string",
+      "minLength": 1
     }
   }
 }

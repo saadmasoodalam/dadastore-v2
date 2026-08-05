@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-08-06T12:00:00.000Z",
+  "batch_id": "batch-001",
+  "total_briefs": 5,
+  "approved_briefs": 1,
+  "constrained_briefs": 4,
+  "blocked_briefs": 0,
+  "rejected_briefs": 0,
+  "reviews": [
+    {
+      "brief_id": "brief-topic-20260806-autogovern-v01",
+      "topic_id": "topic-20260806-autogovern",
+      "factual_risk_level": "moderate",
+      "review_status": "approved_with_constraints",
+      "sources": [
+        {
+          "title": "The NIST Cybersecurity Framework (CSF) 2.0",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://doi.org/10.6028/NIST.CSWP.29",
+          "access_date": "2026-08-06",
+          "supported_claim": "A governance model can define roles, responsibilities, policy, oversight, risk priorities, and review cycles.",
+          "limitations": "The CSF governs cybersecurity risk, not marketing automation. Any use in the article must be labeled as an operating-governance analogy, not a NIST marketing standard."
+        }
+      ],
+      "supported_claims": [
+        "Governance can use explicit roles, responsibilities, policy, oversight, risk prioritization, and recurring review."
+      ],
+      "unsupported_claims": [
+        "NIST requires a specific marketing-automation process, or the proposed governance framework guarantees security, compliance, data quality, or operational performance."
+      ],
+      "drafting_constraints": [
+        "Label NIST CSF 2.0 as a governance analogy rather than a marketing-automation standard.",
+        "Do not claim security, privacy, or legal compliance from workflow governance alone.",
+        "Use synthetic workflow examples with no private client or system data.",
+        "Require organization-specific access, privacy, and change-control review."
+      ],
+      "reviewer": "Codex source review under Project Owner Unit 6D0 authorization",
+      "reviewed_at": "2026-08-06T12:00:00.000Z"
+    },
+    {
+      "brief_id": "brief-topic-20260806-budgetshift-v01",
+      "topic_id": "topic-20260806-budgetshift",
+      "factual_risk_level": "moderate",
+      "review_status": "approved_with_constraints",
+      "sources": [
+        {
+          "title": "About Performance Planner",
+          "publisher": "Google Ads Help",
+          "url": "https://support.google.com/google-ads/answer/9230124?hl=en",
+          "access_date": "2026-08-06",
+          "supported_claim": "Google Ads provides forecast scenarios for eligible campaigns to assess how budget or campaign-setting changes may affect selected metrics.",
+          "limitations": "Google Ads only; forecasts are modeled estimates, eligibility and feature support can change, and forecasts do not establish causal incrementality."
+        }
+      ],
+      "supported_claims": [
+        "Google Ads offers modeled planning scenarios for eligible campaigns and selected conversion goals."
+      ],
+      "unsupported_claims": [
+        "A forecast proves incrementality, a marginal signal guarantees better returns, or the same platform behavior applies across Google, Meta, TikTok, or other channels."
+      ],
+      "drafting_constraints": [
+        "Treat forecasts and marginal signals as decision inputs, not causal proof.",
+        "Keep the framework platform-neutral except where the reviewed Google documentation is explicitly identified.",
+        "Do not include current feature coverage, eligibility thresholds, or numeric benchmarks unless rechecked at publication time.",
+        "Require controlled change windows and post-change observation before further reallocation."
+      ],
+      "reviewer": "Codex source review under Project Owner Unit 6D0 authorization",
+      "reviewed_at": "2026-08-06T12:00:00.000Z"
+    },
+    {
+      "brief_id": "brief-topic-20260806-channelrisk-v01",
+      "topic_id": "topic-20260806-channelrisk",
+      "factual_risk_level": "low",
+      "review_status": "approved_for_draft",
+      "sources": [
+        {
+          "title": "Manage your business — Marketing and sales",
+          "publisher": "U.S. Small Business Administration",
+          "url": "https://www.sba.gov/counseling/manage-your-business/#marketing-and-sales",
+          "access_date": "2026-08-06",
+          "supported_claim": "A marketing plan can identify multiple channels, document costs, and use consistent measurement to review the plan.",
+          "limitations": "General planning guidance; it does not prove that channel diversification will improve acquisition results or prescribe an optimal channel mix."
+        }
+      ],
+      "supported_claims": [
+        "A marketing plan can document channels, costs, and a consistent review process."
+      ],
+      "unsupported_claims": [
+        "Using more channels necessarily lowers acquisition cost, improves growth, or produces a safer or more profitable mix."
+      ],
+      "drafting_constraints": [
+        "Frame platform concentration as a business-risk diagnosis and planning inference, not a guaranteed diversification benefit.",
+        "Do not prescribe a universal channel count or allocation.",
+        "Use synthetic scenarios only and distinguish measurement signals from proof.",
+        "Require a staged test and operational-capacity check before adding a channel."
+      ],
+      "reviewer": "Codex source review under Project Owner Unit 6D0 authorization",
+      "reviewed_at": "2026-08-06T12:00:00.000Z"
+    },
+    {
+      "brief_id": "brief-topic-20260806-profitmodel-v01",
+      "topic_id": "topic-20260806-profitmodel",
+      "factual_risk_level": "moderate",
+      "review_status": "approved_with_constraints",
+      "sources": [
+        {
+          "title": "Plan your business — Break-even point",
+          "publisher": "U.S. Small Business Administration",
+          "url": "https://www.sba.gov/counseling/plan-your-business/#breakeven-point",
+          "access_date": "2026-08-06",
+          "supported_claim": "Contribution margin relates selling price and variable cost and can support a break-even estimate.",
+          "limitations": "Foundational small-business guidance, not ecommerce-specific accounting advice; cost classification and model inputs require business-specific review."
+        }
+      ],
+      "supported_claims": [
+        "Contribution margin can be represented from selling price and variable cost inputs and used in break-even reasoning."
+      ],
+      "unsupported_claims": [
+        "Any universal ecommerce cost classification, profit threshold, benchmark, or claim that the model guarantees a profitable marketing decision."
+      ],
+      "drafting_constraints": [
+        "Use a clearly synthetic worksheet and label every assumed input.",
+        "Present the model as management guidance, not accounting, tax, or financial advice.",
+        "Do not state benchmarks, results, or universal cost inclusions.",
+        "Require finance or accounting review before a business adopts the model."
+      ],
+      "reviewer": "Codex source review under Project Owner Unit 6D0 authorization",
+      "reviewed_at": "2026-08-06T12:00:00.000Z"
+    },
+    {
+      "brief_id": "brief-topic-20260806-retention-v01",
+      "topic_id": "topic-20260806-retention",
+      "factual_risk_level": "moderate",
+      "review_status": "approved_with_constraints",
+      "sources": [
+        {
+          "title": "CAN-SPAM Act: A Compliance Guide for Business",
+          "publisher": "U.S. Federal Trade Commission",
+          "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+          "access_date": "2026-08-06",
+          "supported_claim": "U.S. commercial email is subject to sender-identification, truthful-message, address, opt-out, and compliance-monitoring requirements described by the FTC.",
+          "limitations": "U.S. federal guidance only; it is not legal advice and does not replace jurisdiction-specific review. Penalty amounts and legal requirements must be rechecked before publication."
+        },
+        {
+          "title": "Email sender guidelines",
+          "publisher": "Google Gmail Help",
+          "url": "https://support.google.com/mail/answer/81126?hl=en",
+          "access_date": "2026-08-06",
+          "supported_claim": "Gmail documents authentication, subscription, unsubscribe, formatting, and monitoring requirements for mail sent to personal Gmail accounts.",
+          "limitations": "Gmail-specific and time-sensitive; sender-volume thresholds, enforcement, and technical requirements must be rechecked before publication."
+        }
+      ],
+      "supported_claims": [
+        "Retention email operations should account for truthful sender/message information, unsubscribe handling, authentication, recipient expectations, and ongoing monitoring."
+      ],
+      "unsupported_claims": [
+        "Universal legal compliance, deliverability guarantees, fixed optimal cadence, or any claim that a retention workflow guarantees repeat purchases."
+      ],
+      "drafting_constraints": [
+        "Do not provide legal advice; tell readers to verify rules for every applicable jurisdiction.",
+        "Distinguish commercial, subscription, and transactional messages without declaring a reader's legal classification.",
+        "Treat Gmail requirements as provider-specific and time-sensitive.",
+        "Avoid deliverability, engagement, revenue, and retention benchmarks."
+      ],
+      "reviewer": "Codex source review under Project Owner Unit 6D0 authorization",
+      "reviewed_at": "2026-08-06T12:00:00.000Z"
+    }
+  ]
+}
