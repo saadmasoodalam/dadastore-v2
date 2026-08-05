@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "queue_name": "dadastore-auto-blogger-topic-queue",
+  "queue_state": "empty_seed",
+  "notice": "This committed file defines the queue contract only. Operational topic records must remain in a private non-Pages editorial workspace.",
+  "allowed_statuses": [
+    "proposed",
+    "under_review",
+    "approved_for_brief",
+    "rejected",
+    "brief_generated",
+    "draft_generated",
+    "editorial_review",
+    "approved_for_publication",
+    "published",
+    "archived"
+  ],
+  "required_topic_fields": [
+    "topic_id",
+    "proposed_title",
+    "primary_keyword",
+    "secondary_keywords",
+    "search_intent",
+    "target_audience",
+    "category",
+    "priority",
+    "content_type",
+    "business_relevance",
+    "existing_topic_overlap_score",
+    "duplicate_risk_status",
+    "source_requirements",
+    "factual_risk_level",
+    "proposed_internal_links",
+    "status",
+    "batch_id",
+    "created_at",
+    "reviewed_at",
+    "approved_by"
+  ],
+  "field_contract": {
+    "topic_id": {
+      "type": "string",
+      "pattern": "^topic-[0-9]{8}-[a-z0-9]{4,16}$",
+      "immutable": true
+    },
+    "proposed_title": {
+      "type": "string",
+      "minimum_length": 15,
+      "maximum_length": 120
+    },
+    "primary_keyword": {
+      "type": "string",
+      "minimum_length": 2,
+      "maximum_length": 100
+    },
+    "secondary_keywords": {
+      "type": "array",
+      "item_type": "string",
+      "maximum_items": 10,
+      "unique_items": true
+    },
+    "search_intent": {
+      "type": "string",
+      "allowed_values": [
+        "informational",
+        "commercial investigation",
+        "problem-solving"
+      ]
+    },
+    "target_audience": {
+      "type": "string",
+      "minimum_length": 10,
+      "maximum_length": 300
+    },
+    "category": {
+      "type": "string",
+      "source": "blog/data/categories.json"
+    },
+    "priority": {
+      "type": "string",
+      "allowed_values": [
+        "low",
+        "normal",
+        "high"
+      ]
+    },
+    "content_type": {
+      "type": "string",
+      "minimum_length": 3,
+      "maximum_length": 80
+    },
+    "business_relevance": {
+      "type": "string",
+      "minimum_length": 20,
+      "maximum_length": 500
+    },
+    "existing_topic_overlap_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "duplicate_risk_status": {
+      "type": "string",
+      "allowed_values": [
+        "not_checked",
+        "clear",
+        "manual_review",
+        "rejected_duplicate"
+      ]
+    },
+    "source_requirements": {
+      "type": "array",
+      "item_type": "object",
+      "required_item_fields": [
+        "source_type",
+        "purpose",
+        "time_sensitive"
+      ]
+    },
+    "factual_risk_level": {
+      "type": "string",
+      "allowed_values": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "proposed_internal_links": {
+      "type": "array",
+      "item_type": "string",
+      "maximum_items": 8,
+      "unique_items": true,
+      "published_targets_only": true
+    },
+    "status": {
+      "type": "string",
+      "source": "allowed_statuses"
+    },
+    "batch_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^batch-[0-9]{8}-[a-z0-9]{4,12}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "approved_by": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minimum_length": 2,
+      "maximum_length": 120
+    }
+  },
+  "entries": []
+}

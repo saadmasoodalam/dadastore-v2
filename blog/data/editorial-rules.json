@@ -1,25 +1,31 @@
 {
-  "version": 2,
-  "tone": [
-    "practical",
-    "intelligent",
-    "direct"
-  ],
-  "targetArticleLength": {
-    "minimumWords": 1400,
-    "maximumWords": 2200
-  },
+  "version": 3,
+  "tone": ["practical", "intelligent", "direct"],
+  "targetArticleLength": {"minimumWords": 1400, "maximumWords": 2200},
   "prohibited": [
     "guaranteed results",
     "fake statistics",
     "unsupported claims",
     "AI wording or references to content generation",
+    "generic AI filler",
     "filler introductions",
+    "duplicate introductions",
+    "repeated conclusion templates",
     "keyword stuffing",
     "copied content",
-    "fake case studies",
+    "fabricated case studies",
     "fake testimonials",
-    "private client data without explicit approval"
+    "fake quotations",
+    "private client data without explicit approval",
+    "excessive headings",
+    "shallow listicles",
+    "near-duplicate search intent",
+    "article cannibalization",
+    "duplicate slugs",
+    "duplicate metadata",
+    "repeated insight-diagram concepts without justification",
+    "repeated cover-image concepts",
+    "automatic publication"
   ],
   "requiredWritingPractices": [
     "use original wording",
@@ -32,7 +38,10 @@
     "include a DaDaStore contact CTA",
     "include relevant internal links",
     "include complete metadata",
-    "keep every new article in draft status until approval"
+    "keep every new article in draft status until approval",
+    "vary introduction and conclusion structures across a batch",
+    "make every factual claim traceable to reviewed evidence or clearly identified reasoning",
+    "keep source notes separate from unverified drafting suggestions"
   ],
   "requiredMetadata": [
     "title",
@@ -46,6 +55,147 @@
     "articleUrlPath",
     "robots"
   ],
+  "batchControls": {
+    "defaultSize": 5,
+    "maximumSize": 10,
+    "minimumSize": 1,
+    "oneActiveBatchAtATime": true,
+    "stopForReviewAfterEveryBatch": true,
+    "nextBatchRequiresPreviousDecision": true,
+    "allGeneratedArticlesStartAsDrafts": true,
+    "batchIdRequired": true,
+    "draftIdRequired": true,
+    "topicBriefTraceabilityRequired": true
+  },
+  "factualAccuracy": {
+    "noSourceMayBeCitedUnlessReviewed": true,
+    "separateFactFromInference": true,
+    "numericalClaimsRequireReviewedSources": true,
+    "platformCapabilityClaimsRequireCurrentOfficialSources": true,
+    "timeSensitiveTopics": [
+      "laws",
+      "regulations",
+      "platform policies",
+      "advertising rules",
+      "pricing",
+      "software features",
+      "current market data"
+    ],
+    "riskLevels": {
+      "low": {
+        "definition": "Evergreen reasoning or process guidance with no current numerical, legal, policy, pricing, or platform-capability claim.",
+        "requirements": ["separate reasoning from factual claims", "verify any named external capability before publication"]
+      },
+      "moderate": {
+        "definition": "Content that references platform behavior, industry practice, research findings, or facts that may change.",
+        "requirements": ["review current external sources", "prefer primary sources", "record source access dates", "manual editorial review"]
+      },
+      "high": {
+        "definition": "Laws, policies, pricing, advertising rules, software features, market data, numerical claims, or other high-consequence or time-sensitive claims.",
+        "requirements": ["current external sources", "primary-source preference", "citation review", "manual Project Owner approval", "no unsupported numerical claims"]
+      }
+    }
+  },
+  "sourcePolicy": {
+    "sourceClasses": [
+      "evergreen reasoning",
+      "user-provided source material",
+      "official documentation",
+      "research papers",
+      "reputable industry sources",
+      "inferred recommendations"
+    ],
+    "citationRequiresActualReview": true,
+    "primarySourcesPreferredForTimeSensitiveClaims": true,
+    "sourceRecordRequiredFields": [
+      "title",
+      "publisher_or_author",
+      "url_or_private_reference",
+      "source_class",
+      "published_or_updated_at",
+      "accessed_at",
+      "claims_supported",
+      "reviewer"
+    ],
+    "inferencesMustBeLabeled": true,
+    "unreviewedSourceSuggestionsMayNotAppearAsCitations": true,
+    "privateMaterialMayNotBeCopiedIntoPublicDraftsWithoutApproval": true
+  },
+  "originalityAndDuplication": {
+    "comparisonFields": [
+      "title",
+      "slug",
+      "primary keyword",
+      "search intent",
+      "category",
+      "article summary",
+      "heading outline",
+      "metadata",
+      "semantic topic overlap",
+      "cover concept",
+      "insight-diagram concept"
+    ],
+    "overlapScoreScale": "0-100",
+    "manualReviewMinimum": 65,
+    "automaticRejectionMinimum": 90,
+    "exactTitleDuplicateRejected": true,
+    "exactSlugDuplicateRejected": true,
+    "sameIntentRewriteRejected": true,
+    "superficialVariationRejected": true,
+    "keywordCannibalizationRequiresManualReview": true,
+    "duplicateIntroductionPatternsRejected": true,
+    "repeatedConclusionTemplatesRejected": true,
+    "duplicateBodySentencesFlagged": true
+  },
+  "qualityScoring": {
+    "maximumScore": 100,
+    "dimensions": {
+      "searchIntentFit": 9,
+      "topicOriginality": 9,
+      "businessRelevance": 6,
+      "structuralCompleteness": 8,
+      "factualSafety": 12,
+      "clarity": 7,
+      "depth": 7,
+      "actionableValue": 9,
+      "internalLinkQuality": 5,
+      "headingQuality": 4,
+      "introductionQuality": 4,
+      "conclusionQuality": 3,
+      "ctaRelevance": 3,
+      "diagramUsefulness": 5,
+      "repetitionControl": 4,
+      "similarityToExistingArticles": 5
+    },
+    "minimumForEditorialReview": 75,
+    "minimumForOwnerApprovalConsideration": 85,
+    "minimumFactualSafetyForEditorialReview": 9,
+    "minimumFactualSafetyForOwnerApprovalConsideration": 11,
+    "ownerApprovalNeverAutomatic": true,
+    "automaticRejectionOverridesScore": true,
+    "automaticRejectionConditions": [
+      "exact duplicate title",
+      "exact duplicate slug",
+      "existing-topic overlap score of 90 or higher",
+      "same-intent rewrite of a published article",
+      "fabricated statistic, quotation, client result, case study, or testimonial",
+      "private client information",
+      "unsupported high-risk claim",
+      "copied content",
+      "automatic-publication instruction",
+      "missing draft-to-brief traceability"
+    ],
+    "manualReviewConditions": [
+      "existing-topic overlap score from 65 through 89",
+      "moderate or high factual risk",
+      "time-sensitive platform, policy, law, pricing, software, advertising, or market claim",
+      "numerical claim",
+      "potential keyword cannibalization",
+      "cover or diagram concept similarity",
+      "source attribution uncertainty",
+      "quality score below 85 but at least 75"
+    ]
+  },
   "visualPresentation": {
     "brandLanguage": "Use the established DaDaStore V3 dark, cyan, pink, and violet editorial system.",
     "requiredPractices": [
@@ -54,7 +204,9 @@
       "keep visual labels concise, practical, and professionally relevant",
       "make every visual responsive without horizontal overflow",
       "preserve a clear hierarchy between editorial content and decorative treatment",
-      "use the same visual module no more than twice in one batch"
+      "use the same visual module no more than twice in one batch",
+      "include accessible labels and a meaningful caption",
+      "keep the diagram understandable without animation"
     ],
     "approvedStructures": [
       "framework cards",
@@ -70,38 +222,111 @@
       "testing matrix",
       "troubleshooting flow"
     ],
+    "approvedSemanticFamilies": [
+      "comparison-diagram",
+      "process-flow",
+      "decision-framework",
+      "measurement-system",
+      "layered-architecture"
+    ],
     "maximumUsesPerStructurePerBatch": 2,
     "prohibitedPractices": [
       "reusing the same visual block for every article",
       "using one visual module more than twice in a batch",
       "using random decoration without editorial purpose",
-      "allowing visual novelty to weaken readability or evidence boundaries"
+      "allowing visual novelty to weaken readability or evidence boundaries",
+      "using decorative-only diagrams",
+      "repeating diagram logic without documented editorial justification"
     ]
+  },
+  "coverImages": {
+    "approvalRequired": true,
+    "requiredWidth": 1280,
+    "requiredHeight": 720,
+    "requiredAspectRatio": "16:9",
+    "uniqueConceptRequired": true,
+    "uniqueCompositionRequired": true,
+    "copiedThirdPartyArtworkAllowed": false,
+    "embeddedArticleTitleAllowedByDefault": false,
+    "meaningfulAltTextRequired": true,
+    "automaticPublicationAllowed": false,
+    "brandDirection": "Use a distinct, topic-relevant concept within the DaDaStore editorial visual system."
+  },
+  "internalLinks": {
+    "publishedTargetsOnlyForPublicArticles": true,
+    "maximumRecommendedLinks": 8,
+    "descriptiveAnchorsRequired": true,
+    "editorialRelevanceRequired": true,
+    "selfLinksAllowed": false,
+    "duplicateTargetsWithinArticleAllowed": false,
+    "unpublishedDraftLinksAllowed": false,
+    "linkExistenceCheckRequired": true
+  },
+  "relatedArticles": {
+    "publishedCandidatesOnly": true,
+    "requiredCardCount": 3,
+    "selfLinksAllowed": false,
+    "duplicateCardsAllowed": false,
+    "selectionRequiresTopicRelevance": true,
+    "draftsEligible": false,
+    "automaticMutationBeforePublicationApproval": false
   },
   "publicationWorkflow": {
     "defaultStatus": "draft",
-    "allowedStatuses": [
-      "draft",
-      "review",
-      "approved",
-      "published"
-    ],
+    "allowedStatuses": ["draft", "review", "approved", "published"],
     "publicationRequiresOwnerApproval": true,
     "automaticPublishingAllowed": false,
+    "implicitPublishedTransitionAllowed": false,
+    "explicitPublicationCommandRequired": true,
+    "publicationCommandImplemented": false,
+    "stopOnAnyFailure": true,
     "draftRobots": "noindex, nofollow",
-    "publishedRobots": "index, follow"
+    "publishedRobots": "index, follow",
+    "approvalGate": [
+      "topic approved",
+      "brief approved",
+      "draft generated",
+      "automated QA passed",
+      "editorial review completed",
+      "owner approval recorded",
+      "final metadata approved",
+      "final cover approved",
+      "final category approved",
+      "final internal links approved"
+    ]
+  },
+  "productionProtection": {
+    "publishedArticleMutationAllowed": false,
+    "publishedSlugOverwriteAllowed": false,
+    "draftsInPublicIndexesAllowed": false,
+    "draftsInSitemapAllowed": false,
+    "draftsInFeedAllowed": false,
+    "draftsInCategoryCountsAllowed": false,
+    "draftsInFeaturedRotationAllowed": false,
+    "draftsInRelatedArticlesAllowed": false,
+    "draftsInPublicNavigationAllowed": false,
+    "productionDomainMutationAllowed": false,
+    "githubPagesMutationAllowed": false,
+    "articlePlanMutationAllowed": false
   },
   "qualityChecks": [
+    "validate JSON and required fields",
     "validate metadata and relative paths",
     "check title and slug uniqueness",
     "check category assignment",
     "check word count",
-    "check internal links",
+    "check search-intent overlap and cannibalization",
+    "check internal links and published target state",
     "check prohibited wording",
-    "check claims and evidence boundaries",
+    "check claims, sources, and evidence boundaries",
+    "check introduction, conclusion, and body repetition",
+    "check cover and insight-diagram concept uniqueness",
+    "check article structure, CTA placement, and Related Articles",
     "check desktop and mobile layout",
     "check horizontal overflow",
     "check console and network errors",
-    "check public draft visibility"
+    "check public draft visibility",
+    "check sitemap, feed, category, and featured-rotation draft leaks",
+    "confirm owner approval before controlled publication"
   ]
 }
