@@ -61,9 +61,9 @@ const rebuild = await upgradeRelatedArticles({ write: false });
 if (rebuild.changed !== 0) fail("rebuild", `${rebuild.changed} pages would change on an unchanged-data rebuild`);
 if (rebuild.globalFallbacks !== 0) fail("relevance", `${rebuild.globalFallbacks} unqualified global fallbacks found`);
 
-if (published.length !== 61) fail("registry", `expected 61 published records; found ${published.length}`);
 if (drafts.length !== 0) fail("registry", `expected 0 drafts; found ${drafts.length}`);
-if (counts.cards !== 183) fail("coverage", `expected 183 related cards; found ${counts.cards}`);
+const expectedCards = published.length * 3;
+if (counts.cards !== expectedCards) fail("coverage", "expected " + expectedCards + " related cards; found " + counts.cards);
 
 const result = {
   tests: failures.length === 0 ? "passed" : "failed",

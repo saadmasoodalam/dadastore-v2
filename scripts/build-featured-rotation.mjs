@@ -54,7 +54,7 @@ export function isStructurallyEligible(post) {
     typeof post.readingTime === "string" && post.readingTime.trim() &&
     typeof post.url === "string" && /^\.\/[a-z0-9-]+\/$/.test(post.url) &&
     post.cover &&
-    typeof post.cover.src === "string" && /^\.\.\/assets\/images\/blog\/[a-z0-9-]+\.jpg$/.test(post.cover.src) &&
+    typeof post.cover.src === "string" && /^\.\.\/assets\/images\/blog\/[a-z0-9-]+\.(?:jpe?g|png|webp|svg)$/.test(post.cover.src) &&
     typeof post.cover.alt === "string" && post.cover.alt.trim().length >= 20 &&
     post.cover.width === 1280 && post.cover.height === 720
   );
@@ -250,7 +250,8 @@ export async function buildFeaturedRotation({ now = new Date() } = {}) {
   const originalPosts = await readJson(POSTS_FILE);
   const posts = attachCoverMetadata(originalPosts, indexHtml);
   const eligible = await eligibleFeaturedArticles(posts);
-  if (eligible.length !== 61) throw new Error(`Expected 61 eligible published articles; found ${eligible.length}.`);
+  const publishedCount = posts.filter((post) => post.status === "published").length;
+  if (eligible.length !== publishedCount) throw new Error(`Expected all ${publishedCount} published articles to be eligible; found ${eligible.length}.`);
 
   let existing = null;
   if (await exists(ROTATION_FILE)) {

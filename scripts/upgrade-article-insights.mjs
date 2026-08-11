@@ -56,26 +56,39 @@ const patternFrom = (html) => {
   return match?.[1] ?? null;
 };
 
+const setAttribute = (tag, name, value) => {
+  const pattern = new RegExp("\\s" + name + "=\"[^\"]*\"", "i");
+  return pattern.test(tag)
+    ? tag.replace(pattern, " " + name + "=\"" + value + "\"")
+    : tag.replace(/>$/, " " + name + "=\"" + value + "\">");
+};
+
 const upgradePage = (html, post) => {
   const pattern = patternFrom(html);
   if (!pattern) return { html, pattern: null, kind: null, changed: false };
   const defaultKind = PATTERN_KIND[pattern];
-  if (!defaultKind) throw new Error(`Unknown visual pattern ${pattern} in ${post.slug}.`);
+  if (!defaultKind) throw new Error("Unknown visual pattern " + pattern + " in " + post.slug + ".");
   const kind = ARTICLE_KIND_OVERRIDES[post.slug] ?? defaultKind;
   const topic = slugify(post.category);
-  const label = html.match(/<div\s+class="blog-post-hero(?: blog-insight-block)?"[\s\S]*?aria-label="([^"]+)"[\s\S]*?>/)?.[1];
-  if (!label) throw new Error(`Insight label missing in ${post.slug}.`);
+  const heroPattern = /<div\b[^>]*class="[^"]*\bblog-post-hero\b[^"]*"[^>]*>/i;
+  const heroTag = html.match(heroPattern)?.[0] ?? "";
+  const label = heroTag.match(/\baria-label="([^"]+)"/i)?.[1];
+  if (!label) throw new Error("Insight label missing in " + post.slug + ".");
 
-  let next = html.replace(
-    /<div\s+class="blog-post-hero(?: blog-insight-block)?"\s+role="(?:img|group)"\s+aria-label="([^"]+)"(?:\s+data-insight-kind="[^"]+")?(?:\s+data-insight-topic="[^"]+")?\s*>/,
-    `<div class="blog-post-hero blog-insight-block" role="group" aria-label="$1" data-insight-kind="${kind}" data-insight-topic="${topic}">`,
-  );
+  let next = html.replace(heroPattern, (tag) => {
+    const classes = tag.match(/\bclass="([^"]*)"/i)?.[1].split(/\s+/).filter(Boolean) ?? [];
+    if (!classes.includes("blog-insight-block")) classes.push("blog-insight-block");
+    let updated = setAttribute(tag, "class", classes.join(" "));
+    updated = setAttribute(updated, "role", "group");
+    updated = setAttribute(updated, "data-insight-kind", kind);
+    return setAttribute(updated, "data-insight-topic", topic);
+  });
   next = next.replace(
-    new RegExp(`<div\\s+class="blog-post-visual(?: blog-insight-diagram)? ${pattern}(?: blog-insight-diagram)?"(?:\\s+aria-hidden="true")?\\s*>`),
-    `<div class="blog-post-visual ${pattern} blog-insight-diagram">`,
+    new RegExp("<div\\s+class=\"blog-post-visual(?: blog-insight-diagram)? " + pattern + "(?: blog-insight-diagram)?\"(?:\\s+aria-hidden=\"true\")?\\s*>"),
+    "<div class=\"blog-post-visual " + pattern + " blog-insight-diagram\">",
   );
 
-  if (visibleText(next) !== visibleText(html)) throw new Error(`Visible article text changed in ${post.slug}.`);
+  if (visibleText(next) !== visibleText(html)) throw new Error("Visible article text changed in " + post.slug + ".");
   return { html: next, pattern, kind, changed: next !== html };
 };
 
@@ -102,8 +115,7 @@ export async function auditAndUpgrade({ write = WRITE } = {}) {
     .sort()
     .map((pattern) => [pattern, applicable.filter((item) => item.pattern === pattern).length]));
 
-  if (published.length !== 61) throw new Error(`Expected 61 published articles; found ${published.length}.`);
-  if (applicable.length !== 60) throw new Error(`Expected 60 applicable insight blocks; found ${applicable.length}.`);
+  if (report.length !== published.length) throw new Error(`Expected every published article to be audited; found ${report.length} of ${published.length}.`);
   if (Object.keys(kinds).length !== 5) throw new Error(`Expected five diagram families; found ${Object.keys(kinds).length}.`);
   if (VERIFY_HEAD && report.some((item) => !item.headTextMatches)) throw new Error("Visible article text differs from HEAD.");
 

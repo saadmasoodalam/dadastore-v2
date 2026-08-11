@@ -1,15 +1,18 @@
 import { access, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { auditPublishedRegistry } from "./blog-registry-contracts.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BLOG_DIR = path.join(ROOT, "blog");
 const posts = JSON.parse(await readFile(path.join(BLOG_DIR, "data", "posts.json"), "utf8"));
-const published = posts.filter((post) => post.status === "published");
+const registry = await auditPublishedRegistry(posts, BLOG_DIR);
+const published = registry.published;
 const bySlug = new Map(published.map((post) => [post.slug, post]));
 const VOID_TAGS = new Set(["area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"]);
 const SUBSTANTIVE_TAGS = new Set(["h2", "h3", "h4", "p", "ul", "ol", "blockquote", "table", "pre"]);
 const failures = [];
+failures.push(...registry.errors.map((error) => "registry: " + error));
 const counts = { orphanedSubstantiveContent: 0, contentAfterCta: 0, contentAfterRelated: 0, invalidStructuralNesting: 0, prematureWrapperClosures: 0, emptyLargeWrappers: 0, brokenTocTargets: 0, duplicateHeadingIds: 0, relatedPlacementFailures: 0, relatedCardCountFailures: 0, brokenRelatedLinks: 0 };
 
 const classesOf = (node) => new Set((node.attrs.class ?? "").split(/\s+/).filter(Boolean));
@@ -106,7 +109,6 @@ for (const post of published) {
   if (emptySections.length) { counts.emptyLargeWrappers += emptySections.length; failures.push(`${post.slug}: ${emptySections.length} empty article section wrappers`); }
 }
 
-if (published.length !== 61) failures.push(`registry: expected 61 published pages; found ${published.length}`);
 const result = { tests: failures.length ? "failed" : "passed", publishedPagesAudited: published.length, ...counts, failures };
 console.log(JSON.stringify(result, null, 2));
 if (failures.length) process.exitCode = 1;

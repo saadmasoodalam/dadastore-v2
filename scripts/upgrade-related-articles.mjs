@@ -1,6 +1,7 @@
 import { access, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { derivePublishedRegistry } from "./blog-registry-contracts.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BLOG_DIR = path.join(ROOT, "blog");
@@ -43,6 +44,8 @@ const tokensFor = (post) => new Set(`${post.title} ${post.excerpt ?? ""} ${post.
   .filter((token) => token.length >= 3 && !STOP_WORDS.has(token)));
 
 const overlapCount = (left, right) => [...left].filter((token) => right.has(token)).length;
+
+const selectedSlugsFrom = (html) => [...html.matchAll(/data-related-slug="([^"]+)"/gi)].map((match) => match[1]);
 
 const relationSlugsFrom = (html) => {
   const section = html.match(RELATED_SECTION)?.[0] ?? "";
@@ -121,10 +124,11 @@ const withoutRelatedSection = (html) => html.replace(RELATED_SECTION, "").replac
 
 export async function upgradeRelatedArticles({ write = WRITE } = {}) {
   const posts = JSON.parse(await readFile(POSTS_FILE, "utf8"));
-  const published = posts.filter((post) => post.status === "published");
+  const registry = derivePublishedRegistry(posts);
+  if (registry.errors.length) throw new Error(registry.errors.join("; "));
+  const published = registry.published;
   const eligible = published.filter(eligiblePost);
-  if (published.length !== 61) throw new Error(`Expected 61 published articles; found ${published.length}.`);
-  if (eligible.length !== published.length) throw new Error(`Expected 61 eligible published records; found ${eligible.length}.`);
+  if (eligible.length !== published.length) throw new Error("Expected all " + published.length + " published records to be eligible; found " + eligible.length + ".");
 
   for (const post of eligible) {
     await access(path.resolve(BLOG_DIR, post.cover.src));
@@ -135,7 +139,11 @@ export async function upgradeRelatedArticles({ write = WRITE } = {}) {
     const file = path.join(BLOG_DIR, post.slug, "index.html");
     const html = await readFile(file, "utf8");
     const sourceRelations = relationSlugsFrom(html).filter((slug) => slug !== post.slug);
-    const selected = selectRelatedPosts(post, eligible, sourceRelations);
+    const eligibleBySlug = new Map(eligible.map((candidate) => [candidate.slug, candidate]));
+    const existing = selectedSlugsFrom(html).filter((slug) => slug !== post.slug && eligibleBySlug.has(slug));
+    const selected = existing.length === 3 && new Set(existing).size === 3
+      ? existing.map((slug) => ({ post: eligibleBySlug.get(slug), tier: -1, overlap: 0, sourceRelation: sourceRelations.includes(slug) }))
+      : selectRelatedPosts(post, eligible, sourceRelations);
     const section = renderRelatedSection(post, selected, sourceRelations);
     const withoutRelated = html.replace(RELATED_SECTION, "").replace(/[ \t]+(?=\r?\n|$)/gm, "").replace(/\s+(?=<\/article>)/i, "");
     const next = CTA_SECTION.test(withoutRelated)
@@ -144,13 +152,14 @@ export async function upgradeRelatedArticles({ write = WRITE } = {}) {
 
     if (!CTA_SECTION.test(html)) throw new Error(`Unable to locate CTA section for ${post.slug}.`);
     if (withoutRelatedSection(next) !== withoutRelatedSection(html)) throw new Error(`Non-related article markup changed in ${post.slug}.`);
-    if (write && next !== html) await writeFile(file, next, "utf8");
+    const changed = next.replace(/\r\n/g, "\n") !== html.replace(/\r\n/g, "\n");
+    if (write && changed) await writeFile(file, next, "utf8");
 
     report.push({
       slug: post.slug,
       sourceRelations,
       selected: selected.map(({ post: related, tier, overlap }) => ({ slug: related.slug, category: related.category, tier, overlap })),
-      changed: next !== html,
+      changed,
     });
   }
 

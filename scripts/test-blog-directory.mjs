@@ -6,9 +6,10 @@ const posts = JSON.parse(await readFile(new URL("../blog/data/posts.json", impor
 const categories = JSON.parse(await readFile(new URL("../blog/data/categories.json", import.meta.url), "utf8"));
 const directory = buildCategoryDirectoryData(posts, categories);
 const html = renderCategoryDirectoryPage(directory);
+const publishedCount = posts.filter((post) => post.status === "published" && typeof post.url === "string" && post.url.trim()).length;
 
 assert.equal(directory.length, 10);
-assert.equal(directory.reduce((sum, category) => sum + category.count, 0), 61);
+assert.equal(directory.reduce((sum, category) => sum + category.count, 0), publishedCount);
 assert.equal(directory.some((category) => category.count === 0), false);
 assert.equal(new Set(directory.map((category) => category.slug)).size, directory.length);
 assert.equal((html.match(/data-category-link=/g) ?? []).length, 10);
@@ -20,4 +21,4 @@ for (const category of directory) {
   assert.ok(category.previews.length <= 3);
 }
 
-console.log(JSON.stringify({ tests: 9, activeCategories: directory.length, representedPublishedArticles: 61, emptyCategories: 0, defaultArchiveCards: 0 }, null, 2));
+console.log(JSON.stringify({ tests: 9, activeCategories: directory.length, representedPublishedArticles: publishedCount, emptyCategories: 0, defaultArchiveCards: 0 }, null, 2));

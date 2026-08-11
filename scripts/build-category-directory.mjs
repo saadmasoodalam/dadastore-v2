@@ -65,6 +65,7 @@ function renderCategoryCard(category, index) {
 
 export function renderCategoryDirectoryPage(directory) {
   const cards = directory.map(renderCategoryCard).join("\n\n");
+  const publishedCount = directory.reduce((sum, category) => sum + category.count, 0);
   return `<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -110,7 +111,7 @@ export function renderCategoryDirectoryPage(directory) {
               <p class="blog-eyebrow">Active Categories</p>
               <h2 id="category-directory-title">Ten paths through the library</h2>
             </div>
-            <p>Counts come directly from the 61 published registry records. Drafts and empty categories are excluded.</p>
+            <p>Counts come directly from the ${publishedCount} published registry records. Drafts and empty categories are excluded.</p>
           </div>
           <div class="blog-category-directory-grid">
 ${cards}
@@ -165,7 +166,8 @@ export async function buildCategoryDirectory() {
   ]);
   const directory = buildCategoryDirectoryData(posts, categories);
   const total = directory.reduce((sum, category) => sum + category.count, 0);
-  if (directory.length !== 10 || total !== 61) throw new Error(`Expected 10 active categories and 61 published articles; found ${directory.length} and ${total}.`);
+  const publishedCount = posts.filter((post) => post.status === "published" && typeof post.url === "string" && post.url.trim()).length;
+  if (directory.length !== 10 || total !== publishedCount) throw new Error(`Expected ${publishedCount} published articles across active categories; found ${total}.`);
   if (directory.some((category) => !category.graphic)) throw new Error("Every active category must have a mapped local graphic.");
   await writeFile(OUTPUT_FILE, renderCategoryDirectoryPage(directory), "utf8");
   return { activeCategories: directory.length, publishedArticles: total, categories: directory.map(({ slug, title, count }) => ({ slug, title, count })) };
