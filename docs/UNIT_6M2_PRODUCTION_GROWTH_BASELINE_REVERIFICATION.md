@@ -1,8 +1,8 @@
-# Unit 6M2 — Production Growth Baseline Reverification
+# Unit 6M2 â€” Production Growth Baseline Reverification
 
 ## 1. Title
 
-Unit 6M2 — Apply Verified Library-Growth Contracts to Production and Reverify Baseline.
+Unit 6M2 â€” Apply Verified Library-Growth Contracts to Production and Reverify Baseline.
 
 ## 2. Status
 
@@ -58,7 +58,7 @@ The test enumerates every valid published registry record and requires one corre
 
 ## 10. Related Articles growth behavior
 
-The exact invariant is relatedCardTotal = publishedCount × 3. Current result is 183 cards across 61 pages, exactly three per page. The 62-article simulation result is 186. Self-links, duplicate cards, draft links, broken links, broken covers, invalid fields, and nondeterministic rebuild changes are rejected.
+The exact invariant is relatedCardTotal = publishedCount Ã— 3. Current result is 183 cards across 61 pages, exactly three per page. The 62-article simulation result is 186. Self-links, duplicate cards, draft links, broken links, broken covers, invalid fields, and nondeterministic rebuild changes are rejected.
 
 ## 11. Category growth behavior
 
@@ -122,15 +122,15 @@ Fourteen deliberate failure fixtures passed:
 
 Commands executed:
 
-- node scripts/test-article-brief-generator.mjs — passed
-- node scripts/test-article-link-encoding.mjs — passed
-- node scripts/test-article-structure.mjs — passed
-- node scripts/test-blog-directory.mjs — passed
-- node scripts/test-featured-rotation.mjs — passed
-- node scripts/test-library-growth-contracts.mjs — passed, including 14 negative fixtures
-- node scripts/test-related-articles.mjs — passed
-- node scripts/upgrade-article-insights.mjs --verify-head — passed with zero proposed changes
-- git diff --check — passed
+- node scripts/test-article-brief-generator.mjs â€” passed
+- node scripts/test-article-link-encoding.mjs â€” passed
+- node scripts/test-article-structure.mjs â€” passed
+- node scripts/test-blog-directory.mjs â€” passed
+- node scripts/test-featured-rotation.mjs â€” passed
+- node scripts/test-library-growth-contracts.mjs â€” passed, including 14 negative fixtures
+- node scripts/test-related-articles.mjs â€” passed
+- node scripts/upgrade-article-insights.mjs --verify-head â€” passed with zero proposed changes
+- git diff --check â€” passed
 
 No CSS, JavaScript runtime, article HTML, cover, or public-output file changed, so responsive presentation remains byte-identical to the verified baseline.
 
@@ -169,7 +169,7 @@ PRODUCTION GROWTH BASELINE VERIFIED
 
 ## 24. Recommended Unit 6N
 
-Unit 6N — Controlled Article 62 Canary Publication and Live Verification.
+Unit 6N â€” Controlled Article 62 Canary Publication and Live Verification.
 
 ## 25. Suggested commit message
 

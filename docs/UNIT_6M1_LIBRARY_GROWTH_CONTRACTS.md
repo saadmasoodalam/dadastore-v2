@@ -1,4 +1,4 @@
-# Unit 6M1 — Library Growth Contracts
+# Unit 6M1 â€” Library Growth Contracts
 
 ## Status
 
@@ -22,7 +22,7 @@ The valid published registry is derived from records with published status, comp
 ## Corrections
 
 - Article structure audits every valid published record and registry/page parity.
-- Related cards remain exactly three per article; the total is publishedCount × 3.
+- Related cards remain exactly three per article; the total is publishedCount Ã— 3.
 - Existing valid Related selections are preserved; incomplete pages are deterministically rendered.
 - Category totals and copy use the registry-derived count.
 - Sitemap remains all published articles plus the Insights and category pages.
