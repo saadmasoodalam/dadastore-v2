@@ -4,8 +4,8 @@
   "weekStarts": "Monday",
   "lookbackWeeks": 8,
   "minimumStrictPool": 9,
-  "generatedAt": "2026-07-27T00:00:00.000Z",
-  "generatedThroughWeek": "2027-07-26",
+  "generatedAt": "2026-08-10T00:00:00.000Z",
+  "generatedThroughWeek": "2027-08-09",
   "fallbackSlug": "how-to-create-a-social-media-marketing-plan-that-drives-results",
   "assignments": [
     {
@@ -219,6 +219,14 @@
     {
       "week": "2027-07-26",
       "slug": "social-media-audience-research-guide"
+    },
+    {
+      "week": "2027-08-02",
+      "slug": "marketing-automation-governance-how-to-control-changes-qa-and-ownership"
+    },
+    {
+      "week": "2027-08-09",
+      "slug": "social-media-competitor-analysis"
     }
   ]
 }

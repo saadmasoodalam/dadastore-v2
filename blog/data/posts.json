@@ -1035,5 +1035,22 @@
       "width": 1280,
       "height": 720
     }
+  },
+  {
+    "slug": "marketing-automation-governance-how-to-control-changes-qa-and-ownership",
+    "title": "Marketing Automation Governance: How to Control Changes, QA, and Ownership",
+    "excerpt": "A workflow change can be technically small and operationally dangerous. The useful question is not whether the edit works once, but whether the team can explain who approved it, wh",
+    "category": "Marketing Automation",
+    "date": "2026-08-16",
+    "readingTime": "11 min read",
+    "featured": false,
+    "status": "published",
+    "url": "./marketing-automation-governance-how-to-control-changes-qa-and-ownership/",
+    "cover": {
+      "src": "../assets/images/blog/cover-marketing-automation-governance-how-to-control-changes-qa-and-ownership.svg",
+      "alt": "Editorial illustration showing trigger, eligibility, data boundary, human handoff, maintenance in a marketing automation governance decision system.",
+      "width": 1280,
+      "height": 720
+    }
   }
 ]
