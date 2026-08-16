@@ -6,7 +6,7 @@ Unit 6U — Correct Production Documentation Encoding and Restore GitHub Pages D
 
 ## 2. Status
 
-Encoding repair and validation implemented. Remote GitHub Pages verification is performed after the bounded production commit is pushed; the authoritative run ID and result are recorded in the final Unit 6U report and, if necessary, a verification-only documentation update.
+Encoding repair, validation, production push, GitHub Pages deployment, and live verification completed successfully. This record contains the authoritative repair commit, workflow run, and public-surface results.
 
 ## 3. Purpose
 
@@ -36,15 +36,15 @@ The files were then encoded as UTF-8 without BOM. CRLF line structure was retain
 
 ## 8. Semantic preservation
 
-The Windows-1252-decoded source text and strict-UTF-8-decoded result are character-for-character equal. Headings, wording, code blocks, links, commit references, numeric values, line count, and line-ending structure are unchanged. Semantic documentation changes: 0.
+The Windows-1252-decoded source text and strict-UTF-8-decoded result are character-for-character equal after normalizing Git checkout line endings. Headings, wording, code blocks, links, commit references, numeric values, line count, and line-ending structure are unchanged. Semantic documentation changes: 0.
 
 ## 9. UTF-8 validation
 
-`scripts/test-utf8-text-files.mjs` recursively scans Pages-relevant text/config extensions and CNAME-like text files, decodes with strict UTF-8, and fails on invalid sequences or U+FFFD replacement characters. The repaired tree reports zero failures.
+`scripts/test-utf8-text-files.mjs` recursively scans Pages-relevant text/config extensions and CNAME-like text files, decodes with strict UTF-8, and fails on invalid sequences or U+FFFD replacement characters. The repaired tree reports 243 scanned text files, zero invalid UTF-8 files, and zero replacement-character files.
 
 ## 10. Pages workflow verification
 
-The repair is validated locally with the strict UTF-8 scanner and the complete production regression suite before push. The GitHub Pages workflow triggered by the repair commit must complete successfully; the remote result is authoritative.
+The repair was validated locally with the strict UTF-8 scanner and the complete production regression suite before push. GitHub Pages workflow run `31922572531`, triggered by repair commit `1f6c02464d9fe66f9fa56af9aff25480bcb108f9`, completed successfully. Its Jekyll build, artifact upload, build-status report, and deployment jobs all passed.
 
 ## 11. Production state verification
 
@@ -69,23 +69,23 @@ All article pages, covers, `blog/data/posts.json`, Insights, categories, Related
 
 ## 14. Commit
 
-Suggested repair commit: `Fix production documentation UTF-8 encoding`. The authoritative hash is reported after commit creation.
+Repair commit: `1f6c02464d9fe66f9fa56af9aff25480bcb108f9` (`Fix production documentation UTF-8 encoding`).
 
 ## 15. Live checks
 
-After successful Pages deployment, verify HTTP 200 for the homepage, Insights, a representative published article, category directory, sitemap, and feed. The rolled-back Article 62 route must remain absent.
+After successful Pages deployment, the homepage, Insights, representative published article, category directory, sitemap, and feed each returned HTTP 200. The live sitemap contained 63 URL entries and the live feed contained 61 item entries. Article 62 was absent from Insights, sitemap, and feed, and its rolled-back direct route returned HTTP 404.
 
 ## 16. Remaining blockers
 
-Until the repair commit’s Pages workflow succeeds, deployment health remains conditionally restored. No canary may be retried on the consumed August 16 quota day.
+Encoding and Pages deployment blockers are resolved. No canary may be retried on the consumed August 16 quota day; that quota boundary is unchanged and is not a Pages-health blocker.
 
 ## 17. Final verdict
 
-CONDITIONALLY RESTORED pending the remote Pages workflow.
+PAGES DEPLOYMENT HEALTH RESTORED
 
 ## 18. Recommended next unit
 
-After successful Pages verification, wait for a new PKT quota date and obtain separate Project Owner authorization before any fresh Article 62 canary. Do not reuse Unit 6T authorization.
+Wait for a new PKT quota date and obtain separate Project Owner authorization before any fresh Article 62 canary. Do not reuse Unit 6T authorization.
 
 ## 19. Suggested commit message
 
