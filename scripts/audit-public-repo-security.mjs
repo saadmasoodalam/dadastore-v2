@@ -13,6 +13,7 @@ const files = execFileSync(
 
 const allowedDocs = new Set([
   "docs/UNIT_6X_PUBLIC_REPOSITORY_SECURITY_HARDENING.md",
+  "docs/UNIT_6Y_RESIDUAL_SECURITY_RISK_CLOSURE.md",
 ]);
 const forbiddenExact = new Map([
   [["GENERIC", "CODING", "PROJECT", "WORKFLOW", "RULES.md"].join("_"), "internal workflow authority"],
