@@ -15,25 +15,30 @@ const REQUIRED_PLAN_FIELDS = [
 const readJson = async (file) => JSON.parse(await readFile(file, "utf8"));
 const exists = async (file) => access(file).then(() => true, () => false);
 const compactText = (html) => decodeEntities(
-  html.replace(/<script\b[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style\b[\s\S]*?<\/style>/gi, " ")
+  html.replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, " ")
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, " ")
     .replace(/<[^>]+>/g, " ")
 ).replace(/\s+/g, " ").trim();
 
 function decodeEntities(value) {
-  return value
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&quot;/gi, "\"")
-    .replace(/&#39;|&apos;/gi, "'")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/&mdash;/gi, "\u2014")
-    .replace(/&ndash;/gi, "\u2013")
-    .replace(/&larr;/gi, "\u2190")
-    .replace(/&middot;/gi, "\u00b7")
-    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)));
+  const named = new Map([
+    ["nbsp", " "], ["amp", "&"], ["quot", "\""], ["#39", "'"],
+    ["apos", "'"], ["lt", "<"], ["gt", ">"], ["mdash", "\u2014"],
+    ["ndash", "\u2013"], ["larr", "\u2190"], ["middot", "\u00b7"],
+  ]);
+  return value.replace(
+    /&(?:nbsp|amp|quot|#39|apos|lt|gt|mdash|ndash|larr|middot|#\d+|#x[0-9a-f]+);/gi,
+    (entity) => {
+      const key = entity.slice(1, -1).toLowerCase();
+      if (named.has(key)) return named.get(key);
+      const numeric = key.startsWith("#x")
+        ? Number.parseInt(key.slice(2), 16)
+        : Number.parseInt(key.slice(1), 10);
+      return Number.isSafeInteger(numeric) && numeric >= 0 && numeric <= 0x10ffff
+        ? String.fromCodePoint(numeric)
+        : entity;
+    },
+  );
 }
 
 export function xmlEscape(value) {
@@ -162,7 +167,7 @@ export async function validateLibrary({ browserQa = null } = {}) {
     if (metaContent(html, "og:type") !== "article") missing.push("Open Graph type");
     const openGraphUrl = metaContent(html, "og:url");
     if (!openGraphUrl || !openGraphUrl.endsWith(`/blog/${record.slug}/`)) missing.push("Open Graph URL");
-    if (!html.includes(record.category.replace("&", "&amp;")) && !html.includes(record.category)) missing.push("visible category");
+    if (!html.includes(record.category.replaceAll("&", "&amp;")) && !html.includes(record.category)) missing.push("visible category");
     if (!html.includes(record.readingTime)) missing.push("reading time");
     if (missing.length) missingMetadata.push({ slug: record.slug, missing: [...new Set(missing)] });
 
