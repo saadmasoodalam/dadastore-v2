@@ -62,12 +62,16 @@ The public tree retains only website content/assets, Pages infrastructure, publi
 | Dependabot alerts | Enabled |
 | Dependabot security updates | Enabled |
 | Dependency graph | Enabled |
-| CodeQL default setup | Enabled; initial scan passed |
+| CodeQL default setup | Enabled; scans passed; 0 open alerts |
 | Private vulnerability reporting | Enabled |
 | Default workflow permissions | Read |
 | Workflow approval of pull requests | Disabled |
 
 No paid security service was introduced.
+
+### CodeQL remediation
+
+The first analysis identified three high-severity build-time parser rule families: double entity decoding, incomplete ampersand replacement, and incomplete raw-tag filtering. All three were corrected with one-pass entity decoding, complete replacement, and deterministic tag scanning. The follow-up analysis completed successfully with 0 open alerts.
 
 ## Branch protection
 
@@ -119,6 +123,7 @@ The production repository has no package manifest or runtime dependency lockfile
 - Featured rotation: all 10 checks passed
 - Library growth contracts: passed; 62 articles, 64 sitemap entries, 62 feed entries
 - Link encoding: 0 malformed or broken article links
+- Open CodeQL alerts: 0
 - Git diff check: passed
 - GitHub Pages deployed revision: verified
 - Homepage: 200
