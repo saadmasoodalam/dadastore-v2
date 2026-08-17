@@ -1,3 +1,23 @@
 Microsoft/
 _local-reference/
 incoming-brand/
+
+# Local dependencies and generated runtime state
+node_modules/
+*.log
+logs/
+tmp/
+temp/
+runtime/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+private*
