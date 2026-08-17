@@ -3,60 +3,60 @@
     "slug": "paid-media",
     "title": "Paid Media",
     "description": "Campaign planning, channel roles, budget decisions, lead generation, troubleshooting, and reporting across paid acquisition platforms.",
-    "articleCount": 10
+    "articleCount": 15
   },
   {
     "slug": "social-media-strategy",
     "title": "Social Media Strategy",
     "description": "Practical systems for audience research, platform selection, content planning, publishing, measurement, and ongoing review.",
-    "articleCount": 11
+    "articleCount": 16
   },
   {
     "slug": "ecommerce-cro",
     "title": "Ecommerce & CRO",
     "description": "Conversion-focused guidance for Shopify stores, product pages, offers, landing pages, carts, checkout journeys, and mobile experiences.",
-    "articleCount": 10
+    "articleCount": 15
   },
   {
     "slug": "tracking-analytics",
     "title": "Tracking & Analytics",
     "description": "Measurement planning, GA4, Meta Pixel, attribution, campaign tagging, reporting, privacy boundaries, and tracking diagnosis.",
-    "articleCount": 10
+    "articleCount": 15
   },
   {
     "slug": "creative-strategy",
     "title": "Creative Strategy",
     "description": "Repeatable approaches to creative briefs, hooks, testing, learning agendas, fatigue diagnosis, and performance-informed iteration.",
-    "articleCount": 4
+    "articleCount": 9
   },
   {
     "slug": "marketing-automation",
     "title": "Marketing Automation",
     "description": "Workflow mapping, platform selection, lead nurturing, data boundaries, maintenance, and human review for marketing automation.",
-    "articleCount": 3
+    "articleCount": 9
   },
   {
     "slug": "content-marketing",
     "title": "Content Marketing",
     "description": "Content systems connecting customer questions, journey stages, editorial planning, repurposing, distribution, and business goals.",
-    "articleCount": 3
+    "articleCount": 8
   },
   {
     "slug": "seo",
     "title": "SEO",
     "description": "Search-focused content planning, topic clusters, ecommerce foundations, and technical audit priorities without shortcut claims.",
-    "articleCount": 3
+    "articleCount": 8
   },
   {
     "slug": "email-marketing",
     "title": "Email Marketing",
     "description": "Lifecycle email planning, welcome journeys, cart recovery, segmentation, measurement, and respectful message cadence.",
-    "articleCount": 3
+    "articleCount": 8
   },
   {
     "slug": "business-growth-systems",
     "title": "Business Growth Systems",
     "description": "Connected operating systems for client acquisition, small-budget marketing, quarterly review, prioritization, and sustainable execution.",
-    "articleCount": 4
+    "articleCount": 9
   }
 ]
