@@ -14,11 +14,62 @@ const REQUIRED_PLAN_FIELDS = [
 
 const readJson = async (file) => JSON.parse(await readFile(file, "utf8"));
 const exists = async (file) => access(file).then(() => true, () => false);
-const compactText = (html) => decodeEntities(
-  html.replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, " ")
-    .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-).replace(/\s+/g, " ").trim();
+function findHtmlTag(source, tag, from, closing = false) {
+  const token = "<" + (closing ? "/" : "") + tag;
+  let index = source.indexOf(token, from);
+  while (index >= 0) {
+    const next = source[index + token.length] ?? "";
+    if (!next || /[\s/>]/.test(next)) return index;
+    index = source.indexOf(token, index + token.length);
+  }
+  return -1;
+}
+
+function stripRawTextElements(html) {
+  let source = html;
+  for (const tag of ["script", "style"]) {
+    let output = "";
+    let cursor = 0;
+    const lower = source.toLowerCase();
+    while (cursor < source.length) {
+      const open = findHtmlTag(lower, tag, cursor);
+      if (open < 0) {
+        output += source.slice(cursor);
+        break;
+      }
+      output += source.slice(cursor, open) + " ";
+      const openEnd = source.indexOf(">", open + tag.length + 1);
+      if (openEnd < 0) break;
+      const close = findHtmlTag(lower, tag, openEnd + 1, true);
+      if (close < 0) break;
+      const closeEnd = source.indexOf(">", close + tag.length + 2);
+      if (closeEnd < 0) break;
+      cursor = closeEnd + 1;
+    }
+    source = output;
+  }
+  return source;
+}
+
+function stripMarkup(html) {
+  const source = stripRawTextElements(html);
+  let output = "";
+  for (let index = 0; index < source.length; index++) {
+    if (source[index] !== "<") {
+      output += source[index];
+      continue;
+    }
+    const close = source.indexOf(">", index + 1);
+    output += " ";
+    if (close < 0) break;
+    index = close;
+  }
+  return output;
+}
+
+const compactText = (html) => decodeEntities(stripMarkup(html))
+  .replace(/\s+/g, " ")
+  .trim();
 
 function decodeEntities(value) {
   const named = new Map([
