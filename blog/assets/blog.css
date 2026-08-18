@@ -3264,3 +3264,26 @@ h3 {
     transform: scale(1.025);
   }
 }
+
+/* Unit 7F: contain semantic insight blocks at tablet widths */
+@media (min-width: 680px) and (max-width: 1199px) {
+  .blog-insight-block {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    contain: inline-size;
+  }
+
+  .blog-insight-diagram {
+    width: calc(100% - 16px);
+    min-width: 0;
+    max-width: calc(100% - 16px);
+    margin-inline: auto;
+  }
+
+  .blog-insight-diagram > *,
+  .blog-insight-diagram :is(span, div, strong, b, i, small) {
+    min-width: 0;
+    max-width: 100%;
+  }
+}
