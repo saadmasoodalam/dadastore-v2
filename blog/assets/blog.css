@@ -3310,3 +3310,29 @@ h3 {
   object-fit: cover;
   object-position: center;
 }
+
+/* Unit 7I: normalize in-article diagram figures */
+.blog-article-body > figure.blog-post-visual {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  margin: 38px 0;
+}
+
+.blog-article-body > figure.blog-post-visual > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin: 0;
+}
+
+.blog-article-body > figure.blog-post-visual > figcaption {
+  margin-top: 10px;
+  color: var(--blog-muted-dark);
+  font-size: 0.7rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+}
