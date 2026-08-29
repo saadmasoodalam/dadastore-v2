@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universal State Engine: Evidence-Derived State, Guarded Action, and Auditable Mutation | DaDaStore Research</title>
+  <meta name="description" content="Public-safe whitepaper for the Universal State Engine stable prototype: layered S1-S8 state analysis, NULL-aware convergence, guarded recommendations, explicit activation, audit histories, and 334-test validation." />
+  <meta property="og:title" content="Universal State Engine: Evidence-Derived State, Guarded Action, and Auditable Mutation" />
+  <meta property="og:description" content="A public technical overview of the USE stable prototype and its evidence-derived, NULL-aware, guarded state architecture." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://dadastore.co/research/papers/use-state-engine-v0-1.html" />
+  <meta name="theme-color" content="#050505" />
+  <link rel="icon" href="../../favicon.ico" sizes="any" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="../research.css" />
+</head>
+<body class="research-page">
+  <div class="research-shell" id="top">
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="logo" href="../../" aria-label="DaDaStore home"><img class="header-brand-logo" src="../../assets/img/dadastore-header-logo.png" alt="DaDaStore" /></a>
+        <div class="nav-actions"><nav class="site-nav" aria-label="Primary navigation" data-nav><div class="nav-links"><a href="../../">Home</a><a class="is-active" href="../">Research</a><a href="../../blog/">Marketing Blog</a><a href="mailto:dadastore.co@gmail.com?subject=USE%20Technical%20Review%20Request">Request Review</a></div></nav></div>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main class="paper-wrap">
+      <article class="paper">
+        <a class="paper-back" href="../">← Back to DaDaStore Research</a>
+        <p class="research-kicker">USE v0.1.0 Stable Prototype · Public Whitepaper</p>
+        <h1>Universal State Engine</h1>
+        <p><strong>Evidence-Derived State, Guarded Action, and Auditable Mutation</strong></p>
+        <p>The Universal State Engine (USE) is an experimental state-analysis runtime that derives a layered system state from persisted evidence and produces guarded action recommendations. The current stable prototype is designed around a simple rule: observation and recommendation may be automated, but mutation of live state must remain explicit and auditable.</p>
+        <blockquote><strong>Scope clarification:</strong> This paper describes the currently implemented stable prototype. It does not claim that the engine has universal predictive authority, nor that a recommendation is equivalent to a verified outcome. The runtime operates on persisted evidence, explicit model contracts, validation rules, and recorded feedback.</blockquote>
+
+        <h2>1. Layered State Derivation</h2>
+        <p>The current implementation evaluates an S1–S8 execution path:</p>
+        <pre><code>S1 Architecture
+→ S2 Signal
+→ S3 Structural Validation
+→ S4 Reality
+→ S5 Feedback
+→ S6 Emergence
+→ S7 Compression
+→ Convergence
+→ S8 Action</code></pre>
+        <p>Layer values use a three-state representation rather than forcing every observation into a binary answer:</p>
+        <pre><code>1     Active
+0     Inactive
+NULL  Insufficient validated evidence</code></pre>
+        <p>The explicit NULL state is important because absence of validated evidence is not treated as equivalent to an inactive condition.</p>
+
+        <h2>2. The Living State Model</h2>
+        <p>The primary runtime object is the Living State Model. Initialization creates the first version of the model; projection expands it; validation adjusts support and confidence; convergence identifies dominant patterns; action emerges from the resulting state; and feedback updates the model over time.</p>
+        <p>The architecture treats models as runtime contracts. Engines consume models and produce models; business logic belongs in engines, while data belongs in models. This keeps the state representation explicit and testable rather than allowing unstructured dictionaries or hidden side effects to become the de facto runtime API.</p>
+
+        <h2>3. Runtime Flow</h2>
+        <pre><code>Initialization
+↓
+Identity Engine
+↓
+Projection Engine
+↓
+Validation Engine
+↓
+Convergence Engine
+↓
+Action Engine
+↓
+Feedback Engine
+↓
+State Update</code></pre>
+        <p>The Identity Engine creates initialization context. Projection produces candidate, emerging, and suppressed states. Validation classifies candidate states as supported, unsupported, or unresolved. Convergence derives confidence and dominant direction. The Action Engine produces guarded recommendations from a bounded action vocabulary, while the Feedback Engine recalibrates confidence and updates state from new observations.</p>
+
+        <h2>4. Guarded Action Instead of Silent Mutation</h2>
+        <p>The current Action Engine can produce recommendations including <code>OBSERVE</code>, <code>WAIT</code>, <code>BUILD</code>, <code>MOVE</code>, <code>CONNECT</code>, <code>EXPAND</code>, <code>RESET</code>, and <code>EXIT</code>.</p>
+        <p>However, the architecture deliberately separates:</p>
+        <pre><code>observation
+→ recommendation
+→ explicit activation
+→ auditable mutation</code></pre>
+        <p>Read-only analysis must not silently mutate live state. The prototype includes explicit action activation, reality override, structural action blocking, derived-action activation history, and state-transition recommendation history so that the path from evidence to action can be inspected after the fact.</p>
+
+        <h2>5. Feedback and Confidence Recalibration</h2>
+        <p>Feedback is treated as state evidence rather than an opaque override. The current roadmap evolves feedback from confidence-only updates toward broader changes in action and classification, but the stable prototype already records historical reliability and uses feedback to recalibrate confidence.</p>
+        <p>This design makes historical performance part of the state process without allowing a single new observation to rewrite prior evidence invisibly.</p>
+
+        <h2>6. Persistence and API Boundary</h2>
+        <p>The prototype persists its state model in JSON-backed storage and exposes a FastAPI interface. Read-only analysis endpoints are kept distinct from explicit mutation endpoints. Domain-state storage and retrieval allow the runtime to maintain separate evidence contexts while preserving the same execution discipline.</p>
+
+        <h2>7. Validation Status</h2>
+        <p>The current stable-prototype checkpoint reports <strong>334 passing automated tests</strong>, including engine tests, model-validation tests, runtime integration tests, persistence tests, FastAPI endpoint tests, and an isolated end-to-end primary-flow smoke test. GitHub Actions runs the suite on pushes and pull requests to the development and main branches.</p>
+        <p>Validation demonstrates consistency of the implemented software contracts and workflows. It does not independently validate the correctness of every domain interpretation supplied to the engine.</p>
+
+        <h2>8. Architectural Boundary</h2>
+        <p>The public implementation rules include a thin application entry point, engine-contained runtime logic, model-centered contracts, and a strict separation between development tooling and runtime dependencies. AI assistants may be used as development tools, but the runtime itself is not designed to depend on external AI assistants.</p>
+        <p>The stable prototype should therefore be understood as a deterministic evidence-processing architecture: it maintains a living state model, preserves uncertainty through NULL, derives guarded recommendations, and requires explicit activation before mutation.</p>
+
+        <h2>Conclusion</h2>
+        <p>USE v0.1.0 establishes a continuously tested state-analysis prototype centered on evidence persistence, layered state derivation, uncertainty preservation, guarded action, and auditability. Its central engineering proposition is not that every system state can be known, but that a runtime can distinguish supported, unsupported, and unresolved evidence while keeping observation, recommendation, activation, and mutation as separate steps.</p>
+
+        <div class="research-disclosure"><strong>Disclosure boundary</strong>This public paper describes selected stable-prototype architecture only. Private implementation details, unpublished extensions, future integrations, and patent-sensitive work are not disclosed here.</div>
+        <div class="research-actions"><a class="primary" href="mailto:dadastore.co@gmail.com?subject=USE%20Technical%20Review%20Request&body=Area%20of%20expertise%3A%0AQuestions%20or%20review%20interest%3A">Request Technical Review</a><a href="../">Research Index</a></div>
+      </article>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><div class="footer-brand-block"><a class="logo footer-logo" href="../../"><img class="footer-brand-logo" src="../../assets/img/dadastore-header-logo.png" alt="DaDaStore" /></a><p>Independent systems research published separately from DaDaStore's marketing work.</p></div><div class="footer-bottom"><p>&copy; <span data-year></span> DaDaStore. All rights reserved.</p><p>USE v0.1.0 Stable Prototype</p></div></div></footer>
+    <button class="back-to-top" type="button" aria-label="Back to top" data-back-to-top>↑</button>
+  </div>
+  <script src="../../assets/js/main.js"></script>
+</body>
+</html>
