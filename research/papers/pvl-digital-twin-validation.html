@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal Virtual Laboratory: Reproducible Digital-Twin Validation Before Hypothesis | DaDaStore Research</title>
+  <meta name="description" content="Public-safe PVL whitepaper on separating established physics from the Portal Hypothesis Layer, analytical-to-FEM validation, convergence evidence, and reproducible digital-twin methodology." />
+  <meta property="og:title" content="Portal Virtual Laboratory: Reproducible Digital-Twin Validation Before Hypothesis" />
+  <meta property="og:description" content="How PVL validates ordinary electromagnetic and thermal models before any speculative hypothesis analysis." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://dadastore.co/research/papers/pvl-digital-twin-validation.html" />
+  <meta name="theme-color" content="#050505" />
+  <link rel="icon" href="../../favicon.ico" sizes="any" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="../research.css" />
+</head>
+<body class="research-page">
+  <div class="research-shell" id="top">
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="logo" href="../../" aria-label="DaDaStore home"><img class="header-brand-logo" src="../../assets/img/dadastore-header-logo.png" alt="DaDaStore" /></a>
+        <div class="nav-actions"><nav class="site-nav" aria-label="Primary navigation" data-nav><div class="nav-links"><a href="../../">Home</a><a class="is-active" href="../">Research</a><a href="../../blog/">Marketing Blog</a><a href="mailto:dadastore.co@gmail.com?subject=PVL%20Technical%20Review%20Request">Request Review</a></div></nav></div>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main class="paper-wrap">
+      <article class="paper">
+        <a class="paper-back" href="../">← Back to DaDaStore Research</a>
+        <p class="research-kicker">PVL Validation Baseline · Public Whitepaper</p>
+        <h1>Portal Virtual Laboratory</h1>
+        <p><strong>Reproducible Digital-Twin Validation Before Hypothesis</strong></p>
+        <p>The Portal Virtual Laboratory (PVL) is a reproducible scientific digital-twin environment for modeling the Portal Boundary Physics Rig. Its architecture is deliberately divided into two domains: established physics and a downstream Portal Hypothesis Layer. The second is not permitted to alter Maxwell equations, constitutive material equations, mesh behavior, or raw solver output.</p>
+        <blockquote><strong>Scientific boundary:</strong> The validation results described here concern ordinary electromagnetics, induced currents, Joule heating, numerical convergence, and reproducibility. They are not evidence of anomalous physics or spacetime-coupling behavior.</blockquote>
+
+        <h2>1. Why the Architecture Is Split</h2>
+        <p>PVL treats conventional physics as the mandatory baseline. Geometry, meshing, electromagnetic fields, induced currents, Joule heating, thermal behavior, convergence, and raw data belong to the established-physics domain. Project-specific portal hypotheses are downstream analyses only.</p>
+        <p>This separation prevents a speculative interpretation from being inserted into the solver itself. Ordinary electromagnetic, thermal, numerical, and sensor explanations must be tested before any hypothesis-layer classification is considered.</p>
+
+        <h2>2. Reproducibility Rules</h2>
+        <p>The project uses SI units internally and requires experiment configurations to be serializable and hashable. Raw inputs, meshes, solver logs, fields, metrics, and environment metadata are retained. No result is allowed to exist only as a screenshot or graph.</p>
+        <p>These constraints turn visual simulation into an auditable experiment record rather than a display-only workflow.</p>
+
+        <h2>3. Analytical Baseline Before FEM</h2>
+        <p>The initial proof-of-concept uses a circular DC coil in air. Its on-axis magnetic field has a known analytical form:</p>
+        <pre><code>B(z) = μ0 N I R² / [2(R² + z²)^(3/2)]</code></pre>
+        <p>The FEM stack is expected to converge toward that analytical result under mesh refinement. The project explicitly does not advance from proof-of-concept geometry to the full Rig v1 digital twin until that convergence behavior is demonstrated.</p>
+
+        <h2>4. Solver Stack</h2>
+        <p>The current numerical architecture uses Python for orchestration and analysis, Gmsh for geometry and meshing, and GetDP for primary electromagnetic FEM. NumPy and Pandas support numerical analysis and export, while meshio/VTK provide field interchange. The planned interactive laboratory uses React, TypeScript, and Three.js / React Three Fiber, with ParaView for scientific field inspection.</p>
+        <p>FEniCSx is reserved as a later independent FEM verification path, and OpenFOAM is planned for later airflow, fluid, and convective heat-transfer extensions.</p>
+
+        <h2>5. Retained Validation Evidence</h2>
+        <p>A recorded PVL-1F validation campaign completed the regression chain with Gmsh 4.12.1 and GetDP 3.2.0 on Ubuntu 24.04. The Python test suite reported <strong>52 passing tests</strong>, and POC-001 through POC-005 passed their machine gates.</p>
+        <p>For the retained dual-coil/conductor case, both same-phase and opposed-phase states satisfied the unchanged validation tolerances. The retained evidence includes:</p>
+        <table>
+          <thead><tr><th>Metric</th><th>Same phase</th><th>Opposed phase</th></tr></thead>
+          <tbody>
+            <tr><td>Zero-conductivity analytical field error</td><td>0.00069133943</td><td>0.00011673297</td></tr>
+            <tr><td>Final B mesh change</td><td>0.00003614144</td><td>0.00000792970</td></tr>
+            <tr><td>Final J mesh change</td><td>0.00047737710</td><td>0.00082594314</td></tr>
+            <tr><td>Final Joule-loss mesh change</td><td>0.00000889070</td><td>0.00001133000</td></tr>
+            <tr><td>Final Joule loss</td><td>0.02650938985 W</td><td>0.00344158386 W</td></tr>
+          </tbody>
+        </table>
+        <p>The recorded B-field superposition error was <code>4.212e-16</code> and the J-field superposition error was <code>5.346e-16</code>. The finest retained mesh per phase state contained 131,322 nodes and 263,731 elements.</p>
+
+        <h2>6. A Failed Metric That Was Fixed Without Relaxing the Threshold</h2>
+        <p>The first complete POC-005 run failed the opposed-phase pointwise J-convergence check. The raw evidence showed that current density had been sampled exactly on the insert center plane. In the symmetric π-opposed source state, that plane is a physical antisymmetry cancellation plane, so the expected signal is zero and a relative convergence metric becomes ill-conditioned.</p>
+        <p>The validation threshold was not loosened and the result was not rescaled. Instead, the retained J sampling line was moved to a fixed interior plane one quarter of the insert thickness from the center, at <code>z = +0.0015 m</code>. A regression test now protects that sampling rule. After the correction, the opposed-phase final J mesh-change metric became <code>0.00082594314</code>, below the unchanged <code>0.01</code> limit.</p>
+
+        <h2>7. What the Validation Does and Does Not Establish</h2>
+        <p>The retained validation establishes that the ordinary magneto-quasistatic coupled dual-coil/conductor baseline behaves consistently under the stated analytical, mesh-refinement, superposition, and regression checks.</p>
+        <p>It does not establish any portal mechanism. It does not demonstrate anomalous energy transfer, spacetime coupling, or a departure from conventional electromagnetic behavior. The purpose of the baseline is precisely to make future deviations measurable against a validated ordinary-physics reference instead of interpreting numerical artifacts as new phenomena.</p>
+
+        <h2>8. Research Value of the Method</h2>
+        <p>PVL's useful contribution at the current stage is methodological: hypothesis and solver are kept separate; analytical cases precede complex geometry; convergence is a gate rather than a visual preference; raw evidence is retained; and failed checks must be explained physically or numerically without weakening thresholds merely to obtain a pass.</p>
+        <p>This creates a controlled environment in which more complex material, thermal, phase, conductivity, and geometry studies can be added without losing the reference baseline.</p>
+
+        <h2>Conclusion</h2>
+        <p>PVL is currently best understood as a reproducible multiphysics research environment with an explicitly quarantined speculative-analysis layer. Its strongest present result is not a portal claim; it is the establishment of a validated conventional-physics baseline against which future experiments can be compared.</p>
+
+        <div class="research-disclosure"><strong>Disclosure and scientific boundary</strong>This public paper intentionally reports ordinary-physics methodology and retained validation evidence. It does not publish unreleased rig construction details or treat the Portal Hypothesis Layer as established physics.</div>
+        <div class="research-actions"><a class="primary" href="mailto:dadastore.co@gmail.com?subject=PVL%20Technical%20Review%20Request&body=Area%20of%20expertise%3A%0AQuestions%20or%20review%20interest%3A">Request Technical Review</a><a href="../">Research Index</a></div>
+      </article>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><div class="footer-brand-block"><a class="logo footer-logo" href="../../"><img class="footer-brand-logo" src="../../assets/img/dadastore-header-logo.png" alt="DaDaStore" /></a><p>Independent systems research published separately from DaDaStore's marketing work.</p></div><div class="footer-bottom"><p>&copy; <span data-year></span> DaDaStore. All rights reserved.</p><p>PVL Validation Baseline</p></div></div></footer>
+    <button class="back-to-top" type="button" aria-label="Back to top" data-back-to-top>↑</button>
+  </div>
+  <script src="../../assets/js/main.js"></script>
+</body>
+</html>
