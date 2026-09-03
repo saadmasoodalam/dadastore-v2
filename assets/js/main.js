@@ -129,3 +129,88 @@ if (prefersReducedMotion) {
 } else {
   revealItems.forEach((item) => item.classList.add("is-visible"));
 }
+
+// DaDaStore Research analytics: GA4 is loaded only on /research/ pages.
+if (window.location.pathname.startsWith("/research")) {
+  const GA_MEASUREMENT_ID = "G-K37BBZRTJE";
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function () {
+    window.dataLayer.push(arguments);
+  };
+
+  const gaScript = document.createElement("script");
+  gaScript.async = true;
+  gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+  document.head.appendChild(gaScript);
+
+  window.gtag("js", new Date());
+  window.gtag("config", GA_MEASUREMENT_ID, {
+    send_page_view: true
+  });
+
+  const path = window.location.pathname;
+  const isPaper = path.includes("/research/papers/");
+  const paperId = isPaper ? path.split("/").pop().replace(/\.html$/, "") : "research-index";
+
+  const sendResearchEvent = (eventName, parameters = {}) => {
+    window.gtag("event", eventName, {
+      research_area: "dadastore_research",
+      paper_id: paperId,
+      page_path: path,
+      ...parameters
+    });
+  };
+
+  sendResearchEvent(isPaper ? "paper_open" : "research_index_open");
+
+  if (isPaper) {
+    const reached = new Set();
+    const thresholds = [25, 50, 75, 90];
+
+    const trackScrollDepth = () => {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollable <= 0) return;
+      const percent = Math.min(100, Math.round((window.scrollY / scrollable) * 100));
+
+      thresholds.forEach((threshold) => {
+        if (percent >= threshold && !reached.has(threshold)) {
+          reached.add(threshold);
+          sendResearchEvent("paper_scroll_depth", { percent_scrolled: threshold });
+        }
+      });
+    };
+
+    window.addEventListener("scroll", trackScrollDepth, { passive: true });
+    trackScrollDepth();
+
+    let visibleSeconds = 0;
+    let engagedSent = false;
+    const engagementTimer = window.setInterval(() => {
+      if (document.visibilityState === "visible") {
+        visibleSeconds += 5;
+      }
+      if (!engagedSent && visibleSeconds >= 60) {
+        engagedSent = true;
+        sendResearchEvent("paper_engaged_reader", { engaged_seconds: 60 });
+        window.clearInterval(engagementTimer);
+      }
+    }, 5000);
+
+    document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
+      link.addEventListener("click", () => {
+        sendResearchEvent("review_request_click", {
+          link_text: (link.textContent || "").trim().slice(0, 100)
+        });
+      });
+    });
+  } else {
+    document.querySelectorAll('a[href*="papers/"]').forEach((link) => {
+      link.addEventListener("click", () => {
+        sendResearchEvent("paper_link_click", {
+          destination: link.getAttribute("href") || ""
+        });
+      });
+    });
+  }
+}
